@@ -589,7 +589,7 @@ key "key-spray-painting"
 In 
 \begin_inset CommandInset citation
 LatexCommand cite
-key "key-plant-leaf-area-measurement"
+key "measurement-leaf-plant"
 
 \end_inset
 
@@ -633,6 +633,26 @@ reference "sec:Design"
 
 \begin_layout Subsection
 Embedded computer vision
+\end_layout
+
+\begin_layout Standard
+Image processing require lots of memory resources and processor time.
+ Because of this, a variety of applications are still using ordinary computers
+ to perform these tasks.
+ Some examples are video survillance applications, car license plate number
+ identification, The emergence of more powerful microprocessors and microcontrol
+lers has led to the gradual appearence of embedded systems for image processing.
+ In 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "embedded-CV-measurement"
+
+\end_inset
+
+ a system of this type is described.
+ Authors use an image sensor with a microprocessor and some laser diodes
+ to build a system to measure object dimensions.
+ 
 \end_layout
 
 \begin_layout Subsection
@@ -796,7 +816,8 @@ key "key-US6382567"
 
 \end_inset
 
- Raymond C.
+ R.
+ C.
  Franke.
  
 \begin_inset Quotes eld
@@ -821,7 +842,10 @@ key "key-US6427949"
 
 \end_inset
 
-Mark Alan Hager, Michael F.
+M.
+ A.
+ Hager, M.
+ F.
  Towey, Jr.
  
 \begin_inset Quotes eld
@@ -919,7 +943,10 @@ key "key-Detection-Fabric-Defects"
 
 \end_inset
 
-Yao Rong, Dong He, Yuchi Lin.
+Y.
+ Rong, D.
+ He, Y.
+ Lin.
  
 \begin_inset Quotes eld
 \end_inset
@@ -944,7 +971,8 @@ key "key-Robot-guidance"
 
 \end_inset
 
-Cui-Jun Zhao, Guo-Quan Jiang.
+C.J.Zhao, G.Q.
+ Jiang.
  
 \begin_inset Quotes eld
 \end_inset
@@ -969,7 +997,9 @@ key "key-obstacle-avoidance"
 
 \end_inset
 
-Faraz Kunwar, Beno Benhabib.
+F.
+ Kunwar, B.
+ Benhabib.
  
 \begin_inset Quotes eld
 \end_inset
@@ -994,7 +1024,9 @@ key "key-spray-painting"
 
 \end_inset
 
-Aziza Zaki, Mona Eskander.
+A.
+ Zaki, M.
+ Eskander.
  
 \begin_inset Quotes eld
 \end_inset
@@ -1017,11 +1049,15 @@ Spray Painting of a General Three-Dimensional Surface
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
 label "10"
-key "key-plant-leaf-area-measurement"
+key "measurement-leaf-plant"
 
 \end_inset
 
-Lin Kaiyan, Wu JunHui, Chen Jie, Si Huiping.
+L.
+ Kaiyan, W.
+ JunHui, C.
+ Jie, S.
+ Huiping.
  
 \begin_inset Quotes eld
 \end_inset
@@ -1036,6 +1072,145 @@ onal Conference on.
  Jan.
  2014, pp.
  401-405.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "11"
+key "embedded-CV-measurement"
+
+\end_inset
+
+N.
+ Pauly, N.I.
+ Rafla, 
+\begin_inset Quotes eld
+\end_inset
+
+An Automated Embedded Computer Vision System for Object Measurement
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Circuits and Systems (MWSCAS), 2013 IEEE 56th International Midwest Symposium
+ on.
+ Aug.
+ 2013, pp.
+ 1108-1111
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "12"
+key "embedded-fingerprint"
+
+\end_inset
+
+M.
+ Kamarajui, P.A.
+ Kumar.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+DSP based Embedded Fingerprint Recognition System
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Hybrid Intelligent Systems (HIS), 2013 13th International Conference on.
+ Dec.
+ 2013, pp.
+ 6-11
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "13"
+key "embedded-car-plate"
+
+\end_inset
+
+K.
+ Zhang, W.
+ Tang, H.
+ Wei, R.
+ Shi.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Study on the Identification System of Car License Plate Based on Imbedded
+ Computer System
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Education Technology and Computer (ICETC), 2010 2nd International Conference
+ on (Volume:1 ).
+ June 2010, pp.
+ 146-149
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "14"
+key "embedded-realtime-face"
+
+\end_inset
+
+Q.
+ Wang, J.
+ Wu, C.n Long, B.
+ Li.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+P-FAD: Real-Time Face Detection Scheme on Embedded Smart Cameras
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Emerging and Selected Topics in Circuits and Systems, IEEE Journal on (Volume:3
+ , Issue: 2 ).
+ Apr.
+ 2013, pp.
+ 210-222
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "15"
+key "embedded-facedetection-algorithms"
+
+\end_inset
+
+I.
+ E.
+ Ceuca, A.
+ Tulbure, O.
+ Domsa, C.
+ Covaciu.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Study from implementing algorithms for face detection and recognition for
+ embedded systems
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Automation Quality and Testing Robotics (AQTR), 2010 IEEE International
+ Conference on (Volume:3 ).
+ May 2010, pp.
+ 1-5
 \end_layout
 
 \end_body
