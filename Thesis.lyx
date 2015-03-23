@@ -1,0 +1,1042 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Subsection
+Summary
+\end_layout
+
+\begin_layout Subsection
+Field of application
+\end_layout
+
+\begin_layout Standard
+This project relates to an industrial monitoring system.
+ More specifically the main application of the developed device is to monitor,
+ in real time, the position of a point machine.
+\end_layout
+
+\begin_layout Standard
+A point machine is an electric motor driven switch that enables an operator
+ to switch a train from one railroad track to another.
+ The main elements of a switch are the points.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:points_railroad_switch"
+
+\end_inset
+
+ shows the points in the normal position (top) and in the reverse position
+ (bottom).
+ When the points are in normal position the train, which goes from left
+ to right in this diagram, continues by the same track.
+ In the other hand, when the points are in reverse position the train changes
+ from one track to another.
+\end_layout
+
+\begin_layout Standard
+Nowadays point machines are typically operated from a remote location.
+ Because their closure is imperative it has a device to inform the operator
+ about its current position.
+ The most common realization of this device consists on two lock bars, as
+ we can see in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:point_machine_parts"
+
+\end_inset
+
+.
+ The motor is connected to the drive bar through gears.
+ At the other end of the bar there are two points, or switch rails, attached
+ to it.
+ Each point has a lock bar attached to it.
+ These lock bars go from the points to the engine.
+ In the engine side there are two lock blades, one for each bar.
+ When the points are in normal position the first lock blade locks one bar
+ and when the points are in reverse position the second lock blade locks
+ the other bar.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename img/esquiema_vias.jpg
+	width 7cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Points in a railroad switch.
+ Normal position in the top and reverse position in the bottom.
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:points_railroad_switch"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename img/points_diagram_01.jpg
+	width 7cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Parts of a point machine
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:point_machine_parts"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+When the operator moves the motor causes the linear and perpendicular movement
+ of the drive bar.
+ In turn, this causes the points to move and change their position.
+ The points drag the lock bars which they are attached to.
+ Inside of the engine housing, the lock blade locks the lock bar corresponding
+ to the side where the points are.
+ This produces an electric signal that informs the remote operator that
+ the switch has been successfully completed.
+ When the lock bar does not arrive to its final position the electric circuit
+ remains opened so the position of the switch is unknown and the operator
+ cannot operate the switch.
+ Security rules establish that a train cannot pass trough an intersection
+ where the point machine is in an unknown position.
+ This affects directly the railway traffic in a high demand network like
+ a subway or the suburban train.
+\end_layout
+
+\begin_layout Standard
+Although the position of the point machine is the only information required
+ from the point of view of railway safety it is not enough from the point
+ of view of the maintenance of a big number of point machines.
+ There exists devices like the one described in 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-US6382567"
+
+\end_inset
+
+ which uses inductive proximity sensors or 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-US6427949"
+
+\end_inset
+
+ which uses a transformer with two coils to detect the position of the bar.
+ There exists another device researched by the UPC and developed by Thinking
+ Foward XXI SL that monitors all the signals available in the point machine
+ including the exact position of the lock bars.
+ This device is part of a system that will be further explained in chapter
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Prior-Art"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Goal
+\end_layout
+
+\begin_layout Standard
+The goal of the present project is to develop a device to monitor the exact
+ position of the lock bars.
+ Furthermore there are some requisites that this device has to accomplish.
+\end_layout
+
+\begin_layout Enumerate
+Easiness to install.
+ In the railway sector there is very limited period of time to do the maintenanc
+e tasks during the night where there is no operation of the service, therefore
+ it is very important that the developed device to be very easy and quick
+ to install.
+\end_layout
+
+\begin_layout Enumerate
+Robustness.
+ Sometimes point machines are in the exterior subject to bad weather, dust
+ and humidity.
+ Although the device will be installed inside of the motor housing it has
+ to be robust to this unfavorable conditions.
+\end_layout
+
+\begin_layout Enumerate
+Precision.
+ It is very important that the developed solution gives exact measurements
+ with high repetitiveness.
+ The gap to be measured in the lock bar is of few millimeters, so the desired
+ precision of the measurements is between 0.1mm and 0.5mm.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Reduced execution time.
+ As it will be explained in chapter 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Design"
+
+\end_inset
+
+ there are two modes of operation.
+ In normal operation there is a window of 10 seconds to give the measure.
+ In continuous operation the device has to be able to give at least one
+ measure per second.
+\end_layout
+
+\begin_layout Standard
+We will have these points in mind in order to do the design of the device
+ in chapter 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Design"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Planning
+\end_layout
+
+\begin_layout Standard
+Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:gantt"
+
+\end_inset
+
+ shows a summary of the Gantt Chart of the project and figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:tasks"
+
+\end_inset
+
+ shows a more detailed planning of the phases and tasks.
+ There are 5 people in the design and development team.
+ This has been taking into account to establish the duration and planning
+ of the tasks.
+\end_layout
+
+\begin_layout Standard
+Projects where both, hardware and software, are involved are very hard to
+ plan because sometimes there are several iterations in the hardware design.
+ At the beginning of this project there is a first prototype with a basic
+ functionality that consists on taking pictures and sending them to the
+ Server.
+ I have been involved in the hardware design, schematic and layout, and
+ also in the firmware development of this prototype.
+ Because of this, the planning of this project is more realistic and the
+ hardware design is shorter than in other projects.
+\end_layout
+
+\begin_layout Standard
+All members of the team are multidisciplinary but mainly the hardware team
+ includes 3 people and the software and firmware team consists on 2 people.
+ My tasks are mainly in the software and firmware development although as
+ I have previously explained I have also been involved in the hardware developme
+nt of the prototype which will be taken as the starting point of the final
+ device.
+ In order to make it more clear, I have marked in red the tasks where I
+ will be actively involved in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:tasks"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename img/gantt chart.png
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Planning.
+ Gantt Chart Summary
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:gantt"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename img/tasks.png
+	scale 75
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Planning.
+ Tasks detail.
+ The tasks where I have been actively involved are marked in red.
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:tasks"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Prior Art
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Prior-Art"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Computer vision in industrial applications
+\end_layout
+
+\begin_layout Standard
+Computer vision is becoming widely used in industry and many applications
+ have appeared in recent years because it enables the automation of a wide
+ range of processes.
+\end_layout
+
+\begin_layout Standard
+Industrial computer vision applications can be classified in two groups.
+ The first and most extended one consists on using computer vision to visual
+ inspection.
+ We can find many examples in the literature that usues image processing
+ for this purpose.
+ In 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-Automated-IC-Manufacture"
+
+\end_inset
+
+ a method for locating and inspecting integrated circuit chips is described.
+ Another application consists on automatic verification of the quality of
+ printed circuit boards like in 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-Visual-Inspection-PCB"
+
+\end_inset
+
+, fabric quality 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-Detection-Fabric-Defects"
+
+\end_inset
+
+ or industrial plastic components 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-Automatic-Q-Control-Products"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The second group comprise the control of robots by artificial vision systems.
+ One example of this application is robot guidance to a precise position
+ or trajectory planning like in 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-Robot-guidance"
+
+\end_inset
+
+ and obstacle avoidance 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-obstacle-avoidance"
+
+\end_inset
+
+.
+ In 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-spray-painting"
+
+\end_inset
+
+ a more sophisticated method of an industrial application with two CCD sensors
+ for spary painting of a general three dimensional surface is described.
+\end_layout
+
+\begin_layout Standard
+In 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-plant-leaf-area-measurement"
+
+\end_inset
+
+ a measurement technique using computer vision is described.
+ We will explain a little more this article because it relates more directly
+ to the task that we want to perform in this project.
+ The goal of the work presented in this article is to measure area of leafs.
+ In order to do so, the fist step consists on obtaining binary images performing
+ a segmentation of color images with an Otsu approach using the hue information.
+ Otsu gives the optimal gray level in the range of [0,255] for image binarizatio
+n.
+ This will be further explained in chapter 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Fundamentals"
+
+\end_inset
+
+.
+ Due to some colors in background are close to the color of the leafs noise
+ appears in the binary image.
+ An opening is applied in the binary image to delete this kind of noise.
+ Once they have filtered binary images they look for connected components
+ using a two-scan algorithm.
+ After the labeling step they use geometric characteristics of the a leaf
+ in order to filter residual noise.
+ Finally they count the foreground pixels and multiply this number by a
+ precomputed constant to compute the leaf area.
+ This constant is initialized with a calibration card of a knwon area.
+ Similarly in this project we will follow more or less the same strategy
+ to determine the exact position of the lock bar as it will be explained
+ in chapter 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Design"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Embedded computer vision
+\end_layout
+
+\begin_layout Subsection
+Control bar monitoring systems
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Fundamentals
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Fundamentals"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Segmentation
+\end_layout
+
+\begin_layout Subsection
+Morphological filtering
+\end_layout
+
+\begin_layout Subsection
+Connected components
+\end_layout
+
+\begin_layout Subsection
+Camera calibration
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Design
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Design"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+System specifications (according to the goals)
+\end_layout
+
+\begin_layout Subsection
+Hardware design
+\end_layout
+
+\begin_layout Subsection
+Custom communications protocol over CAN
+\end_layout
+
+\begin_layout Subsection
+Image processing.
+ Matlab prototypes
+\end_layout
+
+\begin_layout Subsection
+Gap measure display
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Development
+\end_layout
+
+\begin_layout Subsection
+Hardware constraints
+\end_layout
+
+\begin_layout Subsection
+Image processing library
+\end_layout
+
+\begin_layout Subsection
+Image sensor configuration
+\end_layout
+
+\begin_layout Subsection
+Communications protocol
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Results
+\end_layout
+
+\begin_layout Subsection
+Accuracy and repetitiveness
+\end_layout
+
+\begin_layout Subsection
+Image vs magnetic sensor
+\end_layout
+
+\begin_layout Subsection
+On site measurements
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Conclusions
+\end_layout
+
+\begin_layout Subsection
+Goals review
+\end_layout
+
+\begin_layout Subsection
+Future work
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "1"
+key "key-US6382567"
+
+\end_inset
+
+ Raymond C.
+ Franke.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Railway Switch Machine Point Detection System
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Union Switch & Signal, Inc., assignee.
+ Patent US 6382567 B2.
+ 25 Aug.
+ 1999.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "2"
+key "key-US6427949"
+
+\end_inset
+
+Mark Alan Hager, Michael F.
+ Towey, Jr.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Contactless point detection system for railroad switch
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Alstom Signaling, Inc., assignee.
+ Patent US 6427949 B1.
+ 23 Jan 2001.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "3"
+key "key-Automated-IC-Manufacture"
+
+\end_inset
+
+M.
+ L.
+ Baird, "SIGHT-I: A Computer Vision System for Automated IC Chip Manufacture".
+ Systems, Man and Cybernetics, IEEE Transactions on .
+ Nov.
+ 1976, pp.
+ 3-7.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "4"
+key "key-Visual-Inspection-PCB"
+
+\end_inset
+
+J.
+ F.
+ Jarvis.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+A Method for Automating the Visual Inspection of Printed Wiring Boards
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Pattern Analysis and Machine Intelligence, IEEE Transactions on (Volume:PAMI-2
+ , Issue: 1 ).
+ Jan.
+ 1980, pp.
+ 77-82.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "5"
+key "key-Automatic-Q-Control-Products"
+
+\end_inset
+
+A.
+ Anzalone, G.
+ Gugliotta, A.
+ Machi’, G.
+ Sardisco.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Automatic Quality Control of Industrial Products for Irrigation
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Image Analysis and Processing, 1999.
+ Proceedings.
+ International Conference on.
+ Sep.
+ 1999, pp.
+ 588-593
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "6"
+key "key-Detection-Fabric-Defects"
+
+\end_inset
+
+Yao Rong, Dong He, Yuchi Lin.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Rapid Detection Method for Fabric Defects Based on Machine Vision
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Computer Application and System Modeling (ICCASM), 2010 International Conferenc
+e on (Volume:10 ).
+ Oct.
+ 2010, pp.
+ 662-666.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "7"
+key "key-Robot-guidance"
+
+\end_inset
+
+Cui-Jun Zhao, Guo-Quan Jiang.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Baseline detection and matching to vision-based navigation of agricultural
+ robot
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Wavelet Analysis and Pattern Recognition (ICWAPR), 2010 International Conferenc
+e on.
+ July 2010, pp.
+ 44-48.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "8"
+key "key-obstacle-avoidance"
+
+\end_inset
+
+Faraz Kunwar, Beno Benhabib.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Rendezvous-Guidance Trajectory Planning for Robotic Dynamic Obstacle Avoidance
+ and Interception
+\begin_inset Quotes erd
+\end_inset
+
+ Systems, Man, and Cybernetics, Part B: Cybernetics, IEEE Transactions on
+ (Volume:36 , Issue: 6 ).
+ Dec.
+ 2006, pp.
+ 1432-1441.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "9"
+key "key-spray-painting"
+
+\end_inset
+
+Aziza Zaki, Mona Eskander.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Spray Painting of a General Three-Dimensional Surface
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Intelligent Robots and Systems, 2000.
+ (IROS 2000).
+ Proceedings.
+ 2000 IEEE/RSJ International Conference on (Volume:3 ).
+ Oct.
+ 2000, pp.
+ 2172-2177.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "10"
+key "key-plant-leaf-area-measurement"
+
+\end_inset
+
+Lin Kaiyan, Wu JunHui, Chen Jie, Si Huiping.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Measurement of Plant Leaf Area based on Computer Vision
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Measuring Technology and Mechatronics Automation (ICMTMA), 2014 Sixth Internati
+onal Conference on.
+ Jan.
+ 2014, pp.
+ 401-405.
+\end_layout
+
+\end_body
+\end_document

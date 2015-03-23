@@ -1,0 +1,636 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language spanish
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language french
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Monitorización de holguras de comprobación en cambios de aguja mediante
+ visión artificial
+\end_layout
+
+\begin_layout Author
+Rafel Mormeneo Melich
+\end_layout
+
+\begin_layout Date
+08/05/2014
+\end_layout
+
+\begin_layout Section
+Campo de aplicación
+\end_layout
+
+\begin_layout Standard
+El presente proyecto se enmarca dentro del sector ferroviario.
+ Más específicamente dentro de la supervisión de los elementos de la infraestruc
+tura que se encargan de desviar el tráfico de trenes en una intersección.
+ 
+\end_layout
+
+\begin_layout Standard
+Cuando en una vía tenemos una intersección existen unos elementos móviles
+ llamados espadines o agujas que se encargan de hacer que el tren circule
+ en sentido normal, es decir, que continúe en línea recta o bien que vaya
+ a sentido invertido, es decir, que cambie de dirección.
+ En la figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:vias-con-espadines"
+
+\end_inset
+
+ se puede observar un diagrama de una intersección con dichos elementos.
+ En ella se han marcado los espadines con color rojo.
+ En la intersección superior, el espadín superior se encuentra separado
+ del carril recto y el inferior se encuentra pegado al carril.
+ La parte dónde encaja el espadín se denomina contra-aguja.
+ De esta forma cuando circule un tren de izquierda a derecha este seguirá
+ la dirección recta o normal tal como indica la flecha.
+ En cambio, en la intersección inferior, los espadines o agujas se encuentran
+ en la posición opuesta, de aquí en adelante invertida, por lo que el tren
+ hará la curva y cambiará su dirección de desplazamiento tal como indica
+ la flecha.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename img/vias-con-espadines.jpg
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:vias-con-espadines"
+
+\end_inset
+
+Superior: vías con espadines en posición normal.
+ Inferior: vías con espadines en posición invertida
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Descripción de un cambio de aguja
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Descripción-de-un"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Actualmente la gran mayoría de cambios de aguja están motorizados.
+ De forma el cambio se puede realizar remotamente desde el centro de control.
+ Los motores que actúan sobre las agujas o espadines se denominan motores
+ de cambio de aguja.
+ Estos motores pueden ser de distintos tipos, siendo los más comunes los
+ motores eléctricos o electro-hidráulicos.
+ Sea cual sea el tipo de motor, este actúa sobre los espadines mediante
+ una barra que se denomina barra tractora.
+ Cuando llega la tensión de mando al motor, este actúa sobre la barra tractora
+ que está ligada a ambos espadines.
+ Los espadines se mueven los dos al mismo tiempo.
+ Así mismo, cada espadín consta de una barra de comprobación solidaria a
+ él.
+ Estas barras de comprobación se mueven de forma solidaria al espadín empujadas
+ por el movimiento de este.
+ Las barras de comprobación son dos barras, una para cada espadín, paralelas
+ a la barra tractora y que van desde cada uno de los espadines hasta la
+ caja del motor de cambio de aguja.
+ El conjunto formado por espadines, contra-agujas, motor, barra tractora
+ y barras de comprobación se denomina cambio de aguja.
+ La figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:cambio-aguja"
+
+\end_inset
+
+ muestra un diagrama de un cambio de aguja.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename img/points_diagram_01.jpg
+	lyxscale 50
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:cambio-aguja"
+
+\end_inset
+
+Cambio de aguja
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La función de las barras de comprobación consiste en asegurar que el cambio
+ de aguja se ha ejecutado correctamente, es decir, que los espadines se
+ han movido a su posición final por la actuación del motor sobre la barra
+ tractora.
+ Estas barras tienen practicadas unas entallas a las que se les acoplan
+ unos elementos metálicos denominados martillos en el interior de la carcasa
+ del motor.
+ La figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:motor"
+
+\end_inset
+
+ muestra una imagen del interior de un motor de cambio de aguja.
+ La figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:martillos-comprobacion"
+
+\end_inset
+
+ muestra el detalle de los dos martillos y las entallas de las barras de
+ comprobación.
+ Cuando el martillo correspondiente a la barra dónde se ha ejecutado el
+ movimiento entra dentro de la entalla de su barra de comprobación correspondien
+te cierra un circuito eléctrico.
+ Este circuito se denomina circuito de comprobación.
+ Mediante el circuito de comprobación se puede asegurar en el centro de
+ control que el cambio se ha ejecutado correctamente.
+ En caso que el martillo no encaje bien dentro de la entalla, y no cierre
+ el circuito, en el enclave del motor no llega la tensión de comprobación.
+ En este caso los trenes no pueden circular por encima del cambio de agujas
+ paralizando, de esta forma, el tráfico ferroviario.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename img/motor.jpg
+	lyxscale 10
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:motor"
+
+\end_inset
+
+Interior de un motor de cambio de aguja
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename img/barras/barras dentro - 1.jpg
+	lyxscale 10
+	width 5cm
+
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/barras/barras fuera - 4.jpg
+	lyxscale 10
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:martillos-comprobacion"
+
+\end_inset
+
+Detalle de los martillos y las entallas de las barras de comprobación
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Objetivo del proyecto
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Objetivo-del-proyecto"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Tal cómo se ha comentado en la sección 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Descripción-de-un"
+
+\end_inset
+
+ cuando hay un problema en un cambio de agujas los trenes no pueden circular
+ por encima de él.
+ Esto obliga a paralizar el tráfico ferroviario o desviarlo de su recorrido
+ habitual.
+ Cuando un martillo encaja en una entalla de una barra de comprobación este
+ tiene una holgura.
+ Habitualmente la entalla tiene un ancho de 55mm mientras que el martillo
+ tiene un ancho de 50mm.
+ A su vez las barras de comprobación tienen un mecanismo por el que se puede
+ ajustar dicha holgura que se denomina holgura de comprobación.
+ Decimos que la barra está centrada cuando la holgura que queda en cada
+ parte del martillo es de 2,5mm.
+ Debido a las vibraciones en los pasos de tren y a las dilataciones de los
+ elementos metálicos que forman las vías y los cambios de aguja las barras
+ de comprobación cambian constantemente de posición.
+\end_layout
+
+\begin_layout Standard
+Los operadores ferroviarios han advertido que este es uno de los elementos
+ que mas problemas causan en la operación de la infraestructura ferroviaria
+ y por lo tanto existe una necesidad real de monitorizar la holgura de los
+ martillos en las barras de comprobación.
+\end_layout
+
+\begin_layout Standard
+El objetivo del presente proyecto consiste en la realización de un dispositivo
+ de monitorización de la holgura de comprobación.
+\end_layout
+
+\begin_layout Section
+Estado del arte
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Estado-del-arte"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Actualmente la UPC juntamente con TMB y la empresa Thinking Forward XXI,
+ de aquí en adelante TF, tienen una patente sobre un dispositivo de monitorizaci
+ón de cambios de aguja.
+ Este dispositivo se encarga de monitorizar, entre otros parámetros, la
+ holgura de comprobación.
+ Para ello se basa en el uso de campos magnéticos.
+ La principal problemática de los campos magnéticos es que su valor cambia
+ con el cuadrado de la distancia, es decir, es exponencial, y además el
+ campo magnético varia en tres dimensiones.
+ Idealmente la barras de comprobación solamente deberían moverse en un eje.
+ Debido a desgastes de las piezas mecánicas y vibraciones producidas por
+ los trenes las barras de comprobación también tiene juego en las otras
+ dos dimensiones.
+ Estos juegos hacen que los sensores de campo magnético detecten cambios
+ que resultan en errores de lectura.
+ Además como se ha comentado en la sección 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Objetivo-del-proyecto"
+
+\end_inset
+
+ la holgura de comprobación es de 5mm.
+ La resolución deseada para la monitorización de la holgura de comprobación
+ es de 0,1mm.
+ De esta forma pequeñas variaciones en el campo magnético debido a estos
+ juegos de las barras de comprobación generan errores importantes en las
+ lecturas.
+ Otro de los problemas que presenta el sensor de campo magnético es que
+ debe calibrarse para que pueda traducir los valores de campo magnético
+ en valores de holgura.
+ Esta calibración es propensa a desajustarse debido a los juegos de las
+ barras.
+\end_layout
+
+\begin_layout Standard
+Además la empresa TF está desarrollando un dispositivo denominado Sensor
+ Óptico de Comprobación, de aquí en adelante SOC.
+ Este dispositivo se encarga de capturar imágenes de los martillos y las
+ entallas de las barras de comprobación.
+ Este dispositivo consta básicamente de un sensor de imagen, un microprocesador
+ ARM y una interfaz de comunicación a través de bus CAN (Controller Area
+ Network).
+ El SOC se sitúa en el interior de la carcasa de los motores de cambio de
+ aguja.
+ La figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:capturas-SOC"
+
+\end_inset
+
+ muestra dos imágenes capturadas por dicho sensor cuando la aguja está en
+ posición normal e invertida.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename img/barras/real - barras dentro - 0.jpg
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/barras/real - barras fuera - 0.jpg
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:capturas-SOC"
+
+\end_inset
+
+Imágenes capturadas por el sensor SOC
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Propuesta de realización
+\end_layout
+
+\begin_layout Standard
+Para la realización del dispositivo de monitorización de la holgura de comprobac
+ión se pretende utilizar el sensor SOC.
+ Este sensor actualmente se encarga de tomar imágenes de las martillos y
+ las barras de comprobación y enviarlas al centro de control para que un
+ operario pueda supervisar que la holgura de comprobación es correcta.
+ Aprovechando este dispositivo se realizará un frmware que detecte la posición
+ en la que se encuentra el motor y que calcule la holgura de comprobación
+ mediante visión por computador.
+ Con ello se pretende evitar la problemática que presentan los actuales
+ sensores de campo magnético, tanto de calibración como de errores de lectura.
+\end_layout
+
+\begin_layout Standard
+Cómo ya se ha comentado en la sección 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Estado-del-arte"
+
+\end_inset
+
+ la resolución de las medidas se desea que sea, cómo mínimo, de 0,1 mm.
+\end_layout
+
+\begin_layout Standard
+El proyecto constará de 3 partes.
+ En la primera parte se estudiará la viabilidad del proyecto determinando
+ si la cámara, su posición y la iluminación existentes permiten realizar
+ algoritmos de visión artificial para determinar la holgura de comprobación
+ con una resolución igual o menor de la deseada.
+ En la segunda parte se estudiaran distintas técnicas de procesado de imagen
+ para realizar las dos tareas.
+ Además se valorará cual de ellas es más apropiada teniendo en cuenta el
+ entorno, el hardware y la problemática que pretendemos solventar.
+ Finalmente en la tercera parte consistirá en la implementación de los algoritmo
+s desarrollados en forma de firmware para que pueda correr de forma embedded
+ en el dispositivo SOC.
+\end_layout
+
+\begin_layout Section
+Conclusiones
+\end_layout
+
+\begin_layout Standard
+En este documento se ha presentado una propuesta de proyecto para solucionar
+ una problemática real en el sector ferroviario.
+ Aprovechando un dispositivo que actualmente está en fase de desarrollo
+ se pretende monitorizar de forma automática la holgura de comprobación
+ en los motores de cambio de aguja.
+ El nuevo dispositivo presenta dos ventajas importantes respecto la versión
+ existente basada en la medición de campos magnéticos.
+ Por una parte no requerirá de calibración y por otra no se verá afectado
+ por los juegos de las barras de comprobación.
+ De esta forma se estudiará la viabilidad de la propuesta, se estudiaran
+ distintas soluciones posibles y finalmente se implementará la mejor de
+ ellas.
+\end_layout
+
+\end_body
+\end_document
