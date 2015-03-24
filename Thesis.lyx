@@ -409,7 +409,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename img/gantt chart.png
-	width 15cm
+	width 13cm
 
 \end_inset
 
@@ -452,7 +452,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename img/tasks.png
-	scale 75
+	scale 65
 
 \end_inset
 
@@ -521,7 +521,7 @@ Computer vision is becoming widely used in industry and many applications
 Industrial computer vision applications can be classified in two groups.
  The first and most extended one consists on using computer vision to visual
  inspection.
- We can find many examples in the literature that usues image processing
+ We can find many examples in the literature that uses image processing
  for this purpose.
  In 
 \begin_inset CommandInset citation
@@ -582,7 +582,7 @@ key "key-spray-painting"
 \end_inset
 
  a more sophisticated method of an industrial application with two CCD sensors
- for spary painting of a general three dimensional surface is described.
+ for spray painting of a general three dimensional surface is described.
 \end_layout
 
 \begin_layout Standard
@@ -618,7 +618,7 @@ reference "sec:Fundamentals"
  in order to filter residual noise.
  Finally they count the foreground pixels and multiply this number by a
  precomputed constant to compute the leaf area.
- This constant is initialized with a calibration card of a knwon area.
+ This constant is initialized with a calibration card of a known area.
  Similarly in this project we will follow more or less the same strategy
  to determine the exact position of the lock bar as it will be explained
  in chapter 
@@ -636,23 +636,140 @@ Embedded computer vision
 \end_layout
 
 \begin_layout Standard
-Image processing require lots of memory resources and processor time.
- Because of this, a variety of applications are still using ordinary computers
- to perform these tasks.
- Some examples are video survillance applications, car license plate number
- identification, The emergence of more powerful microprocessors and microcontrol
-lers has led to the gradual appearence of embedded systems for image processing.
- In 
+Because of image processing require lots of memory resources and processor
+ time a variety of applications are still using ordinary computers to perform
+ these tasks.
+ Some examples are video surveillance applications, car license plate number
+ identification, face recognition applications, etc.
+ Another approach is to use an embedded system for this kind of applications.
+\end_layout
+
+\begin_layout Standard
+Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:embedded-system"
+
+\end_inset
+
+ shows a diagram of an embedded system.
+ It consists mainly of an image sensor, some signal processing Integrated
+ Circuit (IC) like an Application-Specific Integrated Circuit (ASIC), Digital
+ Signal Processor (DSP), Field Programmable Gate Array (FPGA), Micro Controller
+ Unit (MCU) or Reduced Instruction Set Computer (RISC) and optionally some
+ external memory, other sensors, communications IC and interfaces.
+ The only part of the different approaches that can be changed is the signal
+ processing unit.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename img/embedded system.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Embedded system for image processing
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:embedded-system"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The main advantage of this type of systems is that they are smaller than
+ the computer approach so they can be installed in many other places.
+ The drawbacks are the constraints in power consumption, memory, and processing
+ speed.
+ The emergence of more powerful microprocessors and microcontrollers has
+ led to the gradual appearance of embedded systems for image processing.
+\end_layout
+
+\begin_layout Standard
+In 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "embedded-CV-measurement"
 
 \end_inset
 
- a system of this type is described.
- Authors use an image sensor with a microprocessor and some laser diodes
- to build a system to measure object dimensions.
- 
+ an image sensor, a MCU and some laser diodes are used to measure object
+ dimensions.
+ They use an object with known dimension to calibrate the system and translate
+ pixel information extracted from the laser lines in the image to real dimension
+s of the object.
+ In 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "embedded-fingerprint"
+
+\end_inset
+
+ the authors have developed and embedded system based on a DSP to do fingerprint
+ detection.
+ The fingerprint database is stored in an external SDRAM memory.
+ They also uses a keyboard and a display as the human machine interface.
+ Another application of embedded systems can be found in 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "embedded-car-plate"
+
+\end_inset
+
+.
+ This application consists on finding and recognizing car license plate
+ numbers.
+ An ARM processor is the core of this system that also contains an external
+ memory, a keyboard, an LCD and different communications interfaces.
+ In this application there are two different tasks.
+ The first one consists on locating the car plate in the image.
+ If this task is successful they extract the characters and perform a single-cha
+racter processing to recognize the license number.
+ Finally the recognized license number is shown in an LCD.
+ Finally, in 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "embedded-realtime-face"
+
+\end_inset
+
+ an embedded system has been developed for face detection.
+ In this approach authors use an FPGA as the core of the system.
+ FPGA provides higher computational power but in the other hand they are
+ much more expensive than MCU or DSP.
 \end_layout
 
 \begin_layout Subsection
@@ -1163,54 +1280,22 @@ key "embedded-realtime-face"
 
 \end_inset
 
-Q.
- Wang, J.
- Wu, C.n Long, B.
- Li.
+L.
+ Acasandrei, A.l Barriga.
  
 \begin_inset Quotes eld
 \end_inset
 
-P-FAD: Real-Time Face Detection Scheme on Embedded Smart Cameras
+Embedded Face Detection Implementation
 \begin_inset Quotes erd
 \end_inset
 
 .
- Emerging and Selected Topics in Circuits and Systems, IEEE Journal on (Volume:3
- , Issue: 2 ).
- Apr.
+ Biometrics Special Interest Group (BIOSIG), 2013 International Conference
+ of the.
+ Sept.
  2013, pp.
- 210-222
-\end_layout
-
-\begin_layout Bibliography
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-label "15"
-key "embedded-facedetection-algorithms"
-
-\end_inset
-
-I.
- E.
- Ceuca, A.
- Tulbure, O.
- Domsa, C.
- Covaciu.
- 
-\begin_inset Quotes eld
-\end_inset
-
-Study from implementing algorithms for face detection and recognition for
- embedded systems
-\begin_inset Quotes erd
-\end_inset
-
-.
- Automation Quality and Testing Robotics (AQTR), 2010 IEEE International
- Conference on (Volume:3 ).
- May 2010, pp.
- 1-5
+ 1-8
 \end_layout
 
 \end_body
