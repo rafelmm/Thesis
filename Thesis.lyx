@@ -118,8 +118,8 @@ reference "fig:points_railroad_switch"
 Nowadays point machines are typically operated from a remote location.
  Because their closure is imperative it has a device to inform the operator
  about its current position.
- The most common realization of this device consists on two lock bars, as
- we can see in figure 
+ The most common realization of this device consists on two locking bars
+ or detector bars, as we can see in figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:point_machine_parts"
@@ -127,15 +127,42 @@ reference "fig:point_machine_parts"
 \end_inset
 
 .
- The motor is connected to the drive bar through gears.
+ The motor is connected to the strecher (or trhow bar) through gears.
  At the other end of the bar there are two points, or switch rails, attached
  to it.
- Each point has a lock bar attached to it.
- These lock bars go from the points to the engine.
- In the engine side there are two lock blades, one for each bar.
- When the points are in normal position the first lock blade locks one bar
- and when the points are in reverse position the second lock blade locks
- the other bar.
+ Each point has a locking bar attached to it.
+ These locking bars go from the points to the engine closing.
+ In the engine side there are two two holding elements, called hammers,
+ which are used to lock the locking bars.
+ Each locking bar has a notch that allows the hammer to lock it in the current
+ position.
+ When the points are in normal position the first hammer locks one bar and
+ when the points are in reverse position the second hammer locks the other
+ bar.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:point_machine_parts"
+
+\end_inset
+
+ shows a real point machine engine.
+ We can see locking hammers are one in front of the other and the locking
+ bars are one above the other.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:martillos_con_holguras"
+
+\end_inset
+
+ shows a detail of the hammers and the notch in the locking bars.
+ Images are taken at different time instants and at different positions
+ of the point machine.
+ In the image on the left the hammer on the top fits the notch of one locking
+ bar.
+ In the other position, the hammer in the bottom fits the notch of the other
+ bar.
 \end_layout
 
 \begin_layout Standard
@@ -196,7 +223,15 @@ status open
 \align center
 \begin_inset Graphics
 	filename img/points_diagram_01.jpg
-	width 7cm
+	height 5.5cm
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/partes motor.png
+	lyxscale 50
+	height 5.5cm
 
 \end_inset
 
@@ -207,7 +242,9 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Parts of a point machine
+Parts of a point machine.
+ Left: generic diagram.
+ Right: Real point machine engine.
 \end_layout
 
 \end_inset
@@ -222,10 +259,6 @@ name "fig:point_machine_parts"
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
@@ -235,14 +268,14 @@ name "fig:point_machine_parts"
 When the operator moves the motor causes the linear and perpendicular movement
  of the drive bar.
  In turn, this causes the points to move and change their position.
- The points drag the lock bars which they are attached to.
- Inside of the engine housing, the lock blade locks the lock bar corresponding
+ The points drag the locking bars which they are attached to.
+ Inside of the engine housing, the hammer locks the locking bar corresponding
  to the side where the points are.
  This produces an electric signal that informs the remote operator that
  the switch has been successfully completed.
- When the lock bar does not arrive to its final position the electric circuit
- remains opened so the position of the switch is unknown and the operator
- cannot operate the switch.
+ When the locking bar does not arrive to its final position the electric
+ circuit remains opened so the position of the switch is unknown and the
+ operator cannot operate the switch.
  Security rules establish that a train cannot pass trough an intersection
  where the point machine is in an unknown position.
  This affects directly the railway traffic in a high demand network like
@@ -296,7 +329,63 @@ name "sub:Goal"
 \begin_layout Standard
 The goal of the present project is to develop a device to monitor the exact
  position of the lock bars.
- Furthermore there are some requisites that this device has to accomplish.
+ The task of the monitoring device can be divided in two sub-tasks.
+ The first one consists in detecting the position of the point machine,
+ this is, which lock bar is currently locked.
+ The second one consists on measuring the real gap between the lock bar
+ notch and the lock blade as we can see in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:martillos_con_holguras"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename img/martillos_con_holguras.PNG
+	lyxscale 40
+	width 10cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Gap to be measured.
+ Left: Lower lock bar.
+ Right: Upper lock bar
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:martillos_con_holguras"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+There are some requisites that this device has to accomplish.
 \end_layout
 
 \begin_layout Enumerate
@@ -880,63 +969,7 @@ re changes, dust and humidity.
  and it is related with the software design and implementation.
  The error rate of the device should be less than 5%, including bad measures
  and unknown measures when the lock bar is in its correct position.
- The task of the monitoring device can be divided in two sub-tasks.
- The first one consists in detecting the position of the point machine,
- this is, which lock bar is currently locked.
- The second one consists on measuring the real gap between the lock bar
- notch and the lock blade as we can see in figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:martillos_con_holguras"
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-placement h
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename img/martillos_con_holguras.PNG
-	lyxscale 40
-	width 10cm
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Gap to be measured.
- Left: Lower lock bar.
- Right: Upper lock bar
-\end_layout
-
-\end_inset
-
-
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:martillos_con_holguras"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
+ 
 \end_layout
 
 \begin_layout Itemize
@@ -1012,7 +1045,7 @@ R=\rho\frac{l}{S}=11.86\Omega
 
 \end_inset
 
- If we take, for instance, that the device consumes 0.150mA, the total drop
+ If we take, for instance, that the device consumes 150mA, the total drop
  of potential at the device is 
 \begin_inset Formula 
 \[
@@ -1032,7 +1065,10 @@ Tipically the same cable is used to power more than one device so the power
 
 \begin_layout Itemize
 Finally, all of this has to be done at the minimum manufacturing cost.
- 
+\end_layout
+
+\begin_layout Itemize
+Size constraints
 \end_layout
 
 \begin_layout Subsection
