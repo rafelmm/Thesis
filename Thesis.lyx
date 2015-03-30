@@ -284,6 +284,13 @@ reference "sec:Prior-Art"
 
 \begin_layout Subsection
 Goal
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Goal"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -330,6 +337,16 @@ reference "sec:Design"
  In normal operation there is a window of 10 seconds to give the measure.
  In continuous operation the device has to be able to give at least one
  measure per second.
+\end_layout
+
+\begin_layout Enumerate
+Reduced manufacturing costs.
+ In a railway infraestructure are hundreds of engines to monitor, therefore,
+ the unit price of the monitoring device must be low.
+ The system should reduce the cost of infraestructure maintenance.
+ Potential customers of the system are public or semi-public companies so
+ the budget is considered at most for four years.
+ All investments must have its pay-back less than this period of time.
 \end_layout
 
 \begin_layout Standard
@@ -832,6 +849,192 @@ name "sec:Design"
 System specifications (according to the goals)
 \end_layout
 
+\begin_layout Standard
+The device must be designed taking into account the goals stated in 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Goal"
+
+\end_inset
+
+ and the size constraints.
+ 
+\end_layout
+
+\begin_layout Itemize
+First of all the device must be easy to install.
+ There are only 3 daily hours to perform the maintenance tasks and maintenance
+ teams are small according to the size of the infraestructure to maintain.
+ The most easy to install the device the better.
+ This should be taken into account in the hardware, specially in the box
+ design, and in the firmware design.
+\end_layout
+
+\begin_layout Itemize
+The device needs to be robust in two senses.
+ The first one relates directly with the hardware design because it has
+ to be installed inside a point machine which is subject to vibration, temperatu
+re changes, dust and humidity.
+ The box of the device must resists this unfavourable conditions.
+ The other sense refers to the repeatability and confidence of the measurements
+ and it is related with the software design and implementation.
+ The error rate of the device should be less than 5%, including bad measures
+ and unknown measures when the lock bar is in its correct position.
+ The task of the monitoring device can be divided in two sub-tasks.
+ The first one consists in detecting the position of the point machine,
+ this is, which lock bar is currently locked.
+ The second one consists on measuring the real gap between the lock bar
+ notch and the lock blade as we can see in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:martillos_con_holguras"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename img/martillos_con_holguras.PNG
+	lyxscale 40
+	width 10cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Gap to be measured.
+ Left: Lower lock bar.
+ Right: Upper lock bar
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:martillos_con_holguras"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+The minimum total gap to measure is of 5 milimeters.
+ Maintenance operators want to know where the gap i less than 10% in order
+ to plan a task to correct the position of the bars.
+ The precision of the measurement should be less than 0.5mm and it is desirable
+ to be 0.25mm.
+ This should be taken into account to determine the resolution of the CCD
+ and image processing algorithms.
+\end_layout
+
+\begin_layout Itemize
+Another constraint of the system is the execution time that consists on
+ the image capture plus the image processing times.
+ The image capture time is determined by the hardware (the image sensor,
+ the microcontroller and the memory latency).
+ The image algorithm determines the processing time.
+ As it has been explained in 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Goal"
+
+\end_inset
+
+ the device has to two modes of operation.
+ In normal operation it gives a measure every 10 seconds.
+ In general, the execution time could be up to 10 seconds.
+ In continuous operation the device must provide at leas one measure per
+ second.
+ This has to be considered in the design of the image processing algorithm.
+\end_layout
+
+\begin_layout Itemize
+Power consumption has also be taken into account.
+ The wire length between the control cabin and the point machine location
+ can sometimes be quite long, up to 1Km.
+ The device is powerd by a DC voltage up to 24V with a cable of 
+\begin_inset Formula $1.5mm^{2}$
+\end_inset
+
+.
+ The resistivity of the copper is
+\begin_inset Formula 
+\[
+\rho=R\frac{S}{l}=1.71\times10^{-8}\Omega m
+\]
+
+\end_inset
+
+as we can see in 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "wiki:resistividad"
+
+\end_inset
+
+.
+ 
+\begin_inset Formula $S$
+\end_inset
+
+ is the section of the conductor in squared meters and 
+\begin_inset Formula $l$
+\end_inset
+
+ is the wire length in meters.
+ We can compute the total wire resistence as
+\begin_inset Formula 
+\[
+R=\rho\frac{l}{S}=11.86\Omega
+\]
+
+\end_inset
+
+ If we take, for instance, that the device consumes 0.150mA, the total drop
+ of potential at the device is 
+\begin_inset Formula 
+\[
+E=I\times2R=3,56V
+\]
+
+\end_inset
+
+Tipically the same cable is used to power more than one device so the power
+ consumption represents a constraint on the design.
+ This constraint relates not only with the hardware but also with the firmware
+ of the device.
+ If the execution time is so long that the device is always running then
+ the power consumption increases and it probably does not fullfill the power
+ consumption constraint.
+\end_layout
+
+\begin_layout Itemize
+Finally, all of this has to be done at the minimum manufacturing cost.
+ 
+\end_layout
+
 \begin_layout Subsection
 Hardware design
 \end_layout
@@ -1296,6 +1499,17 @@ Embedded Face Detection Implementation
  Sept.
  2013, pp.
  1-8
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "15"
+key "wiki:resistividad"
+
+\end_inset
+
+http://es.wikipedia.org/wiki/Resistividad
 \end_layout
 
 \end_body
