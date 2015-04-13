@@ -1,0 +1,21 @@
+  Revised: Tuesday, April 24, 2012
+          Revision: 
+
+
+
+
+
+
+
+Bill Of Materials          April 25,2012      10:32:28	Page1
+
+Item	Quantity	Reference	Part	Vendor	Vendor PN
+______________________________________________
+
+1	2	C1,C2	100n 50V	Farnell	1692300
+2	6	J19_CAMERA,J19_ATMEL,J20_CAMERA,J20_ATMEL,J44_CAMERA,J44_ATMEL	J_2x5_PINES_254_VERTICAL	Farnell	1022227
+3	1	Q1	BC547	Farnell	1467870
+4	1	R1	330_AXIAL	Farnell	9339418
+5	1	R2	8k2_AXIAL	Farnell	9339728
+6	1	U1	CD74HC4520E	Farnell	1739762
+7	1	U2	DM74ALS273N	Farnell	792524

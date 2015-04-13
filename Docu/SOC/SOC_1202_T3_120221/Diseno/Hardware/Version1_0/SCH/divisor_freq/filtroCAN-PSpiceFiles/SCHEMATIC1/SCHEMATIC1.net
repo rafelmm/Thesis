@@ -1,0 +1,5 @@
+* source FILTROCAN
+C_C1         GND_POWER N00217  1n  
+C_C2         GND_POWER N00236  1n  
+L_L1         N00217 N00236  10uH  
+V_V1         N00217 GND_POWER DC 0Vdc AC 1Vac 

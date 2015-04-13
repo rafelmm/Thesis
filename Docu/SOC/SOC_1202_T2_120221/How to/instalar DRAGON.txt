@@ -1,0 +1,2 @@
+Con la placa conectada, ir a “Administrador de dispositivos”. Aquí aparecerá el dispositivo USB con el símbolo de exclamación indicando que no tiene el driver. Instalar el driver e indicar que busque el driver en la siguiente ruta (debes tener instalado el ARV32 Studio): 
+C:\Program Files (x86)\Atmel\AVR Tools\AVR32 Studio\plugins\com.atmel.avr32.sf.uc3_1.7.0.201009140900\framework\

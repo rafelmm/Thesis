@@ -1,0 +1,9 @@
+En la ruta:
+C:\Program Files (x86)\Atmel\AVR Tools\AVR32 Studio\plugins\com.atmel.avr.utilities.win32.x86_3.0.0.201009140848\os\win32\x86\share\avr32
+
+Modificar el fichero uc3c0512c.xml. 
+Donde pone:
+	<part_name>UC3C0512C</part_name>
+
+Se tiene que sustituir por:
+	<part_name>UC3C0512CREVC</part_name>

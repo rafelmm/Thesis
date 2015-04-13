@@ -1,0 +1,74 @@
+function [I,line_length] = read_image(fileName,width,height)
+DELIMITER = ' ';
+HEADERLINES = 2;
+readdata = importdata(fileName, DELIMITER, HEADERLINES);
+data = readdata.data;
+L = width*height;
+j=1;
+
+I=zeros(1,L);
+if (size(data,1)<L)
+    for i=1:L
+        if(data(j,1)==i-1)
+            if(data(j,2)<255)
+                I(i)=data(j,2);
+            else
+                if(j>1)
+                    I(i)=data(j-1,2);
+                else
+                    I(i)=data(j+1,2);
+                end
+            end
+            j=j+1;
+        else
+            if(j>1)
+                I(i)=I(i-1);
+            else
+                I(i)=I(i+1);
+            end
+        end
+    end
+else
+    I=data(:,2);
+end
+
+
+I=I(1:L);
+for i=1:height
+    for j=1:width
+        img(i,j)=I((i-1)*width+j)/255;
+    end
+end
+I=img;
+%I=reshape(I,height,width)'./255;
+index_first=2;
+i=1;
+while (index_first<width*height)
+    index_last = find(I==I(index_first),1,'last');
+    line_length(i)=index_last-index_first+1;
+    index_first = index_last+1;
+    i=i+1;
+end
+
+% Transformación intensidad
+I=imadjust(I,[0.2 0.65],[0 1]);
+
+% Compensación de los parametros intrinsecos
+kc=[-0.3955;0.2070;-0.0104;0.0055;0];
+fc = [144.25;144.2833];
+cc = [72.8881;59.9752];
+alpha_c=0;
+KK_new = [fc(1) alpha_c*fc(1) cc(1);0 fc(2) cc(2);0 0 1];
+
+[I2] = rect(I,eye(3),fc,cc,kc,alpha_c,KK_new);
+
+% Filtrado imagen para eliminación puntos negros y blancos
+se=[1 1;1 1];
+I=imclose(I,se);
+I=imopen(I,se);
+
+if nargout==0
+%   close all
+    imshow(I);
+end
+

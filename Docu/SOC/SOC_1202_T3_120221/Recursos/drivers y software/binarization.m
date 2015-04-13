@@ -1,0 +1,50 @@
+n1=0;
+n2=255;
+opt_threshold = zeros(1,10);
+
+histo00 = histo01(1:256,2);
+
+for j=1:10
+    %Step 1: Optimum T
+    cost = 0;
+    min_cost = 255*255*120*25;
+
+    for threshold = 0:255
+        cost = 0;
+        for n=0:threshold
+            cost = cost + (n-n1)*(n-n1)*histo00(n+1);
+        end
+        for n=threshold+1:255
+            cost = cost + (n-n2)*(n-n2)*histo00(n+1);
+        end
+        if (cost < min_cost)
+            min_cost = cost;
+            opt_threshold(j) = threshold;
+        end
+    end
+    %Step 2. Find n1 and n2 for the optimum threshold
+	n1 = 0;
+	sum_histo = 0;
+    for n=0:opt_threshold
+        n1 = n1 + n*histo00(n+1);
+        sum_histo = sum_histo + histo00(n+1);
+    end
+    n1 = round(n1/sum_histo);
+    
+	n2 = 0;
+	sum_histo = 0;
+    for n = (opt_threshold + 1):255
+		n2 = n2 + n * histo00(n+1);
+		sum_histo = sum_histo + histo00(n+1);
+    end
+	n2 = round(n2 / sum_histo);
+end
+
+close all
+figure;
+h_max = max(histo00);
+
+plot(histo00);
+hold on
+plot([opt_threshold(10);opt_threshold(10)],[0;h_max],'r')
+hold off

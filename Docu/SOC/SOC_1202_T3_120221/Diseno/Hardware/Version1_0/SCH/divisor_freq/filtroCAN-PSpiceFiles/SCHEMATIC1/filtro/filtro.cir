@@ -1,0 +1,18 @@
+** Profile: "SCHEMATIC1-filtro"  [ C:\Users\rafel\Documents\Projectes\SOC\SOC_1202_T3_120221\Diseno\Hardware\Version1_0\SCH\divisor_freq\filtroCAN-PSpiceFiles\SCHEMATIC1\filtro.sim ] 
+
+** Creating circuit file "filtro.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\OrCAD\OrCAD_10.5\tools\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.AC LIN 10 1000 100000
+.PROBE V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+.END

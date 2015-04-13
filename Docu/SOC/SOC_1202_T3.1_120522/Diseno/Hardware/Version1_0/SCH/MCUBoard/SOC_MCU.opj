@@ -1,0 +1,206 @@
+(ExpressProject "SOC_MCU"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File
+         "C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\CAPTURE\LLIBRERIAMARC.OLB"
+        (Type "Schematic Library"))
+      (File
+         "z:\electronica\orcad\llibreria_capture\resistencia\potenciometre.olb"
+        (Type "Schematic Library"))
+      (File
+         "z:\electronica\orcad\llibreria_capture\resistencia\tf_resistencia.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\soc_mcu.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File
+       "C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\CAPTURE\MCUBOARD\SOC_MCU.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0
+       "{Item}\t{Quantity}\t{Reference}\t{Value}\t{Vendor}\t{Vendor PN}")
+    (BOM_Header "Item\tQuantity\tReference\tPart\tVendor\tVendor PN")
+    (BOM_Include_File
+       "C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\CAPTURE\MCUBOARD\SOC_MCU.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "TRUE")
+    (BOM_View_Output "FALSE")
+    (Netlist_TAB "3")
+    (LAYOUT_Netlist_File
+       "C:\Users\rafel\Documents\Projectes\SOC\T3\Diseno\Hardware\Version1_0\NetList\SOC_MCU.MNL")
+    (LAYOUT_PCB_Footprint "{PCB Footprint}")
+    (TRUE)
+    (LAYOUT_Units "0")
+    (TRUE))
+  (Folder "Outputs"
+    (File ".\soc_mcu.bom"
+      (Type "Report"))
+    (File
+       "c:\users\rafel\documents\projectes\soc\t3\diseno\hardware\version1_0\netlist\soc_mcu.mnl"
+      (Type "LAYOUT Netlist File")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (R_7k5_0603
+      (FullPartName "R_7k5_0603.Normal")
+      (LibraryName
+         "Z:\ELECTRONICA\ORCAD\LLIBRERIA_CAPTURE\RESISTENCIA\TF_RESISTENCIA.OLB")
+      (DeviceIndex "0"))
+    (R_330R_0603
+      (FullPartName "R_330R_0603.Normal")
+      (LibraryName
+         "Z:\ELECTRONICA\ORCAD\LLIBRERIA_CAPTURE\RESISTENCIA\TF_RESISTENCIA.OLB")
+      (DeviceIndex "0"))
+    (R_1k_0603
+      (FullPartName "R_1k_0603.Normal")
+      (LibraryName
+         "Z:\ELECTRONICA\ORCAD\LLIBRERIA_CAPTURE\RESISTENCIA\TF_RESISTENCIA.OLB")
+      (DeviceIndex "0"))
+    (MMBT3904_SOT23
+      (FullPartName "MMBT3904_SOT23.Normal")
+      (LibraryName
+         "Z:\ELECTRONICA\ORCAD\LLIBRERIA_CAPTURE\TRANSISTOR\TF_BJT_NPN.OLB")
+      (DeviceIndex "0"))
+    (PORTLEFT-R
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTLEFT-L
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (TLV1117_3V3_SOT223
+      (FullPartName "TLV1117_3V3_SOT223.Normal")
+      (LibraryName
+         "Z:\ELECTRONICA\ORCAD\LLIBRERIA_CAPTURE\ALIMENTACIO\ALIMENTACIO.OLB")
+      (DeviceIndex "0"))
+    (TLV1117_5V_SOT223
+      (FullPartName "TLV1117_5V_SOT223.Normal")
+      (LibraryName
+         "Z:\ELECTRONICA\ORCAD\LLIBRERIA_CAPTURE\ALIMENTACIO\ALIMENTACIO.OLB")
+      (DeviceIndex "0"))
+    ("CRYSTAL SMD SEAM"
+      (FullPartName "CRYSTAL SMD SEAM.Normal")
+      (LibraryName
+         "C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\CAPTURE\LLIBRERIAMARC.OLB")
+      (DeviceIndex "0"))
+    ("CONECTOR CABLE PLANO 10VIAS 127"
+      (FullPartName "CONECTOR CABLE PLANO 10VIAS 127.Normal")
+      (LibraryName
+         "C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\CAPTURE\LLIBRERIAMARC.OLB")
+      (DeviceIndex "0"))
+    ("CONECTOR CABLE PLANO 10VIAS HEM"
+      (FullPartName "CONECTOR CABLE PLANO 10VIAS HEM.Normal")
+      (LibraryName
+         "C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\CAPTURE\LLIBRERIAMARC.OLB")
+      (DeviceIndex "0"))
+    (HSP-K10-22
+      (FullPartName "HSP-K10-22.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\MECHANICAL.OLB")
+      (DeviceIndex "0"))
+    (AT32UC3C-TQFP64
+      (FullPartName "AT32UC3C-TQFP64.Normal")
+      (LibraryName
+         "C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\CAPTURE\LLIBRERIAMARC.OLB")
+      (DeviceIndex "0"))
+    (FM25V20
+      (FullPartName "FM25V20.Normal")
+      (LibraryName
+         "C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\CAPTURE\LLIBRERIAMARC.OLB")
+      (DeviceIndex "0"))
+    (MCP2551
+      (FullPartName "MCP2551.Normal")
+      (LibraryName
+         "C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\CAPTURE\LLIBRERIAMARC.OLB")
+      (DeviceIndex "0"))
+    (LED
+      (FullPartName "LED.Normal")
+      (LibraryName
+         "C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\CAPTURE\LLIBRERIAMARC.OLB")
+      (DeviceIndex "0"))
+    ("DIODE SCHOTTKY21"
+      (FullPartName "DIODE SCHOTTKY21.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("DIODE SCHOTTKY"
+      (FullPartName "DIODE SCHOTTKY.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (CAP/SM
+      (FullPartName "CAP/SM.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (INDUCTOR
+      (FullPartName "INDUCTOR.Normal")
+      (LibraryName
+         "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\OLDLIBS\DEVICE.OLB")
+      (DeviceIndex "0"))
+    ("FILTRO SUPRESSION EMI"
+      (FullPartName "FILTRO SUPRESSION EMI.Normal")
+      (LibraryName
+         "C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\CAPTURE\LLIBRERIAMARC.OLB")
+      (DeviceIndex "0"))
+    (TLV1117
+      (FullPartName "TLV1117.Normal")
+      (LibraryName
+         "C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\CAPTURE\LLIBRERIAMARC.OLB")
+      (DeviceIndex "0"))
+    ("CONECTOR CABLE PLANO 10VIAS"
+      (FullPartName "CONECTOR CABLE PLANO 10VIAS.Normal")
+      (LibraryName
+         "C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\CAPTURE\LLIBRERIAMARC.OLB")
+      (DeviceIndex "0"))
+    (JST_PH_4VIAS
+      (FullPartName "JST_PH_4VIAS.Normal")
+      (LibraryName
+         "C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\CAPTURE\LLIBRERIAMARC.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\Users\rafel\Documents\Projectes\SOC\SOC_1202_T3_120221\Diseno\Hardware\Version1_0\SCH\MCUBoard\soc_mcu.dsn")
+      (Path "Design Resources"
+         "C:\Users\rafel\Documents\Projectes\SOC\SOC_1202_T3_120221\Diseno\Hardware\Version1_0\SCH\MCUBoard\soc_mcu.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "z:\electronica\orcad\llibreria_capture\resistencia\tf_resistencia.olb")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "C:\Users\rafel\Documents\Projectes\SOC\SOC_1202_T3_120221\Diseno\Hardware\Version1_0\SCH\MCUBoard\soc_mcu.dsn"
+         "SCHEMATIC1" "POWER SUPPLY"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 160 914 -8 -30 41 785 -4 875"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 427 1731 103 894")
+        (Scroll "0 119")
+        (Zoom "122")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\SOC_1202_T3_120221\DISENO\HARDWARE\VERSION1_0\SCH\MCUBOARD\SOC_MCU.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "ATMEL"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 160 914 -1 -1 515 2131 181 795")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\SOC_1202_T3_120221\DISENO\HARDWARE\VERSION1_0\SCH\MCUBOARD\SOC_MCU.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "CONNECTORS")))
+  (MPSSessionName "rafel")
+  (LastUsedLibraryBrowseDirectory
+     "Z:\Electronica\Orcad\Llibreria_Capture\Transistor"))

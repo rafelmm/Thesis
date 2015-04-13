@@ -1,0 +1,50 @@
+Después de crear el proyecto realizamos las siguiente acciones:
+
+	1- Copiamos el fichero trampoline.x dentro de SOFTWARE_FRAMEWORK/ASM
+	
+	2- Copiamos el fichero conf_isp.h dentro de SOFTWARE_FRAMEWORK/UTILS
+	
+	3- Copiamos el fichero link_uc3c0512c.lds dentro de UTILS/LINKER_SCRIPTS/AT32UC3C/0512C/GCC
+	
+	4- Copiamos el fichero crt0.x dentro de SOFTWARE_FRAMEWORK/UTILS/STARTUP_FILES/GCC
+	
+	5- Copiamos el fichero conf_can_tfxxi.h en src/CONFIG dónde se definen los message objects y identificadores/mascaras para el CAN. 
+	
+	6- Añadimos la libreria tfxxi_can al proyecto dentro de ./src
+	
+	7-Añadimos los drivers del CAN (can.c, can.h, canif.c, canif.h) en SOFTWARE_FRAMEWORK/CANIF
+	
+	8- En propiedades de src (click con el botón derecho) añadimos la ruta "../src/SOFTWARE_FRAMEWORK/UTILS/LINKER_SCRIPTS/AT32UC3C/0512C/GCC" dentro de C/C++ Build -> Pestaña Tool Settings -> 32-bit AVR/GNU C Compiler -> Directories
+	
+	9- En propiedades del proyecto dentro de C/C++ Build -> Pestaña Tool Settings -> 32-bit AVR/GNU C Linker -> Miscellaneous añadimos los siguientes linker flags:
+	-Wl,--gc-sections -Wl,-e,_trampoline,-section-start=.hsb_ram_loc=0xA0000000 -T../src/SOFTWARE_FRAMEWORK/UTILS/LINKER_SCRIPTS/AT32UC3C/0512C/GCC/link_uc3c0512c.lds
+	
+
+Para poder utilizar el CAN deberemos: 
+
+	1- Habilitar Generic clock GCLK_CANIF
+	
+	2- Habilitar módulo INTC
+	
+	3- Registrar interrupciones 291 (Mob Tx) y 290 (Mob Rx)
+	
+	4- Iniciar móculo CAN en GPIO
+	
+	5- Definir las siguientes constantes en el fichero de configuración del proyecto. En el proyecto de prueba se encuentran en MyCAN_conf.h
+		
+		#define CAN_TX_CHANNEL			0
+		#define CAN_RX_CHANNEL			0
+		#define CAN_TX_EID				1000
+		#define CAN_TX_SID				1
+		#define CAN_TX_EID_MASK			0x3FFFF
+		#define CAN_TX_SID_MASK			0x3FF
+		#define CAN_RX_EID				100
+		#define CAN_RX_SID				1
+		#define CAN_RX_EID_MASK			0x0
+		#define CAN_RX_SID_MASK			0x0
+
+Todos los ficheros y librerias se encuentran en el directorio Diseno/Software de la Tarea SOC_1202_T4120221
+
+El proyecto MyCAN del repositorio ilustra un ejemplo de CAN que además incluye USART.
+	
+	

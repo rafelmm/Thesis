@@ -1,0 +1,5 @@
+function [ouput] = enfoque(I)
+
+%FFT de la image
+IFFT = fft(I);
+modIFFT = abs(IFFT);

@@ -1,0 +1,41 @@
+  Revised: Wednesday, March 28, 2012					
+          Revision: 					
+					
+					
+					
+					
+					
+					
+					
+Bill Of Materials          March 28,2012      17:17:49	Page1				
+					
+Item	Quantity	Reference	Part	Vendor	Vendor PN
+______________________________________________					
+					
+1	1	C1	10uF	Farnell	8823014
+2	2	C2,C5	100uF	Farnell	265951
+3	1	C3	10n	Farnell	1301715
+4	1	C4	1uF	Farnell	1833809
+5	5	C6,C21,C22,C23,C25	100nF	Farnell	1740614
+6	2	C7,C14	22pF	Farnell	1740596
+7	6	C8,C10,C12,C15,C17,C19	2.2uF	Farnell	1657930
+8	6	C9,C11,C13,C16,C18,C20	470pF	Farnell	1740626
+9	1	C24	47uF	Farnell	2065967
+10	1	D1	VS-15MQ040NTRPBF	Farnell	1463215
+11	1	D2	LED RED	Farnell	8554765
+12	1	D3	LED YELLOW	Farnell	8554781
+13	1	D4	LED GREEN	Farnell	8554609
+14	1	F1	NANOSMDC020F	Farnell	1345939
+15	1	J1	POWER+CAN	Farnell	9491929
+16	4	J19,J46,J47,J48	JTAG	Farnell	1022227
+17	1	L1	FILTRO SUPRESSION EMI	Farnell	1686506
+18	1	L1	BLM18HG601SN1D	Farnell	1515733
+19	2	R1,R2	75R	Farnell	1400545
+20	1	R3	75R	Farnell	1670161
+21	2	R4,R5	1K	Farnell	1652851
+22	1	U1	TLV1117_5	RS	661-6244
+23	1	U2	TLV1117_33	RS	660-7975
+24	1	U3	AT32UC3C-TQFP64	Farnell	1972034
+25	1	U4	MCP2551	Farnell	1467746
+26	1	U5	FM25V20	Digi Key	1140-1049-1-ND
+27	1	Y1	CRYSTAL	Farnell	1640900

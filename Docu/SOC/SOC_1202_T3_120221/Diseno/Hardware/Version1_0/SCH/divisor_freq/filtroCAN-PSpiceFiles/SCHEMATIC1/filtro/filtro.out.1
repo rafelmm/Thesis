@@ -1,0 +1,43 @@
+
+**** 07/30/13 11:33:45 ******* PSpice 10.5.0 (Jan 2005) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-filtro"  [ C:\Users\rafel\Documents\Projectes\SOC\SOC_1202_T3_120221\Diseno\Hardware\Version1_0\SCH\divisor_
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "filtro.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\OrCAD\OrCAD_10.5\tools\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.AC LIN 10 1000 100000
+.PROBE V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source FILTROCAN
+C_C1         N00200 N00217  1n  
+C_C2         N00200 N00236  1n  
+L_L1         N00217 N00236  10uH  
+V_V1         N00217 N00200 DC 0Vdc AC 1Vac 
+
+**** RESUMING filtro.cir ****
+.END
+
+ERROR -- Node N00200 is floating
+ERROR -- Node N00217 is floating
+ERROR -- Node N00236 is floating

@@ -368,7 +368,7 @@ status open
 \begin_layout Plain Layout
 Gap to be measured.
  Left: Lower lock bar.
- Right: Upper lock bar
+ Right: Upper lock bar.
 \end_layout
 
 \end_inset
@@ -527,7 +527,7 @@ status open
 
 \begin_layout Plain Layout
 Planning.
- Gantt Chart Summary
+ Gantt Chart Summary.
 \end_layout
 
 \end_inset
@@ -791,7 +791,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Embedded system for image processing
+Embedded system for image processing.
 \end_layout
 
 \end_inset
@@ -1064,15 +1064,373 @@ Tipically the same cable is used to power more than one device so the power
 \end_layout
 
 \begin_layout Itemize
-Finally, all of this has to be done at the minimum manufacturing cost.
+Size constraints.
+ The device has to fit in the interior of the engine housing.
+ There is a protective element which can be used to hang it.
+ Its position is the best for the device because it is just above the region
+ of interest and the vertical distance from the bars to the position of
+ this element is suitable.
+ If we design the device to be hung from this element there is a size constraint.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:visera proteccion"
+
+\end_inset
+
+ shows this element.
+ First of all, we want to device to be as small as possible because it should
+ not interfer with the visual inspection of the gap.
+ Furthermore this device could be used in another kind of engine and the
+ smaller the better to find a suitable position for it.
+ Secondly the space between the protective element and the cover of the
+ engine is about 10 cm.
+ The cover is not fixed to the engine housing so it has some freedom when
+ an operator opens or closes it.
+ If the device is to close to the cover the likelihood of breaking it increases.
+ So we must design it to be at least 2cm away from the cover.
 \end_layout
 
-\begin_layout Itemize
-Size constraints
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename img/protective_element.png
+	width 11cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Protective element where the device can be hung.
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:visera proteccion"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
 Hardware design
+\end_layout
+
+\begin_layout Subsubsection
+Electronics
+\end_layout
+
+\begin_layout Standard
+The most important element of the product is the image sensor and a suitable
+ lens.
+ The key point in the hardware design is that we have to develop a product
+ within the minimum possible time and with the available resources in Thinking
+ Forward XXI.
+ In order to simplify the development, the first option to evaluate is to
+ buy a module which includes the optical sensor and the lens.
+ We have rejected this aproach because we have found that manufacturers
+ like SHARP or TOSHIBA are not interested in selling little quantites of
+ their integrated modules and furthermore almost all available modules in
+ the market have a CCTV output that it is not usefull for our application.
+\end_layout
+
+\begin_layout Standard
+The second option we have evaluated is to use an image sensor with a microcontro
+ller.
+ There are some reasons why we are going to develop this device using this
+ option.
+ First of all, the team in Thinking Forward XXI which is going to design
+ and develop the device has some expertise in developing hardware based
+ on microcontrollers.
+ Secondly, microcontrollers are chepear than FPGA or ASICs.
+ And finally we have a first prototype designed with this approach.
+ In addition, the microcontroller approach has been used by Pauli et al
+ in 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "embedded-CV-measurement"
+
+\end_inset
+
+ so we know in advance that it is a feasible solution.
+\end_layout
+
+\begin_layout Paragraph
+Microcontroller
+\end_layout
+
+\begin_layout Standard
+The microcontroller must have a CAN interface and a Camera interface.
+ The CAN interface is compulsory because the device has to be installed
+ inside the engines.
+ Usually there are free wires from the control point to the engine which
+ are the only way to establish the communication.
+ The new device has to be integrated in a system which uses these wires
+ to make a CAN bus and send information over it.
+ The best choice is to use the same bus to send the engine position, gap
+ measurements and images.
+ The camera interface is also compulsory to connect the microcontroller
+ with the image sensor.
+ The microcontroller we have selected is an ARM Cortex-M4 from ST.
+ More specifically it is the STM32F407 wich goes up to 168MHz.
+\end_layout
+
+\begin_layout Paragraph
+Image sensor
+\end_layout
+
+\begin_layout Standard
+In order to select the image sensor we have to take into account the resolution
+ we want to achieve.
+ The area we have to analyse is more or less a square of 
+\begin_inset Formula $w=12cm$
+\end_inset
+
+ side.
+ The resolution we want to achieve is about 
+\begin_inset Formula $0.25mm$
+\end_inset
+
+ as we have said in 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Design"
+
+\end_inset
+
+.
+ We can compute the minimum resolution of the sensor in pixels to be 
+\begin_inset Formula 
+\[
+min\,res=\frac{120}{0.25}=480px
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Nor the maximum resolution neither the number of channels are important
+ parameters for this application.
+ Although the maximum resolution should be taken into account because it
+ is related to the processing time, it is not a restrictive paramter in
+ this application because usually image sensors can be configured to the
+ desired resolution.
+ Despite the application only requires one channel images (gray level images),
+ color sensors have the same price as gray sensors.
+\end_layout
+
+\begin_layout Standard
+Another important aspect to take into account is the availability of the
+ sensor.
+ After talking with some sensor manufacturers and distributors we have found
+ that the best choice is Aptina.
+ Although you have to sign a non disclousure agreement (NDA), the sensors
+ can be bought in any component provider like RS or Farnell.
+ After signing the NDA Aptina provides usefull datasheets and developer
+ guides that allows you to configure the sensor.
+\end_layout
+
+\begin_layout Standard
+Taking this into account we have requested information about an Aptina and
+ an Omnivision sensor and finally we have selected the MT9M131C12STC sensor
+ from Aptina because the documentation is much better.
+ It is a 1.3Mpx color sensor and it can be configured through an I2C interface
+ which is also available in the selected microcontroller.
+\end_layout
+
+\begin_layout Subsubsection
+Optical element
+\end_layout
+
+\begin_layout Standard
+We are now focusing in the optical element.
+ To select the lens we have to focus on the geometry of the problem.
+ The device is going to be placed aproximately 
+\begin_inset Formula $D=15cm$
+\end_inset
+
+ over the image plane.
+ As we have said previously, the area we have to analyse is more or less
+ a square of 
+\begin_inset Formula $w=12cm$
+\end_inset
+
+ side.
+ With 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:angulo de vision"
+
+\end_inset
+
+ we can compute the angle of view 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ of the lens.
+ 
+\begin_inset Formula 
+\begin{equation}
+\alpha=\arctan\left(\frac{w}{2\times D}\right)\label{eq:angulo de vision}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The range of the angle of view can be defined to cover an area from 
+\begin_inset Formula $w=10cm$
+\end_inset
+
+ to 
+\begin_inset Formula $w=20cm$
+\end_inset
+
+.
+ With this range we have that 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ must be compressed between 
+\begin_inset Formula $20.48\text{º}$
+\end_inset
+
+ and 
+\begin_inset Formula $37.43\text{º}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+The angle of view determines the relation of the image sensor size 
+\begin_inset Formula $d$
+\end_inset
+
+ and the focal length 
+\begin_inset Formula $f$
+\end_inset
+
+ of the optical element with the equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:distancia focal"
+
+\end_inset
+
+.
+ Before computing the required focal length we must know the image sensor
+ size.
+ Usually image sensors have different width and height.
+ We have to take the most restrictive size, wich is the smaller one.
+ 
+\begin_inset Formula 
+\begin{equation}
+\alpha=2\times\arctan\left(\frac{d}{2\times f}\right)\label{eq:distancia focal}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The size of the selected image sensor is 4.6mm x 3.7mm.
+ So we can compute the minimum and maximum focal length to be 
+\begin_inset Formula $5.46mm$
+\end_inset
+
+ and 
+\begin_inset Formula $10.24mm$
+\end_inset
+
+ respectively.
+\end_layout
+
+\begin_layout Standard
+Another parameter we have to take into account is the distance between the
+ image sensor and the optical element.
+ This parameter is also related with the focal lenght of the element with
+ equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:focal respecto distancia"
+
+\end_inset
+
+.
+ This equation relates the focal lenght 
+\begin_inset Formula $f$
+\end_inset
+
+, the distance between the optical element and the sensor 
+\begin_inset Formula $S_{1}$
+\end_inset
+
+ and the distance between the lens and the focused object 
+\begin_inset Formula $S_{2}$
+\end_inset
+
+.
+ 
+\begin_inset Formula 
+\begin{equation}
+\frac{1}{f}=\frac{1}{S_{1}}-\frac{1}{S_{2}}\label{eq:focal respecto distancia}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Due to the limitation in the size of the device we do not want the lens
+ to be far away from the sensor.
+ If we take that the maximum allowed distance between the sensor and the
+ lens is 
+\begin_inset Formula $S_{1}=10mm$
+\end_inset
+
+ then the maximum focal length will be 
+\begin_inset Formula $f=10.71mm$
+\end_inset
+
+.
+ This parameter does not affect to the design because it is outside the
+ range we have computed previously.
+\end_layout
+
+\begin_layout Subsubsection
+Housing
 \end_layout
 
 \begin_layout Subsection

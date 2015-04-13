@@ -1,0 +1,137 @@
+(ExpressProject "divisor"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File
+         "z:\electronica\orcad\llibreria_capture\ci digital\tf_biestables.olb"
+        (Type "Schematic Library"))
+      (File
+         "Z:\Electronica\Orcad\Llibreria_Capture\CI Digital\TF_COMPTADOR.OLB"
+        (Type "Schematic Library"))
+      (File
+         "Z:\Electronica\Orcad\Llibreria_Capture\CI Digital\TF_RESISTENCIA.OLB"
+        (Type "Schematic Library"))
+      (File "Z:\Electronica\Orcad\Llibreria_Capture\Transistor\TF_BJT_NPN.OLB"
+        (Type "Schematic Library"))
+      (File
+         "Z:\Electronica\Orcad\Llibreria_Capture\Condensador\TF_CONDENSADOR.OLB"
+        (Type "Schematic Library"))
+      (File
+         "c:\users\rafel\documents\orcablib\llibreries\capture\llibreriamarc.olb"
+        (Type "Schematic Library"))
+      (File "Z:\Electronica\Orcad\Llibreria_Capture\CONNECTOR\TF_PIN.OLB"
+        (Type "Schematic Library"))
+      (File
+         "z:\electronica\orcad\llibreria_capture\resistencia\tf_resistencia.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\divisor.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File
+       "C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\SOC_1202_T3_120221\DISENO\HARDWARE\VERSION1_0\SCH\DIVISOR_FREQ\DIVISOR.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0
+       "{Item}\t{Quantity}\t{Reference}\t{Value}\t{Vendor}\t{Vendor PN}")
+    (BOM_Header "Item\tQuantity\tReference\tPart\tVendor\tVendor PN")
+    (BOM_Include_File
+       "C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\SOC_1202_T3_120221\DISENO\HARDWARE\VERSION1_0\SCH\DIVISOR_FREQ\DIVISOR.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "TRUE")
+    (BOM_View_Output "FALSE"))
+  (Folder "Outputs"
+    (File ".\divisor.bom"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (GND
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (J_2x5_PINES_254_VERTICAL
+      (FullPartName "J_2x5_PINES_254_VERTICAL.Normal")
+      (LibraryName
+         "Z:\ELECTRONICA\ORCAD\LLIBRERIA_CAPTURE\CONNECTOR\TF_PIN.OLB")
+      (DeviceIndex "0"))
+    (C_100n_50V_np_THDradial
+      (FullPartName "C_100n_50V_np_THDradial.Normal")
+      (LibraryName
+         "Z:\ELECTRONICA\ORCAD\LLIBRERIA_CAPTURE\CONDENSADOR\TF_CONDENSADOR.OLB")
+      (DeviceIndex "0"))
+    (R_8k2_AXIAL
+      (FullPartName "R_8k2_AXIAL.Normal")
+      (LibraryName
+         "Z:\ELECTRONICA\ORCAD\LLIBRERIA_CAPTURE\RESISTENCIA\TF_RESISTENCIA.OLB")
+      (DeviceIndex "0"))
+    (R_330_AXIAL
+      (FullPartName "R_330_AXIAL.Normal")
+      (LibraryName
+         "Z:\ELECTRONICA\ORCAD\LLIBRERIA_CAPTURE\RESISTENCIA\TF_RESISTENCIA.OLB")
+      (DeviceIndex "0"))
+    (BC547_TO92
+      (FullPartName "BC547_TO92.Normal")
+      (LibraryName
+         "Z:\ELECTRONICA\ORCAD\LLIBRERIA_CAPTURE\TRANSISTOR\BJT_NPN.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (BC547
+      (FullPartName "BC547.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
+      (DeviceIndex "0"))
+    (PORTLEFT-R
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTLEFT-L
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VCC
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (DM74ALS273N_DIP20
+      (FullPartName "DM74ALS273N_DIP20.Normal")
+      (LibraryName
+         "Z:\ELECTRONICA\ORCAD\LLIBRERIA_CAPTURE\CI DIGITAL\TF_BIESTABLES.OLB")
+      (DeviceIndex "0"))
+    (74HC4520_DIP16
+      (FullPartName "74HC4520_DIP16.Normal")
+      (LibraryName
+         "Z:\ELECTRONICA\ORCAD\LLIBRERIA_CAPTURE\CI DIGITAL\TF_COMPTADOR.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory
+     "Z:\Electronica\Orcad\Llibreria_Capture\CONNECTOR")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\Users\rafel\Documents\Projectes\SOC\SOC_1202_T3_120221\Diseno\Hardware\Version1_0\SCH\divisor_freq\divisor.dsn")
+      (Path "Design Resources"
+         "C:\Users\rafel\Documents\Projectes\SOC\SOC_1202_T3_120221\Diseno\Hardware\Version1_0\SCH\divisor_freq\divisor.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Path "Outputs"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 995 1563 -9 816"))
+      (Tab 0))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 0 914 -1 -1 200 1816 200 841")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "2551 924")
+        (Zoom "428"))
+      (Path
+         "Z:\ELECTRONICA\ORCAD\LLIBRERIA_CAPTURE\CI DIGITAL\TF_BIESTABLES.OLB")
+      (Package "74AC377MTC_TSSOP20")))
+  (MPSSessionName "rafel"))

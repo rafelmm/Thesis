@@ -1,0 +1,24 @@
+AutoECO Report
+FILE-A: C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD.MAX
+FILE-B: C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\NETLIST\CAMERABOARD.MNL
+If "*EOF*" immediately follows, no changes were made
+Adding package HEADER_4
+Adding component JP1
+Found footprint CON_JST 4 WAY from PRT file for part HEADER_4, comp JP1
+Deleting J45.1 from net LED1_ANODE
+Deleting J45.3 from net LED1_ANODE
+Adding JP1.3 to net LED1_ANODE
+Adding JP1.1 to net LED1_ANODE
+Deleting J45.2 from net LED1_CATODE
+Adding JP1.2 to net LED1_CATODE
+Deleting J45.4 from net LED2_CATODE
+Adding JP1.4 to net LED2_CATODE
+Deleting component J45
+Deleting component 56
+Deleting component 55
+Deleting component 54
+Deleting component 53
+Deleting component 52
+Deleting net VG_33
+*EOF*
+No errors found

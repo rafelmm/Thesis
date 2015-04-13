@@ -1,0 +1,99 @@
+AutoECO Report
+FILE-A: C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-1.MAX
+FILE-B: C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\NETLIST\CAMERABOARD.MNL
+If "*EOF*" immediately follows, no changes were made
+Adding component U6
+Deleting U2.45 from net CMOS_EXTCLK
+Adding U6.45 to net CMOS_EXTCLK
+Deleting U2.20 from net CMOS_FV
+Adding U6.20 to net CMOS_FV
+Deleting U2.21 from net CMOS_LV
+Adding U6.21 to net CMOS_LV
+Deleting U2.48 from net CMOS_PIXCLK
+Adding U6.48 to net CMOS_PIXCLK
+Deleting U2.22 from net CMOS_RESET
+Adding U6.22 to net CMOS_RESET
+Deleting U2.44 from net CMOS_SCLK
+Adding U6.44 to net CMOS_SCLK
+Deleting U2.39 from net CMOS_SDATA
+Adding U6.39 to net CMOS_SDATA
+Deleting U2.25 from net CMOS_STANDBY
+Adding U6.25 to net CMOS_STANDBY
+Deleting U2.27 from net CMOS_STROBE
+Adding U6.27 to net CMOS_STROBE
+Deleting U2.3 from net DOUT0
+Adding U6.3 to net DOUT0
+Deleting U2.4 from net DOUT1
+Adding U6.4 to net DOUT1
+Deleting U2.5 from net DOUT2
+Adding U6.5 to net DOUT2
+Deleting U2.6 from net DOUT3
+Adding U6.6 to net DOUT3
+Deleting U2.9 from net DOUT4
+Adding U6.9 to net DOUT4
+Deleting U2.10 from net DOUT5
+Adding U6.10 to net DOUT5
+Deleting U2.11 from net DOUT6
+Adding U6.11 to net DOUT6
+Deleting U2.12 from net DOUT7
+Adding U6.12 to net DOUT7
+Deleting U2.1 from net GND
+Deleting U2.46 from net GND
+Deleting U2.26 from net GND
+Deleting U2.23 from net GND
+Deleting U2.19 from net GND
+Deleting U2.40 from net GND
+Deleting U2.38 from net GND
+Deleting U2.36 from net GND
+Deleting U2.34 from net GND
+Deleting U2.33 from net GND
+Deleting U2.17 from net GND
+Deleting U2.13 from net GND
+Deleting U2.7 from net GND
+Deleting U2.28 from net GND
+Adding U6.26 to net GND
+Adding U6.38 to net GND
+Adding U6.1 to net GND
+Adding U6.33 to net GND
+Adding U6.23 to net GND
+Adding U6.28 to net GND
+Adding U6.40 to net GND
+Adding U6.36 to net GND
+Adding U6.13 to net GND
+Adding U6.7 to net GND
+Adding U6.17 to net GND
+Adding U6.46 to net GND
+Adding U6.34 to net GND
+Adding U6.19 to net GND
+Deleting U2.37 from net VDD_CMOS
+Deleting U2.32 from net VDD_CMOS
+Deleting U2.35 from net VDD_CMOS
+Deleting U2.18 from net VDD_CMOS
+Deleting U2.41 from net VDD_CMOS
+Deleting U2.47 from net VDD_CMOS
+Deleting U2.29 from net VDD_CMOS
+Deleting U2.31 from net VDD_CMOS
+Deleting U2.24 from net VDD_CMOS
+Deleting U2.14 from net VDD_CMOS
+Deleting U2.2 from net VDD_CMOS
+Deleting U2.8 from net VDD_CMOS
+Adding U6.35 to net VDD_CMOS
+Adding U6.32 to net VDD_CMOS
+Adding U6.31 to net VDD_CMOS
+Adding U6.37 to net VDD_CMOS
+Adding U6.2 to net VDD_CMOS
+Adding U6.18 to net VDD_CMOS
+Adding U6.8 to net VDD_CMOS
+Adding U6.41 to net VDD_CMOS
+Adding U6.29 to net VDD_CMOS
+Adding U6.47 to net VDD_CMOS
+Adding U6.14 to net VDD_CMOS
+Adding U6.24 to net VDD_CMOS
+Deleting component U2
+Deleting component 56
+Deleting component 55
+Deleting component 54
+Deleting component 53
+Deleting component 52
+*EOF*
+No errors found

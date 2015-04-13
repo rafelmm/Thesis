@@ -1,0 +1,29 @@
+AutoECO Report
+FILE-A: C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-3.MAX
+FILE-B: C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\NETLIST\CAMERABOARD.MNL
+If "*EOF*" immediately follows, no changes were made
+Deleting C17.1 from net GND
+Deleting C11.1 from net GND
+Deleting C22.1 from net GND
+Deleting C21.1 from net GND
+Deleting C12.1 from net GND
+Deleting C18.1 from net GND
+Deleting C22.2 from net VDD_CMOS
+Deleting C12.2 from net VDD_CMOS
+Deleting C11.2 from net VDD_CMOS
+Deleting C18.2 from net VDD_CMOS
+Deleting C17.2 from net VDD_CMOS
+Deleting C21.2 from net VDD_CMOS
+Deleting component C22
+Deleting component C21
+Deleting component C18
+Deleting component C17
+Deleting component C12
+Deleting component C11
+Deleting component 56
+Deleting component 55
+Deleting component 54
+Deleting component 53
+Deleting component 52
+*EOF*
+No errors found

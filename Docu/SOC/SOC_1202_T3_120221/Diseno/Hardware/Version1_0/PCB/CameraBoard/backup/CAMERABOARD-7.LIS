@@ -1,0 +1,15 @@
+AutoECO Report
+FILE-A: C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD.MAX
+FILE-B: C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\NETLIST\CAMERABOARD.MNL
+If "*EOF*" immediately follows, no changes were made
+Adding net CMOS_MCU_RESET
+Deleting U5.12 from net GND
+Adding J44.10 to net CMOS_MCU_RESET
+Adding U5.12 to net CMOS_MCU_RESET
+Deleting component 47
+Deleting component 46
+Deleting component 45
+Deleting component 44
+Deleting component 42
+*EOF*
+No errors found

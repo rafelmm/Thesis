@@ -1,0 +1,70 @@
+(ExpressProject "clock_divisor"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "Z:\Electronica\Orcad\Llibreria_Capture\CI Digital\TF_PORTES.OLB"
+        (Type "Schematic Library"))
+      (File
+         "Z:\Electronica\Orcad\Llibreria_Capture\CI Digital\TF_BIESTABLES.OLB"
+        (Type "Schematic Library"))
+      (File "Z:\Electronica\Orcad\Llibreria_Capture\CONNECTOR\TF_JST.OLB"
+        (Type "Schematic Library"))
+      (File
+         "c:\users\rafel\documents\orcablib\llibreries\capture\llibreriamarc.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\clock_divisor.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (PORTRIGHT-L
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTLEFT-L
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VCC
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (J_4_JST_200_THD_HORIZONTAL
+      (FullPartName "J_4_JST_200_THD_HORIZONTAL.Normal")
+      (LibraryName
+         "Z:\ELECTRONICA\ORCAD\LLIBRERIA_CAPTURE\CONNECTOR\TF_JST.OLB")
+      (DeviceIndex "0"))
+    (JK_DIP16
+      (FullPartName "JK_DIP16.Normal")
+      (LibraryName
+         "Z:\ELECTRONICA\ORCAD\LLIBRERIA_CAPTURE\CI DIGITAL\TF_BIESTABLES.OLB")
+      (DeviceIndex "0"))
+    (74HC02_DIP14
+      (FullPartName "74HC02_DIP14.Normal")
+      (LibraryName
+         "Z:\ELECTRONICA\ORCAD\LLIBRERIA_CAPTURE\CI DIGITAL\TF_PORTES.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\Users\rafel\Documents\Projectes\SOC\SOC_1202_T3_120221\Diseno\Hardware\Version1_0\SCH\clock_divisor.dsn")
+      (Path "Design Resources"
+         "C:\Users\rafel\Documents\Projectes\SOC\SOC_1202_T3_120221\Diseno\Hardware\Version1_0\SCH\clock_divisor.dsn"
+         "SCHEMATIC1")
+      (Select "Design Resources"
+         "C:\Users\rafel\Documents\Projectes\SOC\SOC_1202_T3_120221\Diseno\Hardware\Version1_0\SCH\clock_divisor.dsn"
+         "SCHEMATIC1" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 502 1224 -3 868"))
+      (Tab 0)))
+  (LastUsedLibraryBrowseDirectory
+     "Z:\Electronica\Orcad\Llibreria_Capture\CONNECTOR")
+  (MPSSessionName "rafel"))

@@ -1,0 +1,2410 @@
+Wed Mar 21 12:30:38 Log file reset
+Wed Mar 21 12:30:38 Loaded file BACKUP0.MAX
+Wed Mar 21 12:30:39 No new connections routed.
+Wed Mar 21 12:30:39 Total is now 121 out of 144 (84%).
+Wed Mar 21 12:30:39 Saved as file SWEEP1.MAX
+Wed Mar 21 12:30:47 Saved as file BACKUP1.MAX
+Wed Mar 21 12:30:47 Routed 4 connections in 8 seconds.
+Wed Mar 21 12:30:47 Total is now 125 out of 144 (86%).
+Wed Mar 21 12:30:47 Saved as file SWEEP2.MAX
+Wed Mar 21 12:31:04 No new connections routed.
+Wed Mar 21 12:31:04 Total is now 125 out of 144 (86%).
+Wed Mar 21 12:31:04 Saved as file SWEEP3.MAX
+Wed Mar 21 12:32:29 Routed 2 connections in 84 seconds.
+Wed Mar 21 12:32:29 Total is now 126 out of 144 (87%).
+Wed Mar 21 12:32:29 Saved as file SWEEP4.MAX
+Wed Mar 21 12:34:02 Routed 4 connections in 92 seconds.
+Wed Mar 21 12:34:02 Total is now 130 out of 144 (90%).
+Wed Mar 21 12:34:02 Saved as file SWEEP5.MAX
+Wed Mar 21 12:42:39 Saved as file BACKUP1.MAX
+Wed Mar 21 12:54:26 Saved as file BACKUP1.MAX
+Wed Mar 21 12:55:53 Saved as file ~undo.max
+Wed Mar 21 12:55:55 Saved as file ~undo.max
+Wed Mar 21 12:55:58 Saved as file ~undo.max
+Wed Mar 21 12:56:01 Saved as file ~undo.max
+Wed Mar 21 12:56:06 Saved as file ~undo.max
+Wed Mar 21 12:56:08 Saved as file ~undo.max
+Wed Mar 21 12:57:05 Saved as file ~undo.max
+Wed Mar 21 12:57:09 Saved as file ~undo.max
+Wed Mar 21 12:57:11 Saved as file ~undo.max
+Wed Mar 21 12:57:42 Saved as file ~undo.max
+Wed Mar 21 12:57:46 Saved as file ~undo.max
+Wed Mar 21 12:57:51 Saved as file ~undo.max
+Wed Mar 21 13:02:04 Saved as file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-1.MAX
+Thu Mar 22 08:46:33 Saved as file BACKUP1.MAX
+Thu Mar 22 08:47:02 Saved as file ~undo.max
+Thu Mar 22 08:47:07 Saved as file ~undo.max
+Thu Mar 22 08:47:16 Saved as file ~undo.max
+Thu Mar 22 08:47:33 Saved as file ~undo.max
+Thu Mar 22 08:47:39 Saved as file ~undo.max
+Thu Mar 22 08:47:44 Saved as file ~undo.max
+Thu Mar 22 08:47:54 Saved as file ~undo.max
+Thu Mar 22 08:48:08 Saved as file ~undo.max
+Thu Mar 22 08:48:11 Saved as file ~undo.max
+Thu Mar 22 08:48:13 Saved as file ~undo.max
+Thu Mar 22 08:48:17 Saved as file ~undo.max
+Thu Mar 22 08:48:20 Saved as file ~undo.max
+Thu Mar 22 08:48:27 Saved as file ~undo.max
+Thu Mar 22 08:48:35 Saved as file ~undo.max
+Thu Mar 22 08:57:04 Saved as file BACKUP1.MAX
+Thu Mar 22 09:00:30 Saved as file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD.MAX
+Thu Mar 22 09:01:22 Saved as file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD.MAX
+Thu Mar 22 09:11:43 Saved as file ~undo.max
+Thu Mar 22 09:11:46 Saved as file ~undo.max
+Thu Mar 22 09:11:57 Saved as file BACKUP1.MAX
+Thu Mar 22 09:12:08 Saved as file ~undo.max
+Thu Mar 22 09:12:26 Saved as file ~undo.max
+Thu Mar 22 09:13:05 Saved as file ~undo.max
+Thu Mar 22 09:13:22 Saved as file ~undo.max
+Thu Mar 22 09:21:57 Saved as file BACKUP1.MAX
+Thu Mar 22 09:22:58 Saved as file BACKUP1.MAX
+Thu Mar 22 09:22:58 Saved as file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD.MAX
+Thu Mar 22 09:23:10 UserDiv from Layout.INI for AutoECO: 60
+Thu Mar 22 09:23:10 Loaded file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD.MAX
+Thu Mar 22 09:23:10 Loaded file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Thu Mar 22 09:23:10 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT\LIBRARY\TFXXI.LLB
+Thu Mar 22 09:23:10 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT\LIBRARY\LLIBRERIAMARC.LLB
+Thu Mar 22 09:23:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BCON100T.llb
+Thu Mar 22 09:23:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BCON156T.llb
+Thu Mar 22 09:23:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BGA.llb
+Thu Mar 22 09:23:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\CLCC.llb
+Thu Mar 22 09:23:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON050T.llb
+Thu Mar 22 09:23:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON085T.llb
+Thu Mar 22 09:23:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIMM050F.llb
+Thu Mar 22 09:23:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIMM050T.llb
+Thu Mar 22 09:23:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIN.llb
+Thu Mar 22 09:23:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIP100B.llb
+Thu Mar 22 09:23:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIP100T.llb
+Thu Mar 22 09:23:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DSUBT.llb
+Thu Mar 22 09:23:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DSUBT_HD.LLB
+Thu Mar 22 09:23:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ECON100T.llb
+Thu Mar 22 09:23:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\FBUS.llb
+Thu Mar 22 09:23:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ISA.llb
+Thu Mar 22 09:23:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\JUMPER.LLB
+Thu Mar 22 09:23:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LAYOUT.llb
+Thu Mar 22 09:23:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LCON100T.llb
+Thu Mar 22 09:23:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PC104.llb
+Thu Mar 22 09:23:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCI.llb
+Thu Mar 22 09:23:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCON100T.llb
+Thu Mar 22 09:23:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCON156T.llb
+Thu Mar 22 09:23:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PGA.llb
+Thu Mar 22 09:23:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PLCC.llb
+Thu Mar 22 09:23:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\QUAD.llb
+Thu Mar 22 09:23:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\QUADB.llb
+Thu Mar 22 09:23:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\RELAY.llb
+Thu Mar 22 09:23:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\RF.llb
+Thu Mar 22 09:23:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SBUS.llb
+Thu Mar 22 09:23:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050F.llb
+Thu Mar 22 09:23:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050T.llb
+Thu Mar 22 09:23:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100F.llb
+Thu Mar 22 09:23:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100T.llb
+Thu Mar 22 09:23:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIP.llb
+Thu Mar 22 09:23:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SM.llb
+Thu Mar 22 09:23:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SOG.llb
+Thu Mar 22 09:23:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SOJ.llb
+Thu Mar 22 09:23:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\STIFF.llb
+Thu Mar 22 09:23:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TELE.llb
+Thu Mar 22 09:23:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_AXIAL.llb
+Thu Mar 22 09:23:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_CAP_P.llb
+Thu Mar 22 09:23:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_CYLND.llb
+Thu Mar 22 09:23:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_DIODE.llb
+Thu Mar 22 09:23:11 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_DISC.llb
+Thu Mar 22 09:23:11 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_RAD.llb
+Thu Mar 22 09:23:11 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TO.llb
+Thu Mar 22 09:23:11 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TRAINING.LLB
+Thu Mar 22 09:23:11 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\VRES.llb
+Thu Mar 22 09:23:11 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\WCON100T.llb
+Thu Mar 22 09:23:11 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\XT.llb
+Thu Mar 22 09:23:11 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ZIGZAG.llb
+Thu Mar 22 09:23:11 Loaded file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Thu Mar 22 09:23:11 Footprint coords will be rounded to nearest base unit.
+Thu Mar 22 09:23:11 Footprint coords will be rounded to nearest base unit.
+Thu Mar 22 09:23:11 Footprint coords will be rounded to nearest base unit.
+Thu Mar 22 09:23:11 Footprint coords will be rounded to nearest base unit.
+Thu Mar 22 09:23:11 Footprint coords will be rounded to nearest base unit.
+Thu Mar 22 09:23:11 Footprint coords will be rounded to nearest base unit.
+Thu Mar 22 09:23:11 Footprint coords will be rounded to nearest base unit.
+Thu Mar 22 09:23:12 Saved as file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-1.MAX
+Thu Mar 22 09:23:12 Loaded file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-1.MAX
+Thu Mar 22 09:25:17 Saved as file ~undo.max
+Thu Mar 22 09:25:25 Saved as file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-1.MAX
+Thu Mar 22 09:26:45 Saved as file ~undo.max
+Thu Mar 22 09:26:51 Saved as file ~undo.max
+Thu Mar 22 09:27:02 Saved as file ~undo.max
+Thu Mar 22 09:27:06 Saved as file ~undo.max
+Thu Mar 22 09:27:07 Saved as file ~undo.max
+Thu Mar 22 09:27:09 Saved as file ~undo.max
+Thu Mar 22 09:27:13 Saved as file ~undo.max
+Thu Mar 22 09:27:17 Saved as file ~undo.max
+Thu Mar 22 09:27:20 Saved as file ~undo.max
+Thu Mar 22 09:27:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Thu Mar 22 09:27:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Thu Mar 22 09:27:52 Footprint coords will be rounded to nearest base unit.
+Thu Mar 22 09:27:52 Footprint coords will be rounded to nearest base unit.
+Thu Mar 22 09:27:52 Footprint coords will be rounded to nearest base unit.
+Thu Mar 22 09:27:52 Footprint coords will be rounded to nearest base unit.
+Thu Mar 22 09:27:52 Footprint coords will be rounded to nearest base unit.
+Thu Mar 22 09:27:52 Footprint coords will be rounded to nearest base unit.
+Thu Mar 22 09:27:52 Footprint coords will be rounded to nearest base unit.
+Thu Mar 22 09:27:52 Footprint coords will be rounded to nearest base unit.
+Thu Mar 22 09:27:52 Footprint coords will be rounded to nearest base unit.
+Thu Mar 22 09:27:52 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Thu Mar 22 09:27:58 Saved as file ~undo.max
+Thu Mar 22 09:28:13 Saved as file ~undo.max
+Thu Mar 22 09:28:20 Saved as file ~undo.max
+Thu Mar 22 09:28:21 Saved as file ~undo.max
+Thu Mar 22 09:28:24 Saved as file ~undo.max
+Thu Mar 22 09:28:26 Saved as file ~undo.max
+Thu Mar 22 09:28:32 Saved as file ~undo.max
+Thu Mar 22 09:28:34 Saved as file ~undo.max
+Thu Mar 22 09:28:36 Saved as file ~undo.max
+Thu Mar 22 09:28:41 Saved as file ~undo.max
+Thu Mar 22 09:28:48 Saved as file ~undo.max
+Thu Mar 22 09:28:52 Saved as file ~undo.max
+Thu Mar 22 09:28:57 Saved as file ~undo.max
+Thu Mar 22 09:29:01 Saved as file ~undo.max
+Thu Mar 22 09:29:03 Saved as file ~undo.max
+Thu Mar 22 09:29:07 Saved as file ~undo.max
+Thu Mar 22 09:29:14 Saved as file ~undo.max
+Thu Mar 22 09:29:17 Saved as file ~undo.max
+Thu Mar 22 09:29:22 Saved as file ~undo.max
+Thu Mar 22 09:29:26 Saved as file ~undo.max
+Thu Mar 22 09:29:29 Saved as file ~undo.max
+Thu Mar 22 09:29:32 Saved as file ~undo.max
+Thu Mar 22 09:29:42 Saved as file ~undo.max
+Thu Mar 22 09:29:44 Saved as file ~undo.max
+Thu Mar 22 09:31:31 Saved as file ~undo.max
+Thu Mar 22 09:31:52 Saved as file ~undo.max
+Thu Mar 22 09:31:56 Saved as file ~undo.max
+Thu Mar 22 09:32:09 Saved as file ~undo.max
+Thu Mar 22 09:32:10 Saved as file ~undo.max
+Thu Mar 22 09:32:15 Saved as file ~undo.max
+Thu Mar 22 09:32:17 Saved as file ~undo.max
+Thu Mar 22 09:32:24 Saved as file ~undo.max
+Thu Mar 22 09:32:32 Saved as file ~undo.max
+Thu Mar 22 09:32:36 Saved as file ~undo.max
+Thu Mar 22 09:32:38 Saved as file ~undo.max
+Thu Mar 22 09:32:41 Saved as file ~undo.max
+Thu Mar 22 09:32:43 Saved as file ~undo.max
+Thu Mar 22 09:32:47 Saved as file ~undo.max
+Thu Mar 22 09:32:48 Saved as file ~undo.max
+Thu Mar 22 09:33:28 Saved as file BACKUP1.MAX
+Thu Mar 22 09:33:32 Saved as file ~undo.max
+Thu Mar 22 09:33:40 Saved as file ~undo.max
+Thu Mar 22 09:34:09 Saved as file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-1.MAX
+Thu Mar 22 09:43:28 Saved as file BACKUP1.MAX
+Thu Mar 22 09:53:28 Saved as file BACKUP1.MAX
+Thu Mar 22 10:03:29 Saved as file BACKUP1.MAX
+Thu Mar 22 10:13:29 Saved as file BACKUP1.MAX
+Thu Mar 22 10:14:35 Saved as file ~undo.max
+Thu Mar 22 10:14:46 Saved as file ~undo.max
+Thu Mar 22 10:14:54 Saved as file ~undo.max
+Thu Mar 22 10:15:04 Saved as file ~undo.max
+Thu Mar 22 10:15:13 Saved as file ~undo.max
+Thu Mar 22 10:15:25 Saved as file ~undo.max
+Thu Mar 22 10:15:33 Saved as file ~undo.max
+Thu Mar 22 10:15:38 Saved as file ~undo.max
+Thu Mar 22 10:15:42 Saved as file ~undo.max
+Thu Mar 22 10:16:10 Saved as file ~undo.max
+Thu Mar 22 10:16:14 Saved as file ~undo.max
+Thu Mar 22 10:16:19 Saved as file ~undo.max
+Thu Mar 22 10:16:30 Saved as file ~undo.max
+Thu Mar 22 10:16:32 Saved as file ~undo.max
+Thu Mar 22 10:16:38 Saved as file ~undo.max
+Thu Mar 22 10:16:46 Saved as file ~undo.max
+Thu Mar 22 10:16:52 Saved as file ~undo.max
+Thu Mar 22 10:16:54 Saved as file ~undo.max
+Thu Mar 22 10:16:56 Saved as file ~undo.max
+Thu Mar 22 10:17:01 Saved as file ~undo.max
+Thu Mar 22 10:17:03 Saved as file ~undo.max
+Thu Mar 22 10:17:05 Saved as file ~undo.max
+Thu Mar 22 10:17:06 Saved as file ~undo.max
+Thu Mar 22 10:17:10 Saved as file ~undo.max
+Thu Mar 22 10:17:12 Saved as file ~undo.max
+Thu Mar 22 10:17:14 Saved as file ~undo.max
+Thu Mar 22 10:17:16 Saved as file ~undo.max
+Thu Mar 22 10:17:18 Saved as file ~undo.max
+Thu Mar 22 10:17:21 Saved as file ~undo.max
+Thu Mar 22 10:17:23 Saved as file ~undo.max
+Thu Mar 22 10:17:57 Saved as file ~undo.max
+Thu Mar 22 10:18:03 Saved as file ~undo.max
+Thu Mar 22 10:18:10 Saved as file ~undo.max
+Thu Mar 22 10:18:13 Saved as file ~undo.max
+Thu Mar 22 10:18:14 Saved as file ~undo.max
+Thu Mar 22 10:18:16 Saved as file ~undo.max
+Thu Mar 22 10:18:20 Saved as file ~undo.max
+Thu Mar 22 10:18:23 Saved as file ~undo.max
+Thu Mar 22 10:18:25 Saved as file ~undo.max
+Thu Mar 22 10:18:34 Saved as file ~undo.max
+Thu Mar 22 10:18:37 Saved as file ~undo.max
+Thu Mar 22 10:18:42 Saved as file ~undo.max
+Thu Mar 22 10:18:48 Saved as file ~undo.max
+Thu Mar 22 10:18:50 Saved as file ~undo.max
+Thu Mar 22 10:19:00 Saved as file ~undo.max
+Thu Mar 22 10:20:25 Saved as file ~undo.max
+Thu Mar 22 10:20:27 Saved as file ~undo.max
+Thu Mar 22 10:20:33 Saved as file ~undo.max
+Thu Mar 22 10:20:53 Saved as file ~undo.max
+Thu Mar 22 10:21:15 Saved as file ~undo.max
+Thu Mar 22 10:23:29 Saved as file BACKUP1.MAX
+Thu Mar 22 10:26:00 Saved as file ~undo.max
+Thu Mar 22 10:30:13 Saved as file ~undo.max
+Thu Mar 22 10:32:28 Saved as file ~undo.max
+Thu Mar 22 10:33:04 Saved as file ~undo.max
+Thu Mar 22 10:33:17 Saved as file ~undo.max
+Thu Mar 22 10:33:54 Saved as file ~undo.max
+Thu Mar 22 10:33:59 Saved as file ~undo.max
+Thu Mar 22 10:34:29 Saved as file BACKUP1.MAX
+Thu Mar 22 10:35:21 Saved as file ~undo.max
+Thu Mar 22 10:35:29 Saved as file ~undo.max
+Thu Mar 22 10:35:30 Saved as file ~undo.max
+Thu Mar 22 10:35:33 Saved as file ~undo.max
+Thu Mar 22 10:35:35 Saved as file ~undo.max
+Thu Mar 22 10:35:39 Saved as file ~undo.max
+Thu Mar 22 10:35:41 Saved as file ~undo.max
+Thu Mar 22 10:35:44 Saved as file ~undo.max
+Thu Mar 22 10:35:47 Saved as file ~undo.max
+Thu Mar 22 10:35:51 Saved as file ~undo.max
+Thu Mar 22 10:36:45 Saved as file ~undo.max
+Thu Mar 22 10:36:48 Saved as file ~undo.max
+Thu Mar 22 10:36:50 Saved as file ~undo.max
+Thu Mar 22 10:36:52 Saved as file ~undo.max
+Thu Mar 22 10:37:05 Saved as file ~undo.max
+Thu Mar 22 10:37:07 Saved as file ~undo.max
+Thu Mar 22 10:37:11 Saved as file ~undo.max
+Thu Mar 22 10:37:12 Saved as file ~undo.max
+Thu Mar 22 10:37:14 Saved as file ~undo.max
+Thu Mar 22 10:37:15 Saved as file ~undo.max
+Thu Mar 22 10:37:16 Saved as file ~undo.max
+Thu Mar 22 10:37:54 Saved as file ~undo.max
+Thu Mar 22 10:37:55 Saved as file ~undo.max
+Thu Mar 22 10:37:59 Saved as file ~undo.max
+Thu Mar 22 10:38:00 Saved as file ~undo.max
+Thu Mar 22 10:38:02 Saved as file ~undo.max
+Thu Mar 22 10:38:18 Saved as file ~undo.max
+Thu Mar 22 10:41:04 Saved as file ~undo.max
+Thu Mar 22 10:41:09 Saved as file ~undo.max
+Thu Mar 22 10:45:20 Saved as file ~undo.max
+Thu Mar 22 10:45:24 Saved as file ~undo.max
+Thu Mar 22 10:45:26 Saved as file ~undo.max
+Thu Mar 22 10:45:27 Saved as file ~undo.max
+Thu Mar 22 10:45:29 Saved as file ~undo.max
+Thu Mar 22 10:45:37 Saved as file ~undo.max
+Thu Mar 22 10:45:41 Saved as file ~undo.max
+Thu Mar 22 10:45:45 Saved as file ~undo.max
+Thu Mar 22 10:45:55 Saved as file ~undo.max
+Thu Mar 22 10:46:03 Saved as file ~undo.max
+Thu Mar 22 10:46:05 Saved as file ~undo.max
+Thu Mar 22 10:46:14 Saved as file ~undo.max
+Thu Mar 22 10:46:22 Saved as file ~undo.max
+Thu Mar 22 10:46:26 Saved as file ~undo.max
+Thu Mar 22 10:46:30 Saved as file BACKUP1.MAX
+Thu Mar 22 10:46:39 Saved as file ~undo.max
+Thu Mar 22 10:46:45 Saved as file ~undo.max
+Thu Mar 22 10:46:49 Saved as file ~undo.max
+Thu Mar 22 10:46:51 Saved as file ~undo.max
+Thu Mar 22 10:46:53 Saved as file ~undo.max
+Thu Mar 22 10:46:56 Saved as file ~undo.max
+Thu Mar 22 10:48:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Thu Mar 22 10:48:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Thu Mar 22 10:48:21 Loaded file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Thu Mar 22 10:48:26 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Thu Mar 22 10:48:30 Footprint coords will be rounded to nearest base unit.
+Thu Mar 22 10:48:30 Footprint coords will be rounded to nearest base unit.
+Thu Mar 22 10:48:30 Footprint coords will be rounded to nearest base unit.
+Thu Mar 22 10:48:30 Footprint coords will be rounded to nearest base unit.
+Thu Mar 22 10:48:30 Footprint coords will be rounded to nearest base unit.
+Thu Mar 22 10:48:30 Footprint coords will be rounded to nearest base unit.
+Thu Mar 22 10:49:21 Saved as file ~undo.max
+Thu Mar 22 10:51:16 Saved as file ~undo.max
+Thu Mar 22 10:51:42 Saved as file ~undo.max
+Thu Mar 22 10:52:51 Saved as file ~undo.max
+Thu Mar 22 10:53:26 Saved as file ~undo.max
+Thu Mar 22 10:53:43 Saved as file ~undo.max
+Thu Mar 22 10:53:48 Saved as file ~undo.max
+Thu Mar 22 10:55:41 Saved as file ~undo.max
+Thu Mar 22 10:55:51 Saved as file ~undo.max
+Thu Mar 22 10:55:59 Saved as file ~undo.max
+Thu Mar 22 10:56:05 Saved as file ~undo.max
+Thu Mar 22 10:56:12 Saved as file ~undo.max
+Thu Mar 22 10:56:22 Saved as file ~undo.max
+Thu Mar 22 10:56:26 Saved as file ~undo.max
+Thu Mar 22 10:56:38 Saved as file ~undo.max
+Thu Mar 22 10:56:41 Saved as file ~undo.max
+Thu Mar 22 10:56:45 Saved as file ~undo.max
+Thu Mar 22 10:56:50 Saved as file ~undo.max
+Thu Mar 22 10:56:54 Saved as file ~undo.max
+Thu Mar 22 10:56:56 Saved as file ~undo.max
+Thu Mar 22 10:57:00 Saved as file BACKUP1.MAX
+Thu Mar 22 10:57:01 Saved as file ~undo.max
+Thu Mar 22 10:57:29 Saved as file ~undo.max
+Thu Mar 22 10:58:01 Saved as file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-1.MAX
+Thu Mar 22 11:02:45 Saved as file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-1.MAX
+Thu Mar 22 11:03:43 Saved as file ~undo.max
+Thu Mar 22 11:03:47 Saved as file ~undo.max
+Thu Mar 22 11:03:51 Saved as file ~undo.max
+Thu Mar 22 11:03:54 Saved as file ~undo.max
+Thu Mar 22 11:04:03 Saved as file ~undo.max
+Thu Mar 22 11:04:07 Saved as file ~undo.max
+Thu Mar 22 11:04:09 Saved as file ~undo.max
+Thu Mar 22 11:04:11 Saved as file ~undo.max
+Thu Mar 22 11:04:13 Saved as file ~undo.max
+Thu Mar 22 11:04:22 Saved as file ~undo.max
+Thu Mar 22 11:04:28 Saved as file ~undo.max
+Thu Mar 22 11:04:29 Saved as file ~undo.max
+Thu Mar 22 11:04:35 Saved as file ~undo.max
+Thu Mar 22 11:04:38 Saved as file ~undo.max
+Thu Mar 22 11:04:41 Saved as file ~undo.max
+Thu Mar 22 11:04:46 Saved as file ~undo.max
+Thu Mar 22 11:04:50 Saved as file ~undo.max
+Thu Mar 22 11:04:53 Saved as file ~undo.max
+Thu Mar 22 11:04:58 Saved as file ~undo.max
+Thu Mar 22 11:05:04 Saved as file ~undo.max
+Thu Mar 22 11:05:09 Saved as file ~undo.max
+Thu Mar 22 11:05:12 Saved as file ~undo.max
+Thu Mar 22 11:05:14 Saved as file ~undo.max
+Thu Mar 22 11:05:17 Saved as file ~undo.max
+Thu Mar 22 11:05:20 Saved as file ~undo.max
+Thu Mar 22 11:05:25 Saved as file ~undo.max
+Thu Mar 22 11:05:27 Saved as file ~undo.max
+Thu Mar 22 11:05:29 Saved as file ~undo.max
+Thu Mar 22 11:05:32 Saved as file ~undo.max
+Thu Mar 22 11:05:35 Saved as file ~undo.max
+Thu Mar 22 11:05:38 Saved as file ~undo.max
+Thu Mar 22 11:05:42 Saved as file ~undo.max
+Thu Mar 22 11:05:43 Saved as file ~undo.max
+Thu Mar 22 11:05:47 Saved as file ~undo.max
+Thu Mar 22 11:05:50 Saved as file ~undo.max
+Thu Mar 22 11:05:53 Saved as file ~undo.max
+Thu Mar 22 11:05:58 Saved as file ~undo.max
+Thu Mar 22 11:06:01 Saved as file ~undo.max
+Thu Mar 22 11:06:04 Saved as file ~undo.max
+Thu Mar 22 11:06:08 Saved as file ~undo.max
+Thu Mar 22 11:06:13 Saved as file ~undo.max
+Thu Mar 22 11:06:15 Saved as file ~undo.max
+Thu Mar 22 11:06:19 Saved as file ~undo.max
+Thu Mar 22 11:06:23 Saved as file ~undo.max
+Thu Mar 22 11:07:00 Saved as file BACKUP1.MAX
+Thu Mar 22 11:07:29 Saved as file ~undo.max
+Thu Mar 22 11:07:30 Saved as file ~undo.max
+Thu Mar 22 11:07:36 Saved as file ~undo.max
+Thu Mar 22 11:07:37 Saved as file ~undo.max
+Thu Mar 22 11:09:12 Saved as file ~undo.max
+Thu Mar 22 11:09:13 Saved as file ~undo.max
+Thu Mar 22 11:09:17 Saved as file ~undo.max
+Thu Mar 22 11:09:33 Saved as file ~undo.max
+Thu Mar 22 11:09:35 Saved as file ~undo.max
+Thu Mar 22 11:09:36 Saved as file ~undo.max
+Thu Mar 22 11:09:38 Saved as file ~undo.max
+Thu Mar 22 11:09:40 Saved as file ~undo.max
+Thu Mar 22 11:09:46 Saved as file ~undo.max
+Thu Mar 22 11:09:48 Saved as file ~undo.max
+Thu Mar 22 11:09:51 Saved as file ~undo.max
+Thu Mar 22 11:09:52 Saved as file ~undo.max
+Thu Mar 22 11:09:55 Saved as file ~undo.max
+Thu Mar 22 11:09:58 Saved as file ~undo.max
+Thu Mar 22 11:10:00 Saved as file ~undo.max
+Thu Mar 22 11:10:03 Saved as file ~undo.max
+Thu Mar 22 11:10:05 Saved as file ~undo.max
+Thu Mar 22 11:10:08 Saved as file ~undo.max
+Thu Mar 22 11:10:10 Saved as file ~undo.max
+Thu Mar 22 11:10:13 Saved as file ~undo.max
+Thu Mar 22 11:10:18 Saved as file ~undo.max
+Thu Mar 22 11:10:21 Saved as file ~undo.max
+Thu Mar 22 11:10:23 Saved as file ~undo.max
+Thu Mar 22 11:10:25 Saved as file ~undo.max
+Thu Mar 22 11:10:30 Saved as file ~undo.max
+Thu Mar 22 11:10:33 Saved as file ~undo.max
+Thu Mar 22 11:10:36 Saved as file ~undo.max
+Thu Mar 22 11:10:38 Saved as file ~undo.max
+Thu Mar 22 11:10:40 Saved as file ~undo.max
+Thu Mar 22 11:10:43 Saved as file ~undo.max
+Thu Mar 22 11:10:44 Saved as file ~undo.max
+Thu Mar 22 11:10:46 Saved as file ~undo.max
+Thu Mar 22 11:10:48 Saved as file ~undo.max
+Thu Mar 22 11:10:51 Saved as file ~undo.max
+Thu Mar 22 11:10:53 Saved as file ~undo.max
+Thu Mar 22 11:10:55 Saved as file ~undo.max
+Thu Mar 22 11:10:57 Saved as file ~undo.max
+Thu Mar 22 11:11:01 Saved as file ~undo.max
+Thu Mar 22 11:11:03 Saved as file ~undo.max
+Thu Mar 22 11:11:06 Saved as file ~undo.max
+Thu Mar 22 11:11:09 Saved as file ~undo.max
+Thu Mar 22 11:11:11 Saved as file ~undo.max
+Thu Mar 22 11:11:13 Saved as file ~undo.max
+Thu Mar 22 11:11:16 Saved as file ~undo.max
+Thu Mar 22 11:11:17 Saved as file ~undo.max
+Thu Mar 22 11:11:20 Saved as file ~undo.max
+Thu Mar 22 11:11:21 Saved as file ~undo.max
+Thu Mar 22 11:11:23 Saved as file ~undo.max
+Thu Mar 22 11:11:27 Saved as file ~undo.max
+Thu Mar 22 11:11:30 Saved as file ~undo.max
+Thu Mar 22 11:11:31 Saved as file ~undo.max
+Thu Mar 22 11:11:34 Saved as file ~undo.max
+Thu Mar 22 11:11:39 Saved as file ~undo.max
+Thu Mar 22 11:11:42 Saved as file ~undo.max
+Thu Mar 22 11:11:45 Saved as file ~undo.max
+Thu Mar 22 11:11:47 Saved as file ~undo.max
+Thu Mar 22 11:11:48 Saved as file ~undo.max
+Thu Mar 22 11:11:49 Saved as file ~undo.max
+Thu Mar 22 11:11:51 Saved as file ~undo.max
+Thu Mar 22 11:11:53 Saved as file ~undo.max
+Thu Mar 22 11:11:55 Saved as file ~undo.max
+Thu Mar 22 11:11:57 Saved as file ~undo.max
+Thu Mar 22 11:11:59 Saved as file ~undo.max
+Thu Mar 22 11:12:01 Saved as file ~undo.max
+Thu Mar 22 11:12:05 Saved as file ~undo.max
+Thu Mar 22 11:12:07 Saved as file ~undo.max
+Thu Mar 22 11:12:14 Saved as file ~undo.max
+Thu Mar 22 11:12:22 Saved as file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-1.MAX
+Thu Mar 22 11:14:50 Saved as file ~undo.max
+Thu Mar 22 11:14:55 Saved as file ~undo.max
+Thu Mar 22 11:14:57 Saved as file ~undo.max
+Thu Mar 22 11:14:58 Saved as file ~undo.max
+Thu Mar 22 11:14:59 Saved as file ~undo.max
+Thu Mar 22 11:15:01 Saved as file ~undo.max
+Thu Mar 22 11:15:06 Saved as file ~undo.max
+Thu Mar 22 11:15:08 Saved as file ~undo.max
+Thu Mar 22 11:15:10 Saved as file ~undo.max
+Thu Mar 22 11:15:11 Saved as file ~undo.max
+Thu Mar 22 11:15:13 Saved as file ~undo.max
+Thu Mar 22 11:16:07 Saved as file ~undo.max
+Thu Mar 22 11:17:01 Saved as file BACKUP1.MAX
+Thu Mar 22 11:25:34 Saved as file ~undo.max
+Thu Mar 22 11:25:45 Saved as file ~undo.max
+Thu Mar 22 11:25:56 Saved as file ~undo.max
+Thu Mar 22 11:25:59 Saved as file ~undo.max
+Thu Mar 22 11:26:55 Saved as file ~undo.max
+Thu Mar 22 11:26:57 Saved as file ~undo.max
+Thu Mar 22 11:26:59 Saved as file ~undo.max
+Thu Mar 22 11:27:01 Saved as file BACKUP1.MAX
+Thu Mar 22 11:27:13 Saved as file ~undo.max
+Thu Mar 22 11:27:16 Saved as file ~undo.max
+Thu Mar 22 11:27:20 Saved as file ~undo.max
+Thu Mar 22 11:27:24 Saved as file ~undo.max
+Thu Mar 22 11:27:30 Saved as file ~undo.max
+Thu Mar 22 11:30:41 Saved as file ~undo.max
+Thu Mar 22 11:30:44 Saved as file ~undo.max
+Thu Mar 22 11:30:48 Saved as file ~undo.max
+Thu Mar 22 11:30:50 Saved as file ~undo2.max
+Thu Mar 22 11:30:50 Loaded file ~undo.max
+Thu Mar 22 11:37:01 Saved as file BACKUP1.MAX
+Thu Mar 22 11:47:02 Saved as file BACKUP1.MAX
+Thu Mar 22 11:57:02 Saved as file BACKUP1.MAX
+Thu Mar 22 12:07:02 Saved as file BACKUP1.MAX
+Thu Mar 22 12:15:21 Saved as file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-1.MAX
+Thu Mar 22 12:15:24 Saved as file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-1.MAX
+Thu Mar 22 12:17:02 Saved as file BACKUP1.MAX
+Thu Mar 22 12:27:03 Saved as file BACKUP1.MAX
+Thu Mar 22 12:37:03 Saved as file BACKUP1.MAX
+Thu Mar 22 12:47:03 Saved as file BACKUP1.MAX
+Thu Mar 22 12:57:04 Saved as file BACKUP1.MAX
+Thu Mar 22 13:07:04 Saved as file BACKUP1.MAX
+Thu Mar 22 13:17:04 Saved as file BACKUP1.MAX
+Thu Mar 22 13:27:04 Saved as file BACKUP1.MAX
+Thu Mar 22 13:36:19 Saved as file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-1.MAX
+Fri Mar 23 08:51:43 Saved as file ~undo.max
+Fri Mar 23 08:51:49 Saved as file ~undo.max
+Fri Mar 23 08:52:02 Saved as file ~undo.max
+Fri Mar 23 08:52:05 Saved as file ~undo.max
+Fri Mar 23 08:52:07 Saved as file ~undo.max
+Fri Mar 23 08:52:11 Saved as file ~undo.max
+Fri Mar 23 08:52:21 Saved as file ~undo.max
+Fri Mar 23 08:52:23 Saved as file ~undo.max
+Fri Mar 23 08:52:26 Saved as file ~undo.max
+Fri Mar 23 08:52:29 Saved as file ~undo.max
+Fri Mar 23 08:52:38 Saved as file ~undo.max
+Fri Mar 23 08:52:41 Saved as file ~undo.max
+Fri Mar 23 08:56:17 Saved as file BACKUP1.MAX
+Fri Mar 23 09:03:36 Saved as file ~undo.max
+Fri Mar 23 09:03:38 Saved as file ~undo.max
+Fri Mar 23 09:03:53 Saved as file ~undo.max
+Fri Mar 23 09:04:42 Saved as file ~undo.max
+Fri Mar 23 09:04:48 Saved as file ~undo.max
+Fri Mar 23 09:04:53 Saved as file ~undo.max
+Fri Mar 23 09:06:48 Saved as file BACKUP1.MAX
+Fri Mar 23 09:09:17 Saved as file ~undo.max
+Fri Mar 23 09:09:35 Saved as file ~undo.max
+Fri Mar 23 09:09:46 Saved as file ~undo.max
+Fri Mar 23 09:09:54 Saved as file ~undo.max
+Fri Mar 23 09:09:57 Saved as file ~undo.max
+Fri Mar 23 09:10:37 Saved as file ~undo.max
+Fri Mar 23 09:12:33 Saved as file ~undo.max
+Fri Mar 23 09:12:36 Saved as file ~undo.max
+Fri Mar 23 09:13:48 Saved as file ~undo.max
+Fri Mar 23 09:13:50 Saved as file ~undo.max
+Fri Mar 23 09:17:48 Saved as file BACKUP1.MAX
+Fri Mar 23 09:21:55 Saved as file ~undo.max
+Fri Mar 23 09:22:03 Saved as file ~undo.max
+Fri Mar 23 09:22:06 Saved as file ~undo.max
+Fri Mar 23 09:22:14 Saved as file ~undo.max
+Fri Mar 23 09:22:23 Saved as file ~undo.max
+Fri Mar 23 09:22:28 Saved as file ~undo.max
+Fri Mar 23 09:22:31 Saved as file ~undo.max
+Fri Mar 23 09:22:34 Saved as file ~undo.max
+Fri Mar 23 09:22:38 Saved as file ~undo.max
+Fri Mar 23 09:22:41 Saved as file ~undo.max
+Fri Mar 23 09:22:43 Saved as file ~undo.max
+Fri Mar 23 09:22:45 Saved as file ~undo.max
+Fri Mar 23 09:22:59 Saved as file ~undo.max
+Fri Mar 23 09:23:11 Saved as file ~undo.max
+Fri Mar 23 09:23:15 Saved as file ~undo.max
+Fri Mar 23 09:23:18 Saved as file ~undo.max
+Fri Mar 23 09:23:23 Saved as file ~undo.max
+Fri Mar 23 09:23:28 Saved as file ~undo.max
+Fri Mar 23 09:23:42 Saved as file ~undo.max
+Fri Mar 23 09:23:44 Saved as file ~undo.max
+Fri Mar 23 09:23:46 Saved as file ~undo.max
+Fri Mar 23 09:23:57 Saved as file ~undo.max
+Fri Mar 23 09:25:39 Saved as file ~undo.max
+Fri Mar 23 09:25:44 Saved as file ~undo.max
+Fri Mar 23 09:27:48 Saved as file BACKUP1.MAX
+Fri Mar 23 09:32:02 Saved as file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-1.MAX
+Fri Mar 23 09:32:05 Saved as file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-1.MAX
+Fri Mar 23 09:32:08 Saved as file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-1.MAX
+Fri Mar 23 09:33:09 Loaded file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-1.MAX
+Fri Mar 23 09:38:49 Saved as file BACKUP1.MAX
+Fri Mar 23 09:48:49 Saved as file BACKUP1.MAX
+Fri Mar 23 09:58:49 Saved as file BACKUP1.MAX
+Fri Mar 23 10:08:50 Saved as file BACKUP1.MAX
+Fri Mar 23 10:18:50 Saved as file BACKUP1.MAX
+Fri Mar 23 10:20:15 Saved as file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-1.MAX
+Fri Mar 23 10:28:50 Saved as file BACKUP1.MAX
+Fri Mar 23 10:38:10 Saved as file BACKUP1.MAX
+Fri Mar 23 10:38:10 Saved as file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-1.MAX
+Fri Mar 23 10:38:17 UserDiv from Layout.INI for AutoECO: 60
+Fri Mar 23 10:38:17 Loaded file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-1.MAX
+Fri Mar 23 10:38:17 Loaded file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Fri Mar 23 10:38:17 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT\LIBRARY\TFXXI.LLB
+Fri Mar 23 10:38:17 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT\LIBRARY\LLIBRERIAMARC.LLB
+Fri Mar 23 10:38:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BCON100T.llb
+Fri Mar 23 10:38:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BCON156T.llb
+Fri Mar 23 10:38:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BGA.llb
+Fri Mar 23 10:38:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\CLCC.llb
+Fri Mar 23 10:38:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON050T.llb
+Fri Mar 23 10:38:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON085T.llb
+Fri Mar 23 10:38:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIMM050F.llb
+Fri Mar 23 10:38:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIMM050T.llb
+Fri Mar 23 10:38:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIN.llb
+Fri Mar 23 10:38:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIP100B.llb
+Fri Mar 23 10:38:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIP100T.llb
+Fri Mar 23 10:38:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DSUBT.llb
+Fri Mar 23 10:38:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DSUBT_HD.LLB
+Fri Mar 23 10:38:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ECON100T.llb
+Fri Mar 23 10:38:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\FBUS.llb
+Fri Mar 23 10:38:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ISA.llb
+Fri Mar 23 10:38:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\JUMPER.LLB
+Fri Mar 23 10:38:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LAYOUT.llb
+Fri Mar 23 10:38:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LCON100T.llb
+Fri Mar 23 10:38:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PC104.llb
+Fri Mar 23 10:38:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCI.llb
+Fri Mar 23 10:38:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCON100T.llb
+Fri Mar 23 10:38:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCON156T.llb
+Fri Mar 23 10:38:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PGA.llb
+Fri Mar 23 10:38:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PLCC.llb
+Fri Mar 23 10:38:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\QUAD.llb
+Fri Mar 23 10:38:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\QUADB.llb
+Fri Mar 23 10:38:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\RELAY.llb
+Fri Mar 23 10:38:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\RF.llb
+Fri Mar 23 10:38:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SBUS.llb
+Fri Mar 23 10:38:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050F.llb
+Fri Mar 23 10:38:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050T.llb
+Fri Mar 23 10:38:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100F.llb
+Fri Mar 23 10:38:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100T.llb
+Fri Mar 23 10:38:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIP.llb
+Fri Mar 23 10:38:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SM.llb
+Fri Mar 23 10:38:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SOG.llb
+Fri Mar 23 10:38:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SOJ.llb
+Fri Mar 23 10:38:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\STIFF.llb
+Fri Mar 23 10:38:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TELE.llb
+Fri Mar 23 10:38:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_AXIAL.llb
+Fri Mar 23 10:38:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_CAP_P.llb
+Fri Mar 23 10:38:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_CYLND.llb
+Fri Mar 23 10:38:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_DIODE.llb
+Fri Mar 23 10:38:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_DISC.llb
+Fri Mar 23 10:38:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_RAD.llb
+Fri Mar 23 10:38:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TO.llb
+Fri Mar 23 10:38:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TRAINING.LLB
+Fri Mar 23 10:38:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\VRES.llb
+Fri Mar 23 10:38:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\WCON100T.llb
+Fri Mar 23 10:38:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\XT.llb
+Fri Mar 23 10:38:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ZIGZAG.llb
+Fri Mar 23 10:38:20 Saved as file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-2.MAX
+Fri Mar 23 10:38:20 Loaded file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-2.MAX
+Fri Mar 23 10:39:20 Saved as file BACKUP1.MAX
+Fri Mar 23 10:49:21 Saved as file BACKUP1.MAX
+Fri Mar 23 10:59:21 Saved as file BACKUP1.MAX
+Fri Mar 23 11:09:21 Saved as file BACKUP1.MAX
+Fri Mar 23 11:19:22 Saved as file BACKUP1.MAX
+Fri Mar 23 11:29:22 Saved as file BACKUP1.MAX
+Fri Mar 23 11:39:22 Saved as file BACKUP1.MAX
+Fri Mar 23 11:49:22 Saved as file BACKUP1.MAX
+Fri Mar 23 11:59:11 Saved as file ~undo.max
+Fri Mar 23 11:59:19 Saved as file ~undo.max
+Fri Mar 23 11:59:23 Saved as file BACKUP1.MAX
+Fri Mar 23 11:59:23 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 11:59:23 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 11:59:24 Loaded file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Fri Mar 23 11:59:28 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 12:05:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 12:05:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 12:05:59 Loaded file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Fri Mar 23 12:06:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 12:07:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 12:07:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 12:07:13 Loaded file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Fri Mar 23 12:07:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 12:08:28 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 12:13:55 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 12:14:08 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 12:17:35 Loaded file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Fri Mar 23 12:17:35 Saved as file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Fri Mar 23 12:17:35 Loaded file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Fri Mar 23 12:17:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Fri Mar 23 12:17:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Fri Mar 23 12:17:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Fri Mar 23 12:25:56 Loaded file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Fri Mar 23 12:25:56 Saved as file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Fri Mar 23 12:25:59 Loaded file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Fri Mar 23 12:25:59 Saved as file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Fri Mar 23 12:25:59 Loaded file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Fri Mar 23 12:26:24 Saved as file BACKUP1.MAX
+Fri Mar 23 12:26:29 Saved as file ~undo.max
+Fri Mar 23 12:26:30 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 12:26:30 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 12:26:30 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 12:26:30 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 12:26:30 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 12:26:30 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 12:26:30 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 12:26:30 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 12:26:30 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 12:26:30 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 12:26:30 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 12:26:30 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 12:26:30 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 12:26:30 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 12:26:30 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 12:26:30 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 12:26:30 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 12:26:30 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 12:26:31 Loaded file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Fri Mar 23 12:26:38 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 12:26:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 12:26:52 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 12:26:52 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 12:26:52 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 12:26:52 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 12:26:52 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 12:26:52 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 12:26:52 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 12:26:52 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 12:26:55 Saved as file ~undo.max
+Fri Mar 23 12:27:03 Saved as file ~undo.max
+Fri Mar 23 12:27:05 Saved as file ~undo.max
+Fri Mar 23 12:27:10 Saved as file ~undo.max
+Fri Mar 23 12:36:24 Saved as file BACKUP1.MAX
+Fri Mar 23 12:46:24 Saved as file BACKUP1.MAX
+Fri Mar 23 12:47:54 Saved as file ~undo2.max
+Fri Mar 23 12:47:54 Loaded file ~undo.max
+Fri Mar 23 12:48:46 Saved as file ~undo.max
+Fri Mar 23 12:53:34 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 12:53:34 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 12:53:35 Loaded file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Fri Mar 23 13:06:24 Saved as file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-2.MAX
+Fri Mar 23 13:07:33 Saved as file BACKUP1.MAX
+Fri Mar 23 13:07:33 Saved as file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-2.MAX
+Fri Mar 23 13:07:36 UserDiv from Layout.INI for AutoECO: 60
+Fri Mar 23 13:07:36 Loaded file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-2.MAX
+Fri Mar 23 13:07:36 Loaded file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Fri Mar 23 13:07:36 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT\LIBRARY\TFXXI.LLB
+Fri Mar 23 13:07:36 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT\LIBRARY\LLIBRERIAMARC.LLB
+Fri Mar 23 13:07:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BCON100T.llb
+Fri Mar 23 13:07:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BCON156T.llb
+Fri Mar 23 13:07:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BGA.llb
+Fri Mar 23 13:07:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\CLCC.llb
+Fri Mar 23 13:07:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON050T.llb
+Fri Mar 23 13:07:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON085T.llb
+Fri Mar 23 13:07:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIMM050F.llb
+Fri Mar 23 13:07:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIMM050T.llb
+Fri Mar 23 13:07:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIN.llb
+Fri Mar 23 13:07:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIP100B.llb
+Fri Mar 23 13:07:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIP100T.llb
+Fri Mar 23 13:07:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DSUBT.llb
+Fri Mar 23 13:07:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DSUBT_HD.LLB
+Fri Mar 23 13:07:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ECON100T.llb
+Fri Mar 23 13:07:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\FBUS.llb
+Fri Mar 23 13:07:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ISA.llb
+Fri Mar 23 13:07:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\JUMPER.LLB
+Fri Mar 23 13:07:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LAYOUT.llb
+Fri Mar 23 13:07:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LCON100T.llb
+Fri Mar 23 13:07:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PC104.llb
+Fri Mar 23 13:07:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCI.llb
+Fri Mar 23 13:07:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCON100T.llb
+Fri Mar 23 13:07:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCON156T.llb
+Fri Mar 23 13:07:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PGA.llb
+Fri Mar 23 13:07:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PLCC.llb
+Fri Mar 23 13:07:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\QUAD.llb
+Fri Mar 23 13:07:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\QUADB.llb
+Fri Mar 23 13:07:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\RELAY.llb
+Fri Mar 23 13:07:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\RF.llb
+Fri Mar 23 13:07:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SBUS.llb
+Fri Mar 23 13:07:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050F.llb
+Fri Mar 23 13:07:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050T.llb
+Fri Mar 23 13:07:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100F.llb
+Fri Mar 23 13:07:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100T.llb
+Fri Mar 23 13:07:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIP.llb
+Fri Mar 23 13:07:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SM.llb
+Fri Mar 23 13:07:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SOG.llb
+Fri Mar 23 13:07:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SOJ.llb
+Fri Mar 23 13:07:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\STIFF.llb
+Fri Mar 23 13:07:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TELE.llb
+Fri Mar 23 13:07:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_AXIAL.llb
+Fri Mar 23 13:07:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_CAP_P.llb
+Fri Mar 23 13:07:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_CYLND.llb
+Fri Mar 23 13:07:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_DIODE.llb
+Fri Mar 23 13:07:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_DISC.llb
+Fri Mar 23 13:07:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_RAD.llb
+Fri Mar 23 13:07:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TO.llb
+Fri Mar 23 13:07:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TRAINING.LLB
+Fri Mar 23 13:07:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\VRES.llb
+Fri Mar 23 13:07:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\WCON100T.llb
+Fri Mar 23 13:07:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\XT.llb
+Fri Mar 23 13:07:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ZIGZAG.llb
+Fri Mar 23 13:07:40 Saved as file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-3.MAX
+Fri Mar 23 13:07:40 Loaded file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-3.MAX
+Fri Mar 23 13:08:33 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 13:08:33 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 13:08:38 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LAYOUT.llb
+Fri Mar 23 13:08:40 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 13:08:42 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 13:08:42 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 13:08:42 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 13:08:43 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 13:08:46 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 13:08:46 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 13:08:46 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 13:08:46 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 13:08:46 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 13:08:46 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 13:08:46 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 13:08:46 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 13:08:46 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 13:08:49 Saved as file ~undo.max
+Fri Mar 23 13:08:52 Saved as file ~undo2.max
+Fri Mar 23 13:08:52 Loaded file ~undo.max
+Fri Mar 23 13:08:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 13:08:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 13:09:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LAYOUT.llb
+Fri Mar 23 13:09:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 13:09:13 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 13:09:14 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 13:09:15 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 13:09:15 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 13:09:15 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 13:09:15 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 13:09:15 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 13:09:15 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 13:09:15 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 13:09:15 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 13:09:15 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 13:09:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 13:09:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 13:09:28 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LAYOUT.llb
+Fri Mar 23 13:09:28 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LCON100T.llb
+Fri Mar 23 13:09:29 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LAYOUT.llb
+Fri Mar 23 13:09:32 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 13:09:33 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 13:09:33 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 13:09:33 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 13:09:33 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 13:09:33 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 13:09:33 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 13:09:33 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 13:09:33 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 13:09:33 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 13:09:35 Saved as file ~undo.max
+Fri Mar 23 13:09:45 Saved as file ~undo.max
+Fri Mar 23 13:09:50 Saved as file ~undo.max
+Fri Mar 23 13:09:56 Saved as file ~undo.max
+Fri Mar 23 13:10:06 Saved as file ~undo.max
+Fri Mar 23 13:10:09 Saved as file ~undo.max
+Fri Mar 23 13:10:10 Saved as file ~undo.max
+Fri Mar 23 13:10:12 Saved as file ~undo.max
+Fri Mar 23 13:10:15 Saved as file ~undo.max
+Fri Mar 23 13:12:08 Saved as file ~undo.max
+Fri Mar 23 13:12:10 Saved as file ~undo.max
+Fri Mar 23 13:14:02 Saved as file ~undo.max
+Fri Mar 23 13:14:42 Saved as file ~undo.max
+Fri Mar 23 13:14:44 Saved as file ~undo2.max
+Fri Mar 23 13:14:44 Loaded file ~undo.max
+Fri Mar 23 13:14:47 Saved as file ~undo2.max
+Fri Mar 23 13:14:47 Loaded file ~undo.max
+Fri Mar 23 13:14:47 Saved as file ~undo2.max
+Fri Mar 23 13:14:47 Loaded file ~undo.max
+Fri Mar 23 13:15:45 Saved as file ~undo.max
+Fri Mar 23 13:16:13 Saved as file ~undo.max
+Fri Mar 23 13:16:17 Saved as file ~undo.max
+Fri Mar 23 13:16:23 Saved as file ~undo.max
+Fri Mar 23 13:16:27 Saved as file ~undo.max
+Fri Mar 23 13:17:20 Saved as file ~undo.max
+Fri Mar 23 13:17:24 Saved as file ~undo.max
+Fri Mar 23 13:17:29 Saved as file ~undo.max
+Fri Mar 23 13:17:31 Saved as file ~undo.max
+Fri Mar 23 13:17:33 Saved as file ~undo.max
+Fri Mar 23 13:18:01 Saved as file ~undo.max
+Fri Mar 23 13:19:03 Saved as file ~undo.max
+Fri Mar 23 13:19:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 13:19:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 13:19:12 Loaded file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Fri Mar 23 13:19:16 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 13:19:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 13:20:08 Loaded file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Fri Mar 23 13:20:08 Saved as file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Fri Mar 23 13:20:08 Loaded file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Fri Mar 23 13:20:16 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 13:20:16 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 13:20:16 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 13:20:16 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 13:20:16 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 13:20:16 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 13:20:16 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 13:20:16 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 13:20:16 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 13:20:16 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 13:20:16 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 13:20:16 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 13:20:16 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 13:20:16 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 13:20:16 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 13:20:16 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 13:20:16 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 13:20:16 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 13:20:16 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 13:20:16 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 13:20:17 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT\LIBRARY\TFXXI.LLB
+Fri Mar 23 13:20:17 Loaded file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Fri Mar 23 13:20:24 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 13:20:26 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 13:20:26 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 13:20:26 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 13:20:26 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 13:20:26 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 13:20:26 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 13:20:26 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 13:20:26 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 13:20:32 Saved as file BACKUP1.MAX
+Fri Mar 23 13:20:37 Saved as file ~undo.max
+Fri Mar 23 13:21:04 Saved as file ~undo.max
+Fri Mar 23 13:21:06 Saved as file ~undo.max
+Fri Mar 23 13:21:08 Saved as file ~undo.max
+Fri Mar 23 13:21:11 Saved as file ~undo.max
+Fri Mar 23 13:21:16 Saved as file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-3.MAX
+Fri Mar 23 13:31:03 Saved as file BACKUP1.MAX
+Fri Mar 23 13:38:52 Saved as file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-3.MAX
+Fri Mar 23 13:41:03 Saved as file BACKUP1.MAX
+Fri Mar 23 13:42:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 13:42:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 13:42:18 Loaded file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Fri Mar 23 13:42:32 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 13:42:34 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 13:42:34 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 13:42:34 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 13:42:34 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 13:42:34 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 13:42:34 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 13:42:49 Saved as file ~undo.max
+Fri Mar 23 13:43:11 Saved as file ~undo.max
+Fri Mar 23 13:46:03 Saved as file ~undo.max
+Fri Mar 23 13:51:33 Saved as file BACKUP1.MAX
+Fri Mar 23 14:01:34 Saved as file BACKUP1.MAX
+Fri Mar 23 14:11:34 Saved as file BACKUP1.MAX
+Fri Mar 23 14:21:34 Saved as file BACKUP1.MAX
+Fri Mar 23 14:26:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 14:26:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 14:26:50 Loaded file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Fri Mar 23 14:27:02 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 14:27:06 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 14:27:06 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 14:27:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 14:27:33 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 14:27:33 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 14:27:37 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 14:27:39 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 14:27:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 14:29:01 Loaded file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Fri Mar 23 14:29:01 Saved as file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Fri Mar 23 14:29:01 Loaded file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Fri Mar 23 14:29:01 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 14:29:19 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 14:29:32 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 14:30:08 Loaded file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Fri Mar 23 14:30:08 Saved as file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Fri Mar 23 14:30:08 Loaded file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Fri Mar 23 14:30:08 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 14:30:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 14:30:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 14:30:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 14:30:37 Loaded file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Fri Mar 23 14:30:42 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 14:30:44 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:44 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:44 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:44 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:44 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:44 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:44 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:44 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:44 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:44 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:44 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:44 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:44 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:44 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:44 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:44 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:44 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:44 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:44 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:44 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:44 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:44 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:44 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:44 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:44 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:44 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:44 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:44 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:44 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:44 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:44 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:44 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:44 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:44 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:44 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:44 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:44 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:44 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:44 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:44 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:44 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:44 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:44 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:44 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:44 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:44 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:44 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:44 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:44 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:44 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:44 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:44 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:44 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:44 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:47 Saved as file ~undo.max
+Fri Mar 23 14:30:51 Saved as file ~undo.max
+Fri Mar 23 14:30:54 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 14:30:54 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 14:30:54 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:54 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:54 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:54 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:54 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:54 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:54 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 14:30:54 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:54 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:54 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:54 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:54 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:54 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:30:54 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 14:30:55 Loaded file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Fri Mar 23 14:31:01 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 14:31:03 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:31:03 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:31:03 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:31:03 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:31:03 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:31:03 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 14:31:06 Saved as file ~undo.max
+Fri Mar 23 14:32:04 Saved as file BACKUP1.MAX
+Fri Mar 23 14:32:10 Saved as file ~undo.max
+Fri Mar 23 14:33:28 Saved as file ~undo.max
+Fri Mar 23 14:33:31 Saved as file ~undo.max
+Fri Mar 23 14:42:02 Saved as file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-3.MAX
+Fri Mar 23 14:42:35 Saved as file BACKUP1.MAX
+Fri Mar 23 14:52:35 Saved as file BACKUP1.MAX
+Fri Mar 23 15:02:35 Saved as file BACKUP1.MAX
+Fri Mar 23 15:12:36 Saved as file BACKUP1.MAX
+Fri Mar 23 15:22:07 Saved as file ~undo.max
+Fri Mar 23 15:22:10 Saved as file ~undo.max
+Fri Mar 23 15:22:25 Saved as file ~undo.max
+Fri Mar 23 15:22:36 Saved as file BACKUP1.MAX
+Fri Mar 23 15:22:40 Saved as file ~undo.max
+Fri Mar 23 15:22:49 Saved as file ~undo.max
+Fri Mar 23 15:23:11 Saved as file ~undo.max
+Fri Mar 23 15:29:21 Saved as file ~undo.max
+Fri Mar 23 15:32:36 Saved as file BACKUP1.MAX
+Fri Mar 23 15:42:36 Saved as file BACKUP1.MAX
+Fri Mar 23 15:46:49 Saved as file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-3.MAX
+Fri Mar 23 15:53:07 Saved as file BACKUP1.MAX
+Fri Mar 23 16:03:07 Saved as file BACKUP1.MAX
+Fri Mar 23 16:13:07 Saved as file BACKUP1.MAX
+Fri Mar 23 16:17:05 Saved as file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-3.MAX
+Fri Mar 23 16:17:44 Saved as file BACKUP1.MAX
+Fri Mar 23 16:17:44 Saved as file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-3.MAX
+Fri Mar 23 16:17:46 UserDiv from Layout.INI for AutoECO: 60
+Fri Mar 23 16:17:46 Loaded file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-3.MAX
+Fri Mar 23 16:17:46 Loaded file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Fri Mar 23 16:17:46 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT\LIBRARY\TFXXI.LLB
+Fri Mar 23 16:17:46 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT\LIBRARY\LLIBRERIAMARC.LLB
+Fri Mar 23 16:17:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BCON100T.llb
+Fri Mar 23 16:17:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BCON156T.llb
+Fri Mar 23 16:17:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BGA.llb
+Fri Mar 23 16:17:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\CLCC.llb
+Fri Mar 23 16:17:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON050T.llb
+Fri Mar 23 16:17:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON085T.llb
+Fri Mar 23 16:17:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIMM050F.llb
+Fri Mar 23 16:17:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIMM050T.llb
+Fri Mar 23 16:17:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIN.llb
+Fri Mar 23 16:17:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIP100B.llb
+Fri Mar 23 16:17:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIP100T.llb
+Fri Mar 23 16:17:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DSUBT.llb
+Fri Mar 23 16:17:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DSUBT_HD.LLB
+Fri Mar 23 16:17:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ECON100T.llb
+Fri Mar 23 16:17:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\FBUS.llb
+Fri Mar 23 16:17:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ISA.llb
+Fri Mar 23 16:17:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\JUMPER.LLB
+Fri Mar 23 16:17:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LAYOUT.llb
+Fri Mar 23 16:17:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LCON100T.llb
+Fri Mar 23 16:17:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PC104.llb
+Fri Mar 23 16:17:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCI.llb
+Fri Mar 23 16:17:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCON100T.llb
+Fri Mar 23 16:17:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCON156T.llb
+Fri Mar 23 16:17:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PGA.llb
+Fri Mar 23 16:17:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PLCC.llb
+Fri Mar 23 16:17:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\QUAD.llb
+Fri Mar 23 16:17:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\QUADB.llb
+Fri Mar 23 16:17:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\RELAY.llb
+Fri Mar 23 16:17:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\RF.llb
+Fri Mar 23 16:17:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SBUS.llb
+Fri Mar 23 16:17:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050F.llb
+Fri Mar 23 16:17:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050T.llb
+Fri Mar 23 16:17:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100F.llb
+Fri Mar 23 16:17:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100T.llb
+Fri Mar 23 16:17:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIP.llb
+Fri Mar 23 16:17:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SM.llb
+Fri Mar 23 16:17:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SOG.llb
+Fri Mar 23 16:17:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SOJ.llb
+Fri Mar 23 16:17:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\STIFF.llb
+Fri Mar 23 16:17:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TELE.llb
+Fri Mar 23 16:17:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_AXIAL.llb
+Fri Mar 23 16:17:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_CAP_P.llb
+Fri Mar 23 16:17:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_CYLND.llb
+Fri Mar 23 16:17:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_DIODE.llb
+Fri Mar 23 16:17:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_DISC.llb
+Fri Mar 23 16:17:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_RAD.llb
+Fri Mar 23 16:17:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TO.llb
+Fri Mar 23 16:17:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TRAINING.LLB
+Fri Mar 23 16:17:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\VRES.llb
+Fri Mar 23 16:17:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\WCON100T.llb
+Fri Mar 23 16:17:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\XT.llb
+Fri Mar 23 16:17:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ZIGZAG.llb
+Fri Mar 23 16:17:53 Saved as file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-4.MAX
+Fri Mar 23 16:17:53 Loaded file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-4.MAX
+Fri Mar 23 16:21:19 Saved as file ~undo.max
+Fri Mar 23 16:21:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 16:21:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 16:21:24 Loaded file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Fri Mar 23 16:21:28 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Fri Mar 23 16:21:29 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 16:21:29 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 16:21:29 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 16:21:29 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 16:21:29 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 16:21:29 Footprint coords will be rounded to nearest base unit.
+Fri Mar 23 16:21:34 Saved as file ~undo.max
+Fri Mar 23 16:21:39 Saved as file ~undo.max
+Fri Mar 23 16:22:42 Saved as file ~undo.max
+Fri Mar 23 16:22:47 Saved as file ~undo.max
+Fri Mar 23 16:22:54 Saved as file ~undo.max
+Fri Mar 23 16:24:21 Saved as file ~undo.max
+Fri Mar 23 16:24:28 Saved as file ~undo.max
+Fri Mar 23 16:24:34 Saved as file ~undo.max
+Fri Mar 23 16:24:36 Saved as file ~undo.max
+Fri Mar 23 16:24:56 Saved as file ~undo.max
+Fri Mar 23 16:28:13 Saved as file BACKUP1.MAX
+Fri Mar 23 16:38:13 Saved as file BACKUP1.MAX
+Fri Mar 23 16:40:40 Saved as file ~undo.max
+Fri Mar 23 16:40:42 Saved as file ~undo.max
+Fri Mar 23 16:42:35 Saved as file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-4.MAX
+Fri Mar 23 16:46:45 Saved as file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-4.MAX
+Fri Mar 23 16:49:13 Saved as file BACKUP1.MAX
+Fri Mar 23 16:51:53 Saved as file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-4.MAX
+Fri Mar 23 16:52:33 Saved as file ~undo.max
+Fri Mar 23 16:52:36 Saved as file ~undo.max
+Fri Mar 23 16:52:55 Saved as file ~undo.max
+Fri Mar 23 16:53:03 Saved as file ~undo.max
+Fri Mar 23 16:53:07 Saved as file ~undo.max
+Fri Mar 23 16:53:34 Saved as file ~undo.max
+Fri Mar 23 16:53:39 Saved as file ~undo.max
+Fri Mar 23 16:53:46 Saved as file ~undo.max
+Fri Mar 23 16:54:05 Saved as file ~undo.max
+Fri Mar 23 16:54:20 Saved as file ~undo.max
+Fri Mar 23 16:54:28 Saved as file ~undo.max
+Fri Mar 23 16:54:30 Saved as file ~undo.max
+Fri Mar 23 16:54:35 Saved as file ~undo.max
+Fri Mar 23 16:55:33 Saved as file ~undo.max
+Fri Mar 23 16:55:35 Saved as file ~undo.max
+Fri Mar 23 16:59:14 Saved as file BACKUP1.MAX
+Fri Mar 23 17:00:23 Saved as file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-4.MAX
+Fri Mar 23 17:03:07 Saved as file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-4.MAX
+Mon Mar 26 08:35:43 Saved as file BACKUP1.MAX
+Mon Mar 26 08:38:46 Saved as file ~undo.max
+Mon Mar 26 08:45:43 Saved as file BACKUP1.MAX
+Mon Mar 26 08:55:44 Saved as file BACKUP1.MAX
+Mon Mar 26 08:58:43 Saved as file ~undo.max
+Mon Mar 26 08:59:06 Saved as file ~undo.max
+Mon Mar 26 09:00:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Mon Mar 26 09:00:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Mon Mar 26 09:00:10 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 09:00:10 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 09:00:10 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 09:00:10 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 09:00:10 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 09:00:10 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 09:00:10 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 09:00:10 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 09:00:10 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 09:00:10 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 09:00:10 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 09:00:10 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 09:00:10 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 09:00:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Mon Mar 26 09:00:10 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 09:00:10 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 09:00:10 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 09:00:10 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 09:00:10 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 09:00:10 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 09:00:10 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 09:00:10 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 09:00:10 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 09:00:10 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 09:00:10 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 09:00:10 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 09:00:10 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 09:00:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Mon Mar 26 09:00:28 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SM.llb
+Mon Mar 26 09:00:34 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Mon Mar 26 09:00:35 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Mon Mar 26 09:00:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Mon Mar 26 09:00:40 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 09:00:40 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 09:00:40 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 09:00:40 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 09:00:40 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 09:00:40 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 09:00:40 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 09:00:40 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 09:00:40 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 09:00:40 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 09:00:40 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 09:00:40 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 09:00:40 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 09:00:40 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 09:00:40 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 09:01:02 Saved as file ~undo.max
+Mon Mar 26 09:02:34 Saved as file ~undo.max
+Mon Mar 26 09:02:52 Saved as file ~undo.max
+Mon Mar 26 09:06:14 Saved as file BACKUP1.MAX
+Mon Mar 26 09:10:52 Saved as file ~undo.max
+Mon Mar 26 09:12:59 Saved as file ~undo.max
+Mon Mar 26 09:13:11 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Mon Mar 26 09:13:11 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Mon Mar 26 09:13:13 Loaded file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Mon Mar 26 09:13:16 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LAYOUT.llb
+Mon Mar 26 09:13:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Mon Mar 26 09:13:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 09:13:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 09:13:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 09:13:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 09:13:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 09:13:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 09:13:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 09:13:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 09:13:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 09:13:29 Saved as file ~undo.max
+Mon Mar 26 09:15:10 Saved as file ~undo.max
+Mon Mar 26 09:15:23 Saved as file ~undo.max
+Mon Mar 26 09:15:33 Saved as file ~undo.max
+Mon Mar 26 09:15:47 Saved as file ~undo.max
+Mon Mar 26 09:15:57 Saved as file ~undo.max
+Mon Mar 26 09:16:05 Saved as file ~undo.max
+Mon Mar 26 09:16:44 Saved as file BACKUP1.MAX
+Mon Mar 26 09:17:28 Saved as file ~undo.max
+Mon Mar 26 09:17:37 Saved as file ~undo.max
+Mon Mar 26 09:17:50 Saved as file ~undo.max
+Mon Mar 26 09:18:01 Saved as file ~undo.max
+Mon Mar 26 09:18:17 Saved as file ~undo.max
+Mon Mar 26 09:27:15 Saved as file BACKUP1.MAX
+Mon Mar 26 09:37:15 Saved as file BACKUP1.MAX
+Mon Mar 26 09:37:23 Saved as file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-4.MAX
+Mon Mar 26 09:47:15 Saved as file BACKUP1.MAX
+Mon Mar 26 09:57:15 Saved as file BACKUP1.MAX
+Mon Mar 26 10:07:16 Saved as file BACKUP1.MAX
+Mon Mar 26 10:17:16 Saved as file BACKUP1.MAX
+Mon Mar 26 10:27:16 Saved as file BACKUP1.MAX
+Mon Mar 26 10:37:17 Saved as file BACKUP1.MAX
+Mon Mar 26 10:47:17 Saved as file BACKUP1.MAX
+Mon Mar 26 10:57:17 Saved as file BACKUP1.MAX
+Mon Mar 26 11:07:17 Saved as file BACKUP1.MAX
+Mon Mar 26 11:17:18 Saved as file BACKUP1.MAX
+Mon Mar 26 11:26:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Mon Mar 26 11:26:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Mon Mar 26 11:26:11 Loaded file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Mon Mar 26 11:26:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Mon Mar 26 11:29:18 Saved as file BACKUP1.MAX
+Mon Mar 26 11:29:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Mon Mar 26 11:29:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Mon Mar 26 11:29:57 Loaded file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Mon Mar 26 11:29:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Mon Mar 26 11:42:56 Loaded file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Mon Mar 26 11:42:56 Saved as file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Mon Mar 26 11:42:56 Loaded file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Mon Mar 26 11:43:07 Saved as file ~undo.max
+Mon Mar 26 11:43:18 Saved as file BACKUP1.MAX
+Mon Mar 26 11:44:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Mon Mar 26 11:44:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Mon Mar 26 11:44:22 Loaded file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Mon Mar 26 11:44:24 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Mon Mar 26 11:47:59 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 11:50:15 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 11:50:26 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 11:50:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 11:50:52 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 11:51:02 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 11:51:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 11:52:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 11:52:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 11:52:38 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 11:52:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 11:53:07 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 11:53:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 11:53:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 11:53:52 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 11:54:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 11:56:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 11:56:30 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 11:57:11 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 11:57:30 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 11:57:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 11:57:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 11:58:02 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 11:58:07 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 11:58:13 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 11:58:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 11:58:23 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 11:58:25 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 11:58:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 11:58:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 11:59:05 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 11:59:13 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 11:59:29 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 11:59:40 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 11:59:59 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 12:00:06 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 12:00:11 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 12:00:16 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 12:00:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 12:00:23 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 12:00:28 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 12:00:34 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 12:00:39 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 12:00:45 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 12:01:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 12:02:06 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 12:02:19 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 12:02:23 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 12:03:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 12:03:16 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 12:03:27 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 12:03:32 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 12:03:38 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 12:03:40 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 12:03:47 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 12:03:54 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 12:04:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 12:04:30 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 12:04:39 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 12:04:55 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 12:05:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 12:05:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 12:05:44 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 12:05:54 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 12:06:01 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 12:06:07 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 12:06:35 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 12:06:42 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 12:06:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 12:06:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Mon Mar 26 12:07:47 Loaded file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Mon Mar 26 12:07:47 Saved as file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Mon Mar 26 12:07:48 Error code 5225.055 (0)
+Mon Mar 26 12:07:48 Saved as file Backup0.max
+Mon Mar 26 12:07:48 Windows which were open at time of error:
+Mon Mar 26 12:07:48 	ActiveWindow: &Design
+Mon Mar 26 12:07:48 	Ui: &Footprints
+Mon Mar 26 12:07:48 	Icon: &Nets
+Mon Mar 26 12:07:48 	Icon: Post Proces&s
+Mon Mar 26 12:07:48 	Icon: &Components
+Mon Mar 26 12:07:48 	Icon: Library Manager
+Mon Mar 26 12:07:48 End-of-list
+Mon Mar 26 12:07:48 Loaded file BACKUP0.MAX
+Mon Mar 26 12:08:12 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT\data\template.imp
+Mon Mar 26 12:08:12 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT\data\template.imp
+Mon Mar 26 12:08:14 Loaded file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Mon Mar 26 12:08:15 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT\data\template.imp
+Mon Mar 26 12:09:06 Loaded file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Mon Mar 26 12:09:06 Saved as file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Mon Mar 26 12:09:06 Loaded file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Mon Mar 26 12:09:18 Saved as file ~undo.max
+Mon Mar 26 12:09:20 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT\data\template.imp
+Mon Mar 26 12:09:20 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT\data\template.imp
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT\data\template.imp
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:20 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT\data\template.imp
+Mon Mar 26 12:09:20 Loaded file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Mon Mar 26 12:09:22 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT\data\template.imp
+Mon Mar 26 12:09:26 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:26 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:26 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:26 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:26 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:26 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:26 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:26 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:26 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:26 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:26 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:26 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:26 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:26 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:26 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:26 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:26 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:26 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:26 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:26 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:26 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:26 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:26 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:26 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:26 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:26 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:26 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:26 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:26 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:26 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:26 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:26 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:26 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:26 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:26 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:26 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:26 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:26 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:26 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:26 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:26 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:26 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:26 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:26 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:26 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:26 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:26 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:26 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:26 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:26 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:26 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:26 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:26 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:26 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:09:32 Saved as file ~undo.max
+Mon Mar 26 12:17:48 Saved as file BACKUP1.MAX
+Mon Mar 26 12:27:48 Saved as file BACKUP1.MAX
+Mon Mar 26 12:29:05 Saved as file BACKUP1.MAX
+Mon Mar 26 12:29:05 Saved as file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-4.MAX
+Mon Mar 26 12:29:09 UserDiv from Layout.INI for AutoECO: 60
+Mon Mar 26 12:29:09 Loaded file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-4.MAX
+Mon Mar 26 12:29:09 Loaded file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Mon Mar 26 12:29:09 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT\LIBRARY\TFXXI.LLB
+Mon Mar 26 12:29:09 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT\LIBRARY\LLIBRERIAMARC.LLB
+Mon Mar 26 12:29:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BCON100T.llb
+Mon Mar 26 12:29:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BCON156T.llb
+Mon Mar 26 12:29:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BGA.llb
+Mon Mar 26 12:29:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\CLCC.llb
+Mon Mar 26 12:29:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON050T.llb
+Mon Mar 26 12:29:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON085T.llb
+Mon Mar 26 12:29:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIMM050F.llb
+Mon Mar 26 12:29:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIMM050T.llb
+Mon Mar 26 12:29:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIN.llb
+Mon Mar 26 12:29:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIP100B.llb
+Mon Mar 26 12:29:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIP100T.llb
+Mon Mar 26 12:29:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DSUBT.llb
+Mon Mar 26 12:29:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DSUBT_HD.LLB
+Mon Mar 26 12:29:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ECON100T.llb
+Mon Mar 26 12:29:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\FBUS.llb
+Mon Mar 26 12:29:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ISA.llb
+Mon Mar 26 12:29:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\JUMPER.LLB
+Mon Mar 26 12:29:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LAYOUT.llb
+Mon Mar 26 12:29:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LCON100T.llb
+Mon Mar 26 12:29:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PC104.llb
+Mon Mar 26 12:29:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCI.llb
+Mon Mar 26 12:29:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCON100T.llb
+Mon Mar 26 12:29:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCON156T.llb
+Mon Mar 26 12:29:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PGA.llb
+Mon Mar 26 12:29:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PLCC.llb
+Mon Mar 26 12:29:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\QUAD.llb
+Mon Mar 26 12:29:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\QUADB.llb
+Mon Mar 26 12:29:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\RELAY.llb
+Mon Mar 26 12:29:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\RF.llb
+Mon Mar 26 12:29:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SBUS.llb
+Mon Mar 26 12:29:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050F.llb
+Mon Mar 26 12:29:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050T.llb
+Mon Mar 26 12:29:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100F.llb
+Mon Mar 26 12:29:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100T.llb
+Mon Mar 26 12:29:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIP.llb
+Mon Mar 26 12:29:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SM.llb
+Mon Mar 26 12:29:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SOG.llb
+Mon Mar 26 12:29:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SOJ.llb
+Mon Mar 26 12:29:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\STIFF.llb
+Mon Mar 26 12:29:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TELE.llb
+Mon Mar 26 12:29:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_AXIAL.llb
+Mon Mar 26 12:29:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_CAP_P.llb
+Mon Mar 26 12:29:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_CYLND.llb
+Mon Mar 26 12:29:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_DIODE.llb
+Mon Mar 26 12:29:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_DISC.llb
+Mon Mar 26 12:29:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_RAD.llb
+Mon Mar 26 12:29:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TO.llb
+Mon Mar 26 12:29:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TRAINING.LLB
+Mon Mar 26 12:29:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\VRES.llb
+Mon Mar 26 12:29:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\WCON100T.llb
+Mon Mar 26 12:29:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\XT.llb
+Mon Mar 26 12:29:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ZIGZAG.llb
+Mon Mar 26 12:29:22 Loaded file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-4.MAX
+Mon Mar 26 12:29:22 Saved as file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-4.MAX
+Mon Mar 26 12:29:22 Loaded file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-4.MAX
+Mon Mar 26 12:30:41 Saved as file BACKUP1.MAX
+Mon Mar 26 12:30:41 Saved as file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-4.MAX
+Mon Mar 26 12:30:44 UserDiv from Layout.INI for AutoECO: 60
+Mon Mar 26 12:30:44 Loaded file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-4.MAX
+Mon Mar 26 12:30:44 Loaded file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Mon Mar 26 12:30:44 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT\LIBRARY\TFXXI.LLB
+Mon Mar 26 12:30:44 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT\LIBRARY\LLIBRERIAMARC.LLB
+Mon Mar 26 12:30:44 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BCON100T.llb
+Mon Mar 26 12:30:44 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BCON156T.llb
+Mon Mar 26 12:30:44 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BGA.llb
+Mon Mar 26 12:30:44 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\CLCC.llb
+Mon Mar 26 12:30:44 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON050T.llb
+Mon Mar 26 12:30:44 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON085T.llb
+Mon Mar 26 12:30:44 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIMM050F.llb
+Mon Mar 26 12:30:44 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIMM050T.llb
+Mon Mar 26 12:30:44 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIN.llb
+Mon Mar 26 12:30:44 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIP100B.llb
+Mon Mar 26 12:30:44 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIP100T.llb
+Mon Mar 26 12:30:44 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DSUBT.llb
+Mon Mar 26 12:30:44 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DSUBT_HD.LLB
+Mon Mar 26 12:30:44 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ECON100T.llb
+Mon Mar 26 12:30:44 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\FBUS.llb
+Mon Mar 26 12:30:44 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ISA.llb
+Mon Mar 26 12:30:44 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\JUMPER.LLB
+Mon Mar 26 12:30:44 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LAYOUT.llb
+Mon Mar 26 12:30:44 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LCON100T.llb
+Mon Mar 26 12:30:44 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PC104.llb
+Mon Mar 26 12:30:44 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCI.llb
+Mon Mar 26 12:30:44 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCON100T.llb
+Mon Mar 26 12:30:44 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCON156T.llb
+Mon Mar 26 12:30:44 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PGA.llb
+Mon Mar 26 12:30:44 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PLCC.llb
+Mon Mar 26 12:30:44 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\QUAD.llb
+Mon Mar 26 12:30:44 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\QUADB.llb
+Mon Mar 26 12:30:44 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\RELAY.llb
+Mon Mar 26 12:30:44 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\RF.llb
+Mon Mar 26 12:30:44 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SBUS.llb
+Mon Mar 26 12:30:44 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050F.llb
+Mon Mar 26 12:30:44 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050T.llb
+Mon Mar 26 12:30:44 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100F.llb
+Mon Mar 26 12:30:44 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100T.llb
+Mon Mar 26 12:30:44 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIP.llb
+Mon Mar 26 12:30:44 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SM.llb
+Mon Mar 26 12:30:44 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SOG.llb
+Mon Mar 26 12:30:44 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SOJ.llb
+Mon Mar 26 12:30:44 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\STIFF.llb
+Mon Mar 26 12:30:44 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TELE.llb
+Mon Mar 26 12:30:44 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_AXIAL.llb
+Mon Mar 26 12:30:44 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_CAP_P.llb
+Mon Mar 26 12:30:44 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_CYLND.llb
+Mon Mar 26 12:30:44 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_DIODE.llb
+Mon Mar 26 12:30:44 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_DISC.llb
+Mon Mar 26 12:30:44 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_RAD.llb
+Mon Mar 26 12:30:44 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TO.llb
+Mon Mar 26 12:30:44 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TRAINING.LLB
+Mon Mar 26 12:30:44 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\VRES.llb
+Mon Mar 26 12:30:44 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\WCON100T.llb
+Mon Mar 26 12:30:44 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\XT.llb
+Mon Mar 26 12:30:44 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ZIGZAG.llb
+Mon Mar 26 12:30:46 Saved as file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-5.MAX
+Mon Mar 26 12:30:46 Loaded file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-5.MAX
+Mon Mar 26 12:30:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Mon Mar 26 12:30:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Mon Mar 26 12:31:00 Loaded file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Mon Mar 26 12:31:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Mon Mar 26 12:31:05 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:31:05 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:31:05 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:31:05 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:31:05 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:31:05 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:31:07 Saved as file ~undo.max
+Mon Mar 26 12:31:16 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Mon Mar 26 12:31:16 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Mon Mar 26 12:31:17 Loaded file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Mon Mar 26 12:31:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Mon Mar 26 12:31:23 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:31:23 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:31:23 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:31:23 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:31:23 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:31:23 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 12:31:25 Saved as file ~undo.max
+Mon Mar 26 12:31:30 Saved as file ~undo.max
+Mon Mar 26 12:32:25 Saved as file ~undo.max
+Mon Mar 26 12:32:29 Saved as file ~undo.max
+Mon Mar 26 12:32:32 Saved as file ~undo.max
+Mon Mar 26 12:32:35 Saved as file ~undo2.max
+Mon Mar 26 12:32:35 Loaded file ~undo.max
+Mon Mar 26 12:32:35 Saved as file ~undo2.max
+Mon Mar 26 12:32:35 Loaded file ~undo.max
+Mon Mar 26 12:32:37 Saved as file ~undo2.max
+Mon Mar 26 12:32:37 Loaded file ~undo.max
+Mon Mar 26 12:33:03 Saved as file ~undo.max
+Mon Mar 26 12:33:06 Saved as file ~undo.max
+Mon Mar 26 12:33:26 Saved as file ~undo.max
+Mon Mar 26 12:35:37 Saved as file ~undo.max
+Mon Mar 26 12:35:38 Saved as file ~undo.max
+Mon Mar 26 12:35:56 Saved as file ~undo.max
+Mon Mar 26 12:38:04 Saved as file BACKUP1.MAX
+Mon Mar 26 12:38:04 Saved as file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-5.MAX
+Mon Mar 26 12:38:10 UserDiv from Layout.INI for AutoECO: 60
+Mon Mar 26 12:38:10 Loaded file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-5.MAX
+Mon Mar 26 12:38:10 Loaded file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Mon Mar 26 12:38:10 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT\LIBRARY\TFXXI.LLB
+Mon Mar 26 12:38:10 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT\LIBRARY\LLIBRERIAMARC.LLB
+Mon Mar 26 12:38:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BCON100T.llb
+Mon Mar 26 12:38:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BCON156T.llb
+Mon Mar 26 12:38:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BGA.llb
+Mon Mar 26 12:38:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\CLCC.llb
+Mon Mar 26 12:38:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON050T.llb
+Mon Mar 26 12:38:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON085T.llb
+Mon Mar 26 12:38:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIMM050F.llb
+Mon Mar 26 12:38:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIMM050T.llb
+Mon Mar 26 12:38:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIN.llb
+Mon Mar 26 12:38:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIP100B.llb
+Mon Mar 26 12:38:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIP100T.llb
+Mon Mar 26 12:38:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DSUBT.llb
+Mon Mar 26 12:38:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DSUBT_HD.LLB
+Mon Mar 26 12:38:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ECON100T.llb
+Mon Mar 26 12:38:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\FBUS.llb
+Mon Mar 26 12:38:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ISA.llb
+Mon Mar 26 12:38:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\JUMPER.LLB
+Mon Mar 26 12:38:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LAYOUT.llb
+Mon Mar 26 12:38:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LCON100T.llb
+Mon Mar 26 12:38:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PC104.llb
+Mon Mar 26 12:38:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCI.llb
+Mon Mar 26 12:38:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCON100T.llb
+Mon Mar 26 12:38:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCON156T.llb
+Mon Mar 26 12:38:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PGA.llb
+Mon Mar 26 12:38:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PLCC.llb
+Mon Mar 26 12:38:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\QUAD.llb
+Mon Mar 26 12:38:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\QUADB.llb
+Mon Mar 26 12:38:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\RELAY.llb
+Mon Mar 26 12:38:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\RF.llb
+Mon Mar 26 12:38:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SBUS.llb
+Mon Mar 26 12:38:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050F.llb
+Mon Mar 26 12:38:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050T.llb
+Mon Mar 26 12:38:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100F.llb
+Mon Mar 26 12:38:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100T.llb
+Mon Mar 26 12:38:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIP.llb
+Mon Mar 26 12:38:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SM.llb
+Mon Mar 26 12:38:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SOG.llb
+Mon Mar 26 12:38:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SOJ.llb
+Mon Mar 26 12:38:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\STIFF.llb
+Mon Mar 26 12:38:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TELE.llb
+Mon Mar 26 12:38:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_AXIAL.llb
+Mon Mar 26 12:38:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_CAP_P.llb
+Mon Mar 26 12:38:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_CYLND.llb
+Mon Mar 26 12:38:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_DIODE.llb
+Mon Mar 26 12:38:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_DISC.llb
+Mon Mar 26 12:38:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_RAD.llb
+Mon Mar 26 12:38:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TO.llb
+Mon Mar 26 12:38:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TRAINING.LLB
+Mon Mar 26 12:38:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\VRES.llb
+Mon Mar 26 12:38:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\WCON100T.llb
+Mon Mar 26 12:38:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\XT.llb
+Mon Mar 26 12:38:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ZIGZAG.llb
+Mon Mar 26 12:38:12 Saved as file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-6.MAX
+Mon Mar 26 12:38:12 Loaded file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-6.MAX
+Mon Mar 26 12:38:36 Saved as file ~undo.max
+Mon Mar 26 12:39:48 Saved as file ~undo.max
+Mon Mar 26 12:39:54 Saved as file ~undo.max
+Mon Mar 26 12:40:44 Saved as file BACKUP1.MAX
+Mon Mar 26 12:43:53 Saved as file ~undo.max
+Mon Mar 26 12:43:55 Saved as file ~undo.max
+Mon Mar 26 12:50:40 Saved as file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-6.MAX
+Mon Mar 26 12:50:44 Saved as file BACKUP1.MAX
+Mon Mar 26 13:00:45 Saved as file BACKUP1.MAX
+Mon Mar 26 13:10:45 Saved as file BACKUP1.MAX
+Mon Mar 26 13:20:45 Saved as file BACKUP1.MAX
+Mon Mar 26 13:30:46 Saved as file BACKUP1.MAX
+Mon Mar 26 13:38:22 Saved as file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-6.MAX
+Mon Mar 26 13:40:46 Saved as file BACKUP1.MAX
+Mon Mar 26 13:44:09 Saved as file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-6.MAX
+Mon Mar 26 13:50:46 Saved as file BACKUP1.MAX
+Mon Mar 26 14:00:47 Saved as file BACKUP1.MAX
+Mon Mar 26 14:10:47 Saved as file BACKUP1.MAX
+Mon Mar 26 14:20:47 Saved as file BACKUP1.MAX
+Mon Mar 26 14:30:47 Saved as file BACKUP1.MAX
+Mon Mar 26 14:40:48 Saved as file BACKUP1.MAX
+Mon Mar 26 14:50:48 Saved as file BACKUP1.MAX
+Mon Mar 26 14:51:16 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Mon Mar 26 14:51:16 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Mon Mar 26 14:51:17 Loaded file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Mon Mar 26 14:51:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Mon Mar 26 14:51:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Mon Mar 26 14:51:22 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 14:51:22 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 14:51:22 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 14:51:22 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 14:51:22 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 14:51:22 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 14:51:24 Saved as file ~undo.max
+Mon Mar 26 14:51:29 Saved as file ~undo.max
+Mon Mar 26 14:52:59 Saved as file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-6.MAX
+Mon Mar 26 15:01:48 Saved as file BACKUP1.MAX
+Mon Mar 26 15:12:19 Saved as file BACKUP1.MAX
+Mon Mar 26 15:22:19 Saved as file BACKUP1.MAX
+Mon Mar 26 15:32:19 Saved as file BACKUP1.MAX
+Mon Mar 26 15:42:19 Saved as file BACKUP1.MAX
+Mon Mar 26 15:52:20 Saved as file BACKUP1.MAX
+Mon Mar 26 15:55:47 Saved as file ~undo.max
+Mon Mar 26 15:55:51 Saved as file ~undo.max
+Mon Mar 26 16:02:20 Saved as file BACKUP1.MAX
+Mon Mar 26 16:12:20 Saved as file BACKUP1.MAX
+Mon Mar 26 16:13:09 Saved as file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-6.MAX
+Mon Mar 26 16:22:21 Saved as file BACKUP1.MAX
+Mon Mar 26 16:32:21 Saved as file BACKUP1.MAX
+Mon Mar 26 16:42:21 Saved as file BACKUP1.MAX
+Mon Mar 26 16:52:22 Saved as file BACKUP1.MAX
+Mon Mar 26 17:02:52 Saved as file BACKUP1.MAX
+Mon Mar 26 17:08:52 Saved as file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-6.MAX
+Mon Mar 26 17:13:22 Saved as file BACKUP1.MAX
+Mon Mar 26 17:23:22 Saved as file BACKUP1.MAX
+Mon Mar 26 17:33:23 Saved as file BACKUP1.MAX
+Mon Mar 26 17:43:23 Saved as file BACKUP1.MAX
+Mon Mar 26 17:53:23 Saved as file BACKUP1.MAX
+Mon Mar 26 17:57:20 Saved as file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-6.MAX
+Mon Mar 26 17:57:23 Saved as file BACKUP1.MAX
+Mon Mar 26 18:03:24 Saved as file BACKUP1.MAX
+Mon Mar 26 18:14:54 Saved as file BACKUP1.MAX
+Mon Mar 26 18:25:24 Saved as file BACKUP1.MAX
+Mon Mar 26 18:36:55 Saved as file BACKUP1.MAX
+Mon Mar 26 18:41:42 Saved as file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-6.MAX
+Mon Mar 26 18:47:25 Saved as file BACKUP1.MAX
+Mon Mar 26 18:49:08 Saved as file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-6.MAX
+Mon Mar 26 18:53:05 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Mon Mar 26 18:53:05 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Mon Mar 26 18:53:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LAYOUT.llb
+Mon Mar 26 18:53:13 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Mon Mar 26 18:53:15 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 18:53:15 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 18:53:15 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 18:53:15 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 18:53:15 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 18:53:15 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 18:53:15 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 18:53:15 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 18:53:15 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 18:53:17 Saved as file ~undo.max
+Mon Mar 26 18:53:27 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Mon Mar 26 18:53:27 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Mon Mar 26 18:53:31 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 18:53:31 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 18:53:31 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 18:53:31 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 18:53:31 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 18:53:31 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 18:53:31 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 18:53:31 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 18:53:31 Footprint coords will be rounded to nearest base unit.
+Mon Mar 26 18:53:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Mon Mar 26 18:53:34 Saved as file ~undo.max
+Mon Mar 26 18:53:45 Saved as file ~undo.max
+Mon Mar 26 18:53:53 Saved as file ~undo.max
+Mon Mar 26 18:54:00 Saved as file ~undo.max
+Mon Mar 26 18:54:05 Saved as file ~undo.max
+Mon Mar 26 18:55:44 Saved as file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-6.MAX
+Mon Mar 26 18:58:32 Saved as file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD.MAX
+Mon Mar 26 19:04:22 Saved as file BACKUP1.MAX
+Mon Mar 26 19:14:52 Saved as file BACKUP1.MAX
+Mon Mar 26 19:17:31 Saved as file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD.MAX
+Tue Mar 27 09:02:03 Saved as file BACKUP1.MAX
+Tue Mar 27 09:12:03 Saved as file BACKUP1.MAX
+Tue Mar 27 09:22:04 Saved as file BACKUP1.MAX
+Tue Mar 27 09:32:04 Saved as file BACKUP1.MAX
+Tue Mar 27 09:42:04 Saved as file BACKUP1.MAX
+Tue Mar 27 09:42:47 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Tue Mar 27 09:42:47 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Tue Mar 27 09:42:49 Loaded file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Tue Mar 27 09:43:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Tue Mar 27 09:44:42 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Tue Mar 27 09:44:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Tue Mar 27 09:44:59 Loaded file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Tue Mar 27 09:44:59 Saved as file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Tue Mar 27 09:45:01 Loaded file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Tue Mar 27 09:45:01 Saved as file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Tue Mar 27 09:45:01 Loaded file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Tue Mar 27 09:45:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Tue Mar 27 09:45:15 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Tue Mar 27 09:45:19 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\padstack.llb
+Tue Mar 27 09:46:34 Loaded file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Tue Mar 27 09:46:34 Saved as file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Tue Mar 27 09:46:34 Loaded file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Tue Mar 27 09:46:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Tue Mar 27 09:47:12 Loaded file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Tue Mar 27 09:47:12 Saved as file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Tue Mar 27 09:47:12 Loaded file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Tue Mar 27 09:49:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Tue Mar 27 09:49:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Tue Mar 27 09:49:03 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:49:03 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:49:03 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:49:03 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:49:03 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:49:03 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:49:03 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:49:03 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:49:03 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:49:03 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:49:03 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:49:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Tue Mar 27 09:49:03 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:49:03 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:49:03 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:49:03 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:49:03 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:49:03 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:49:03 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:49:03 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:49:03 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:49:03 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:49:03 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:49:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Tue Mar 27 09:49:04 Loaded file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Tue Mar 27 09:49:08 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Tue Mar 27 09:49:11 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:49:11 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:49:11 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:49:11 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:49:11 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:49:11 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:49:11 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:49:11 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:49:11 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:49:11 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:49:11 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:49:27 Saved as file ~undo.max
+Tue Mar 27 09:50:33 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Tue Mar 27 09:50:33 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Tue Mar 27 09:50:33 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:50:33 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:50:33 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:50:33 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:50:33 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:50:33 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:50:33 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:50:33 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:50:33 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:50:33 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:50:33 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:50:33 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Tue Mar 27 09:50:33 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:50:33 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:50:33 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:50:33 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:50:33 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:50:33 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:50:33 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:50:33 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:50:33 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:50:33 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:50:33 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:50:33 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Tue Mar 27 09:50:34 Loaded file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Tue Mar 27 09:50:37 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Tue Mar 27 09:50:40 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:50:40 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:50:40 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:50:40 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:50:40 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:50:40 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:50:40 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:50:40 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:50:40 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:50:40 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:50:40 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:50:52 Saved as file ~undo.max
+Tue Mar 27 09:53:34 Saved as file BACKUP1.MAX
+Tue Mar 27 09:54:35 Saved as file ~undo.max
+Tue Mar 27 09:54:37 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Tue Mar 27 09:54:37 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Tue Mar 27 09:54:37 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:54:37 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:54:37 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:54:37 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:54:37 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:54:37 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:54:37 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:54:37 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:54:37 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:54:37 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:54:37 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:54:37 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:54:37 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:54:37 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Tue Mar 27 09:54:37 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:54:37 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:54:37 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:54:37 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:54:37 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:54:37 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:54:37 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:54:37 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:54:37 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:54:37 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:54:37 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:54:37 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:54:37 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:54:37 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Tue Mar 27 09:54:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SM.llb
+Tue Mar 27 09:54:54 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Tue Mar 27 09:54:55 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:54:55 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:54:55 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:54:55 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:54:55 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:54:55 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:54:55 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:54:55 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:54:55 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:54:55 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:54:55 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:54:55 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:54:55 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:54:55 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:54:55 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:55:05 Saved as file ~undo.max
+Tue Mar 27 09:55:33 Saved as file ~undo.max
+Tue Mar 27 09:56:59 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Tue Mar 27 09:56:59 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Tue Mar 27 09:56:59 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:56:59 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:56:59 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:56:59 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:56:59 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:56:59 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:56:59 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:56:59 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:56:59 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:56:59 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:56:59 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:56:59 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:56:59 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:56:59 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Tue Mar 27 09:56:59 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:56:59 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:56:59 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:56:59 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:56:59 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:56:59 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:56:59 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:56:59 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:56:59 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:56:59 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:56:59 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:56:59 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:56:59 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:56:59 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Tue Mar 27 09:57:04 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:57:04 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:57:04 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:57:04 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:57:04 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:57:04 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:57:04 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:57:04 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:57:04 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:57:04 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:57:04 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:57:04 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:57:04 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 09:57:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Tue Mar 27 09:57:25 Saved as file ~undo.max
+Tue Mar 27 09:57:51 Saved as file ~undo.max
+Tue Mar 27 10:01:07 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Tue Mar 27 10:01:07 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Tue Mar 27 10:01:07 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:07 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:07 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:07 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:07 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:07 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:07 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:07 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:07 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:07 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:07 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:07 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:07 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:07 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Tue Mar 27 10:01:07 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:07 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:07 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:07 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:07 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:07 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:07 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:07 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:07 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:07 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:07 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:07 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:07 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:07 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Tue Mar 27 10:01:08 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:08 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:08 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:08 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:08 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:08 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:08 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:08 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:08 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:08 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:08 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:08 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:08 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:08 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Tue Mar 27 10:01:11 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:11 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:11 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:11 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:11 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:11 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:11 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:11 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:11 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:11 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:11 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:11 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:11 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:11 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Tue Mar 27 10:01:19 Saved as file ~undo.max
+Tue Mar 27 10:01:32 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Tue Mar 27 10:01:32 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Tue Mar 27 10:01:32 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:32 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:32 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:32 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:32 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:32 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:32 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:32 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:32 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:32 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:32 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:32 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:32 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:32 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Tue Mar 27 10:01:32 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:32 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:32 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:32 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:32 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:32 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:32 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:32 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:32 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:32 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:32 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:32 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:32 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:32 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Tue Mar 27 10:01:34 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:34 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:34 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:34 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:34 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:34 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:34 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:34 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:34 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:34 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:34 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:34 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:34 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 10:01:34 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Tue Mar 27 10:01:36 Saved as file ~undo.max
+Tue Mar 27 10:02:07 Saved as file ~undo.max
+Tue Mar 27 10:02:10 Saved as file ~undo.max
+Tue Mar 27 10:04:35 Saved as file BACKUP1.MAX
+Tue Mar 27 10:14:35 Saved as file BACKUP1.MAX
+Tue Mar 27 10:24:35 Saved as file BACKUP1.MAX
+Tue Mar 27 10:34:36 Saved as file BACKUP1.MAX
+Tue Mar 27 10:44:36 Saved as file BACKUP1.MAX
+Tue Mar 27 10:54:36 Saved as file BACKUP1.MAX
+Tue Mar 27 11:04:37 Saved as file BACKUP1.MAX
+Tue Mar 27 11:14:37 Saved as file BACKUP1.MAX
+Tue Mar 27 11:24:37 Saved as file BACKUP1.MAX
+Tue Mar 27 11:25:48 Saved as file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD.MAX
+Tue Mar 27 11:25:58 Saved as file BACKUP1.MAX
+Tue Mar 27 11:26:29 Saved as file BACKUP1.MAX
+Tue Mar 27 11:26:29 Saved as file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD.MAX
+Tue Mar 27 11:26:34 UserDiv from Layout.INI for AutoECO: 60
+Tue Mar 27 11:26:34 Loaded file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD.MAX
+Tue Mar 27 11:26:34 Loaded file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Tue Mar 27 11:26:34 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT\LIBRARY\TFXXI.LLB
+Tue Mar 27 11:26:34 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT\LIBRARY\LLIBRERIAMARC.LLB
+Tue Mar 27 11:26:34 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BCON100T.llb
+Tue Mar 27 11:26:34 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BCON156T.llb
+Tue Mar 27 11:26:34 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\BGA.llb
+Tue Mar 27 11:26:34 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\CLCC.llb
+Tue Mar 27 11:26:34 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON050T.llb
+Tue Mar 27 11:26:34 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DCON085T.llb
+Tue Mar 27 11:26:34 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIMM050F.llb
+Tue Mar 27 11:26:34 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIMM050T.llb
+Tue Mar 27 11:26:34 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIN.llb
+Tue Mar 27 11:26:34 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIP100B.llb
+Tue Mar 27 11:26:34 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DIP100T.llb
+Tue Mar 27 11:26:34 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DSUBT.llb
+Tue Mar 27 11:26:34 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\DSUBT_HD.LLB
+Tue Mar 27 11:26:34 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ECON100T.llb
+Tue Mar 27 11:26:34 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\FBUS.llb
+Tue Mar 27 11:26:34 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ISA.llb
+Tue Mar 27 11:26:34 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\JUMPER.LLB
+Tue Mar 27 11:26:34 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LAYOUT.llb
+Tue Mar 27 11:26:34 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\LCON100T.llb
+Tue Mar 27 11:26:34 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PC104.llb
+Tue Mar 27 11:26:34 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCI.llb
+Tue Mar 27 11:26:34 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCON100T.llb
+Tue Mar 27 11:26:34 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PCON156T.llb
+Tue Mar 27 11:26:34 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PGA.llb
+Tue Mar 27 11:26:34 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\PLCC.llb
+Tue Mar 27 11:26:34 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\QUAD.llb
+Tue Mar 27 11:26:34 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\QUADB.llb
+Tue Mar 27 11:26:34 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\RELAY.llb
+Tue Mar 27 11:26:34 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\RF.llb
+Tue Mar 27 11:26:34 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SBUS.llb
+Tue Mar 27 11:26:34 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050F.llb
+Tue Mar 27 11:26:34 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM050T.llb
+Tue Mar 27 11:26:34 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100F.llb
+Tue Mar 27 11:26:34 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIMM100T.llb
+Tue Mar 27 11:26:34 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SIP.llb
+Tue Mar 27 11:26:34 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SM.llb
+Tue Mar 27 11:26:34 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SOG.llb
+Tue Mar 27 11:26:34 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\SOJ.llb
+Tue Mar 27 11:26:34 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\STIFF.llb
+Tue Mar 27 11:26:34 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TELE.llb
+Tue Mar 27 11:26:34 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_AXIAL.llb
+Tue Mar 27 11:26:34 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_CAP_P.llb
+Tue Mar 27 11:26:34 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_CYLND.llb
+Tue Mar 27 11:26:34 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_DIODE.llb
+Tue Mar 27 11:26:34 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_DISC.llb
+Tue Mar 27 11:26:34 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TM_RAD.llb
+Tue Mar 27 11:26:34 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TO.llb
+Tue Mar 27 11:26:34 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\TRAINING.LLB
+Tue Mar 27 11:26:34 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\VRES.llb
+Tue Mar 27 11:26:34 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\WCON100T.llb
+Tue Mar 27 11:26:34 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\XT.llb
+Tue Mar 27 11:26:34 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\library\ZIGZAG.llb
+Tue Mar 27 11:26:43 Saved as file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-7.MAX
+Tue Mar 27 11:26:43 Loaded file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-7.MAX
+Tue Mar 27 11:30:08 Saved as file ~undo.max
+Tue Mar 27 11:31:31 Saved as file ~undo.max
+Tue Mar 27 11:35:07 Saved as file BACKUP1.MAX
+Tue Mar 27 11:35:52 Saved as file ~undo.max
+Tue Mar 27 11:36:04 Saved as file ~undo.max
+Tue Mar 27 11:39:39 Saved as file ~undo.max
+Tue Mar 27 11:45:38 Saved as file BACKUP1.MAX
+Tue Mar 27 11:55:38 Saved as file BACKUP1.MAX
+Tue Mar 27 12:04:39 Saved as file ~undo.max
+Tue Mar 27 12:05:38 Saved as file BACKUP1.MAX
+Tue Mar 27 12:08:44 Saved as file ~undo.max
+Tue Mar 27 12:08:54 Saved as file ~undo.max
+Tue Mar 27 12:16:39 Saved as file BACKUP1.MAX
+Tue Mar 27 12:16:48 Saved as file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-7.MAX
+Tue Mar 27 12:18:41 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Tue Mar 27 12:18:41 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Tue Mar 27 12:18:45 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 12:18:45 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 12:18:45 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 12:18:45 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 12:18:45 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 12:18:45 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 12:18:45 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 12:18:45 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 12:18:45 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 12:18:45 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Tue Mar 27 12:18:49 Saved as file ~undo.max
+Tue Mar 27 12:19:01 Saved as file ~undo.max
+Tue Mar 27 12:19:14 Saved as file ~undo.max
+Tue Mar 27 12:19:20 Saved as file ~undo.max
+Tue Mar 27 12:19:24 Saved as file ~undo.max
+Tue Mar 27 12:28:39 Saved as file BACKUP1.MAX
+Tue Mar 27 12:33:07 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Tue Mar 27 12:33:07 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Tue Mar 27 12:33:08 Loaded file C:\USERS\RAFEL\DOCUMENTS\ORCABLIB\LLIBRERIES\LAYOUT\LLIBRERIAMARC_3.LLB
+Tue Mar 27 12:33:13 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout\data\template.imp
+Tue Mar 27 12:33:15 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 12:33:15 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 12:33:15 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 12:33:15 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 12:33:15 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 12:33:15 Footprint coords will be rounded to nearest base unit.
+Tue Mar 27 12:33:18 Saved as file ~undo.max
+Tue Mar 27 12:33:37 Saved as file ~undo.max
+Tue Mar 27 12:33:42 Saved as file ~undo.max
+Tue Mar 27 12:34:19 Saved as file ~undo.max
+Tue Mar 27 12:42:09 Saved as file BACKUP1.MAX
+Tue Mar 27 12:45:37 Saved as file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-7.MAX
+Tue Mar 27 12:52:10 Saved as file BACKUP1.MAX
+Tue Mar 27 12:54:32 Saved as file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD-7.MAX
+Tue Mar 27 13:03:11 Saved as file C:\USERS\RAFEL\DOCUMENTS\PROJECTES\SOC\T3\DISENO\HARDWARE\VERSION1_0\LAYOUT\CAMERABOARD\CAMERABOARD.MAX
