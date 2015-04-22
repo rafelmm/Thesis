@@ -901,7 +901,26 @@ name "sec:Fundamentals"
 \end_layout
 
 \begin_layout Subsection
-Segmentation
+Binarization
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Binarization"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We will use the Otsu method 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Otsu"
+
+\end_inset
+
+ to binarize the image.
+ 
 \end_layout
 
 \begin_layout Subsection
@@ -910,6 +929,13 @@ Morphological filtering
 
 \begin_layout Subsection
 Connected components
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Connected-components"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -1442,6 +1468,123 @@ Image processing.
  Matlab prototypes
 \end_layout
 
+\begin_layout Standard
+The device we are developing has to do two tasks.
+ The first one consists on detemining the current position of the point
+ machine.
+ If this task is completed successfully then the device has to measure the
+ gap between the lock bar notch and the lock blade.
+ In order to do this tasks we will use an algorithm similar to the one used
+ by Kaiyan et al.
+ in 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "measurement-leaf-plant"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The fist step of the algorithm consists on the image binarization.
+ In order to perform this task we will use the Otsu method which has been
+ explained in the point 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Binarization"
+
+\end_inset
+
+.
+ Otsu method gives us the optimum threshold level, all pixels above this
+ level are considered to be the foreground while others are part of the
+ background.
+ After the binarization we apply an opening in order to filter the undisired
+ noise.
+ The most important step in the algorithm consists on extract the connected
+ regions of the image foreground.
+ In order to do so we apply the image labeling method explained in section
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Connected-components"
+
+\end_inset
+
+.
+ Once we have found the different connected components in the image we can
+ remove some objects with the geometrical information.
+ We are looking for the laser lines in the image.
+ These are horizontal lines.
+ In the side where the lock blade is present the line will be discontinued
+ while in the other side the horizontal line goes from right to left.
+ In both cases lines we are looking for are connected to the left and/or
+ right margins of the image.
+ Applying this prior information we can remove all the objects that are
+ not connected to the side margins of image.
+ Once we have exctracted laser lines we are able to determine the current
+ position of the point machine.
+ This first task is performed by looking wich line is connected to both
+ left and right margins of the image.
+ If we find and object that fullfill this condition we can detrmine the
+ position of the engine.
+ Once we know the current position we have to measure the existing gap.
+ In order to this this task we will focus on the broken line.
+ We will find the endings of both parts of the line in order to establish
+ the number of pixels of the gap.
+ To transform the number of pixels into a real measure we need some reference.
+ We will use the lock blade as the reference because its size is always
+ the same.
+ In order to do this we have to measure this part of the point
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename img/image algorithm.png
+	width 12cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Steps of the image processing algorithm
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:image processing algorithm"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 Gap measure display
 \end_layout
@@ -1904,6 +2047,31 @@ key "wiki:resistividad"
 \end_inset
 
 http://es.wikipedia.org/wiki/Resistividad
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "16"
+key "Otsu"
+
+\end_inset
+
+N.
+ Otsu.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+A Threshold Selection Method from Gray-Level Histograms
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Systems, Man and Cybernetics, IEEE Transactions on (Volume:9).
+ Jan.
+ 1979, pp.
+ 62-66
 \end_layout
 
 \end_body
