@@ -880,6 +880,13 @@ key "embedded-realtime-face"
 
 \begin_layout Subsection
 Control bar monitoring systems
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Control-bar-monitoring"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -900,6 +907,16 @@ name "sec:Fundamentals"
 
 \end_layout
 
+\begin_layout Standard
+In this chapter the basics we will expose the theory of the methods we are
+ going to use in the image processing algorithms.
+ The first step of the algorithm consists on image binarization.
+ Then, the binary image is filtered using a morphological filter.
+ Finally the connected regions are found with a two scan algorithm.
+ In addition to these three points camera calibration theory will also be
+ explained.
+\end_layout
+
 \begin_layout Subsection
 Binarization
 \begin_inset CommandInset label
@@ -912,15 +929,154 @@ name "sub:Binarization"
 \end_layout
 
 \begin_layout Standard
-We will use the Otsu method 
+The first step in most image processing algorithms consists on binarizing
+ the image in order extract objects from the background.
+ In order to perform a good binarization it is very important to select
+ the adequate threshold.
+ We will use the Otsu method 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "Otsu"
 
 \end_inset
 
- to binarize the image.
+ to select the threshold.
+ This method is based on the image histogram and it selects the optimum
+ threshold by maximizing the inter-class variance of two classes.
+ Classes are defined as 
+\begin_inset Formula $C_{0}$
+\end_inset
+
+ which contains all pixels with a gray level between 
+\begin_inset Formula $[0,\,1,\,\dots,\,k]$
+\end_inset
+
+ and 
+\begin_inset Formula $C_{1}$
+\end_inset
+
+ which contains all pixels with gray level 
+\begin_inset Formula $[k+1,\,\dots,\,L]$
+\end_inset
+
+ where 
+\begin_inset Formula $L$
+\end_inset
+
+ is the maximum gray level of the image and 
+\begin_inset Formula $k$
+\end_inset
+
+ is the threshold.
+ In order to find the optimum threshold 
+\begin_inset Formula $k^{*}$
+\end_inset
+
+it uses one discriminant criterion measure used in the discriminant analysis
  
+\begin_inset Formula 
+\[
+\eta=\frac{\sigma_{B}^{2}}{\sigma_{T}^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula 
+\[
+\sigma_{B}^{2}=\omega_{0}(\mu_{0}-\mu_{T})^{2}+\omega_{1}(\mu_{1}-\mu_{T})^{2}=\omega_{0}\omega_{1}(\mu_{1}-\mu_{0})^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+and
+\begin_inset Formula 
+\[
+\sigma_{T}^{2}=\sum_{i=1}^{L}(i-\mu_{T})^{2}p_{i}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $p_{i}$
+\end_inset
+
+ is the probability of a pixel to have gray level 
+\begin_inset Formula $i$
+\end_inset
+
+ and 
+\begin_inset Formula $\omega_{i}$
+\end_inset
+
+ and 
+\begin_inset Formula $\mu_{i}$
+\end_inset
+
+ are the zeroth-order and first-order cumulative moments of classes defined
+ with 
+\begin_inset Formula $kth$
+\end_inset
+
+ level.
+ 
+\begin_inset Formula $\sigma_{B}^{2}$
+\end_inset
+
+ and 
+\begin_inset Formula $\sigma_{T}^{2}$
+\end_inset
+
+ are the between class variance and the total variance of levels respectively.
+ Maximizing the discriminant criterion 
+\begin_inset Formula $\eta$
+\end_inset
+
+ is equivalent to maximizing 
+\begin_inset Formula $\sigma_{B}^{2}$
+\end_inset
+
+ because 
+\begin_inset Formula $\sigma_{T}^{2}$
+\end_inset
+
+ does not depend on threshold 
+\begin_inset Formula $k$
+\end_inset
+
+.
+ Therefore the optimal threshold 
+\begin_inset Formula $k^{*}$
+\end_inset
+
+ is found using a sequential search of the maximum of 
+\begin_inset Formula $\sigma_{B}^{2}$
+\end_inset
+
+ for all possible values of 
+\begin_inset Formula $k=[0,\,\dots,\,L)$
+\end_inset
+
+ 
+\begin_inset Formula 
+\[
+\sigma_{B}^{2}(k^{*})=\max_{0\le k<L}\sigma_{B}^{2}(k)
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -958,6 +1114,24 @@ name "sec:Design"
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+In this chapter we will explain the key aspects of the design.
+ We will start by establishing the system specifications that fulfills the
+ goals presented in secion 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Goal"
+
+\end_inset
+
+.
+ Then we will continue explaining the hardware design which involves not
+ also the electronics but the optical element and the housing of the device.
+ After that a communicatinos challenge will be presented and we will explain
+ a custom communications protocol to solve it.
+ Finally the image processing algorithms will be discussed.
 \end_layout
 
 \begin_layout Subsection
@@ -1463,6 +1637,119 @@ Housing
 Custom communications protocol over CAN
 \end_layout
 
+\begin_layout Standard
+The device we are developing have to be placed inside the point machine
+ engine housing.
+ Furthermore it have to be integrated in the current monitoring system explained
+ in section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Control-bar-monitoring"
+
+\end_inset
+
+ of chapter 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Prior-Art"
+
+\end_inset
+
+.
+ The easiest way to integrate the new device into the system is using the
+ same communication bus to transfer the computed data and the captured images
+ when necessary.
+ Data transmission can be done with a single CAN frame.
+ A CAN frame can have up to 8 bytes of information that are enough to transmit
+ the gap measure and the current point machine position.
+\end_layout
+
+\begin_layout Standard
+In order to send the entire image to the server one frame it is not enough.
+ We must send a large number of CAN frames.
+ CAN specification does not provide neither reliable nor ordered delivery
+ of data frames so we must implement a custom protocol over the CAN layer.
+\end_layout
+
+\begin_layout Standard
+The custom protocol must ensure that all frames arrive to the communications
+ concentration device and that they arrive in the right order.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:senda"
+
+\end_inset
+
+ shows the diagram of this protocol.
+ The key aspects of it are the following:
+\end_layout
+
+\begin_layout Itemize
+The first frame of the protocol contains the number of bytes that will be
+ sended.
+\end_layout
+
+\begin_layout Itemize
+Dataframes with image data bytes contain a number indicating the position
+ of the data.
+\end_layout
+
+\begin_layout Itemize
+ACK are used in order to ensure that all frames arrive to the receiver.
+\end_layout
+
+\begin_layout Itemize
+NACK are sended to the transmitter to say that some frames have been lost.
+ The transmitter send again the lost frames.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename img/senda.png
+	width 11cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Custom communication protocol diagram.
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:senda"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 Image processing.
  Matlab prototypes
@@ -1523,7 +1810,7 @@ reference "sub:Connected-components"
  right margins of the image.
  Applying this prior information we can remove all the objects that are
  not connected to the side margins of image.
- Once we have exctracted laser lines we are able to determine the current
+ Once we have exctracted laser lines we are able to estimate the current
  position of the point machine.
  This first task is performed by looking wich line is connected to both
  left and right margins of the image.
@@ -1541,7 +1828,7 @@ reference "sub:Connected-components"
 
 \begin_layout Standard
 \begin_inset Float figure
-placement h
+placement H
 wide false
 sideways false
 status open
@@ -1576,6 +1863,294 @@ name "fig:image processing algorithm"
 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Binarization
+\end_layout
+
+\begin_layout Standard
+The main step in image binarization consists on finding the optimal threshold
+ to extract objects from the background.
+ In order to perform this step we are using the Otsu's method which has
+ been explained in section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Binarization"
+
+\end_inset
+
+ of chapter 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Fundamentals"
+
+\end_inset
+
+.
+ Algorithm 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "alg:otsu"
+
+\end_inset
+
+ shows the algorithm steps.
+ The first step consists on computing the image histogram.
+ This is accomplished by initializing an array of length equal to the number
+ of gray levels in the image to 0's.
+ Then for every pixel in the image the counter corresponding to its gray
+ level is increased by 1.
+ At the end of the scanning the counter array contains the number of pixels
+ with each gray level in the image 
+\begin_inset Formula $n_{i}$
+\end_inset
+
+.
+ Then the probability for each gray level is computed as 
+\begin_inset Formula 
+\[
+p_{i}=\frac{n_{i}}{T},\;i=[0\dots\,L]
+\]
+
+\end_inset
+
+ where 
+\begin_inset Formula $T=M\times N$
+\end_inset
+
+ is the total number of pixels in the image.
+ It is important to note that
+\begin_inset Formula 
+\begin{equation}
+\sum_{i=0}^{^{L}}p_{i}=1\label{eq:suma_prob}
+\end{equation}
+
+\end_inset
+
+Remember that we are looking for maximizing the intra-class variance of
+ two classes 
+\begin_inset Formula $C_{0}$
+\end_inset
+
+ and 
+\begin_inset Formula $C_{1}$
+\end_inset
+
+.
+ We can compute the first-order momentum of classes as 
+\begin_inset Formula 
+\[
+\omega_{0}(k)=\sum_{i=0}^{^{k}}p_{i}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\omega_{1}(k)=\sum_{i=k+1}^{^{L}}p_{i}
+\]
+
+\end_inset
+
+
+\begin_inset Formula $\omega_{1}(k)$
+\end_inset
+
+ cal also be more efficiently computed taking into account 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:suma_prob"
+
+\end_inset
+
+ as
+\begin_inset Formula 
+\begin{equation}
+\omega_{1}(k)=1-\omega_{0}(k)\label{eq:omega1}
+\end{equation}
+
+\end_inset
+
+Then at every iteration we only have to add the next 
+\begin_inset Formula $p_{k}$
+\end_inset
+
+ to 
+\begin_inset Formula $\omega_{0}(k-1)$
+\end_inset
+
+ and compute 
+\begin_inset Formula $\omega_{1}(k)$
+\end_inset
+
+ using 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:omega1"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+We can accelerate the algorithm implementation using two conditions.
+ The first one consists on going to the next iteration while 
+\begin_inset Formula $\omega_{0}(k)$
+\end_inset
+
+ is equal to 0.
+ This means that there are not any pixels in 
+\begin_inset Formula $C_{0}$
+\end_inset
+
+ and the optimal threshold cannot be in that level because all pixels would
+ be in 
+\begin_inset Formula $C_{1}$
+\end_inset
+
+.
+ The second one consists on ending the loop when 
+\begin_inset Formula $\omega_{1}(k)$
+\end_inset
+
+ is equal to 0.
+ This means that there are not any pixels with a gray level greater than
+ the current one so it is not necessary to continue computing.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float algorithm
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Enumerate
+Compute histogram and probabilities of each intensity level
+\end_layout
+
+\begin_layout Enumerate
+Set up initial 
+\begin_inset Formula $\omega_{i}(0)$
+\end_inset
+
+ and 
+\begin_inset Formula $\mu_{i}(0)$
+\end_inset
+
+, 
+\begin_inset Formula $i=[0,1]$
+\end_inset
+
+, and set 
+\begin_inset Formula $\max(\sigma_{B}^{2})=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Step through all possible thresholds 
+\begin_inset Formula $k=1\ldots\,L$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Update 
+\begin_inset Formula $\omega_{i}(k)$
+\end_inset
+
+ and 
+\begin_inset Formula $\mu_{i}(k)$
+\end_inset
+
+ at every threshold level.
+\end_layout
+
+\begin_layout Enumerate
+If 
+\begin_inset Formula $\omega_{0}(k)=0$
+\end_inset
+
+ go to the next iteration.
+\end_layout
+
+\begin_layout Enumerate
+If 
+\begin_inset Formula $\omega_{1}(k)=0$
+\end_inset
+
+ stop the loop.
+\end_layout
+
+\begin_layout Enumerate
+Compute 
+\begin_inset Formula $\sigma_{B}^{2}(k)=\omega_{0}(k)\omega_{1}(k)(\mu_{1}(k)-\mu_{0}(k))^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+If 
+\begin_inset Formula $\sigma_{B}^{2}(k)$
+\end_inset
+
+ update 
+\begin_inset Formula $\max(\sigma_{B}^{2})$
+\end_inset
+
+ and set 
+\begin_inset Formula $k^{*}=k$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Desired threshold 
+\begin_inset Formula $k^{*}$
+\end_inset
+
+ corresponds to the maximum 
+\begin_inset Formula $\sigma_{B}^{2}(k)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Otsu's method for optimal histogram threshold search
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "alg:otsu"
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Plain Layout
 
 \end_layout
@@ -1585,7 +2160,19 @@ name "fig:image processing algorithm"
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsubsection
+Morphological Filtering
+\end_layout
+
+\begin_layout Subsubsection
+Connected components
+\end_layout
+
+\begin_layout Subsubsection
+Position estimation
+\end_layout
+
+\begin_layout Subsubsection
 Gap measure display
 \end_layout
 
