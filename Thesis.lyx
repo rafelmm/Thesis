@@ -2,7 +2,7 @@
 \lyxformat 474
 \begin_document
 \begin_header
-\textclass article
+\textclass extarticle
 \use_default_options true
 \maintain_unincluded_children false
 \language english
@@ -24,10 +24,11 @@
 \output_sync 0
 \bibtex_command default
 \index_command default
-\paperfontsize default
+\paperfontsize 12
+\spacing single
 \use_hyperref false
 \papersize default
-\use_geometry false
+\use_geometry true
 \use_package amsmath 1
 \use_package amssymb 1
 \use_package cancel 1
@@ -51,6 +52,10 @@
 \shortcut idx
 \color #008000
 \end_index
+\leftmargin 3cm
+\topmargin 3cm
+\rightmargin 3cm
+\bottommargin 3cm
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
@@ -71,6 +76,36 @@
 \begin_layout Standard
 \begin_inset CommandInset toc
 LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FloatList figure
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FloatList table
 
 \end_inset
 
@@ -127,7 +162,7 @@ reference "fig:point_machine_parts"
 \end_inset
 
 .
- The motor is connected to the strecher (or trhow bar) through gears.
+ The motor is connected to the stretcher (or throw bar) through gears.
  At the other end of the bar there are two points, or switch rails, attached
  to it.
  Each point has a locking bar attached to it.
@@ -430,9 +465,9 @@ reference "sec:Design"
 
 \begin_layout Enumerate
 Reduced manufacturing costs.
- In a railway infraestructure are hundreds of engines to monitor, therefore,
+ In a railway infrastructure are hundreds of engines to monitor, therefore,
  the unit price of the monitoring device must be low.
- The system should reduce the cost of infraestructure maintenance.
+ The system should reduce the cost of infrastructure maintenance.
  Potential customers of the system are public or semi-public companies so
  the budget is considered at most for four years.
  All investments must have its pay-back less than this period of time.
@@ -879,14 +914,271 @@ key "embedded-realtime-face"
 \end_layout
 
 \begin_layout Subsection
-Control bar monitoring systems
+Previous work
 \begin_inset CommandInset label
 LatexCommand label
-name "sub:Control-bar-monitoring"
+name "sub:Prior-work"
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+Thinking Forward XXI has been working in a monitoring system for point machines
+ since 2009.
+ A collaboration between TMB and UPC allowed the development of such a system
+ and the patent 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-ES2374465"
+
+\end_inset
+
+.
+ Students involved in the development founded a start-up in order to implant
+ the system in TMB and in other potential customers.
+\end_layout
+
+\begin_layout Standard
+The core element of the system is an aquisition device which is placed inside
+ the point machine housing.
+ This device captures a lot of parameters of the engine.
+ Some of this parameters are the current, voltage, temperature, operation
+ time, vibration, position of the lock bar and gap between the lock bar
+ notch and the lock hammer.
+\end_layout
+
+\begin_layout Standard
+The gap measure is estimated with a magnetic field produced by two magnets
+ and two hall effect sensors.
+ The magnets are fixed in lock bars, one in each bar.
+ Hall effect sensors are fixed in the interior of the point machine housing.
+ When the point machine is in normal position on sensor detects the magnetic
+ field produced by the magent fixed in the corresponding lock bar and produces
+ an analog signal which is a function of the intensity of the magneitc field.
+ This analog signal is translated with an Analog to Digital Converter (ADC)
+ in a microcontroller.
+ In this position, the other sensor is not detecting any magnetic field
+ because the magnet which is fixed in the other lock bar is far away from
+ the sensor.
+\end_layout
+
+\begin_layout Standard
+This approach has several problems.
+ The first one is that the analog signal from the sensor has to be calibrated
+ in order to give a measure of the gap in millimeters.
+ The calibration is done in the installation of the sensor.
+ It consists on placing a collection of gauges of different known measures
+ and annotate the correspondence between the ADC value and the gauge.
+ In normal operation, when the microcontroller reads the ADC input it interpolat
+es linearly the values to estimate the gap.
+ For example, table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tabla:calibaracion-hall"
+
+\end_inset
+
+ shows a typical calibration for a sensor.
+ If the ADC gives a measure of 1185 the system estimates the real gap as
+\begin_inset Formula 
+\[
+gap*=2+(3-2)\times\frac{1185-1174}{1193-1174}=2,58mm
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ADC Value
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Gauge Size (mm)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1120
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1158
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1174
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1193
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1205
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1215
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Example of calibration points
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "tabla:calibaracion-hall"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The second issue of the magnetic field measure is 
 \end_layout
 
 \begin_layout Standard
@@ -1119,7 +1411,7 @@ name "sec:Design"
 \begin_layout Standard
 In this chapter we will explain the key aspects of the design.
  We will start by establishing the system specifications that fulfills the
- goals presented in secion 
+ goals presented in section 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "sub:Goal"
@@ -1129,7 +1421,7 @@ reference "sub:Goal"
 .
  Then we will continue explaining the hardware design which involves not
  also the electronics but the optical element and the housing of the device.
- After that a communicatinos challenge will be presented and we will explain
+ After that a communications challenge will be presented and we will explain
  a custom communications protocol to solve it.
  Finally the image processing algorithms will be discussed.
 \end_layout
@@ -1153,7 +1445,7 @@ reference "sub:Goal"
 \begin_layout Itemize
 First of all the device must be easy to install.
  There are only 3 daily hours to perform the maintenance tasks and maintenance
- teams are small according to the size of the infraestructure to maintain.
+ teams are small according to the size of the infrastructure to maintain.
  The most easy to install the device the better.
  This should be taken into account in the hardware, specially in the box
  design, and in the firmware design.
@@ -1164,7 +1456,7 @@ The device needs to be robust in two senses.
  The first one relates directly with the hardware design because it has
  to be installed inside a point machine which is subject to vibration, temperatu
 re changes, dust and humidity.
- The box of the device must resists this unfavourable conditions.
+ The box of the device must resists this unfavorable conditions.
  The other sense refers to the repeatability and confidence of the measurements
  and it is related with the software design and implementation.
  The error rate of the device should be less than 5%, including bad measures
@@ -1173,7 +1465,7 @@ re changes, dust and humidity.
 \end_layout
 
 \begin_layout Itemize
-The minimum total gap to measure is of 5 milimeters.
+The minimum total gap to measure is of 5 millimeters.
  Maintenance operators want to know where the gap i less than 10% in order
  to plan a task to correct the position of the bars.
  The precision of the measurement should be less than 0.5mm and it is desirable
@@ -1207,7 +1499,7 @@ reference "sub:Goal"
 Power consumption has also be taken into account.
  The wire length between the control cabin and the point machine location
  can sometimes be quite long, up to 1Km.
- The device is powerd by a DC voltage up to 24V with a cable of 
+ The device is powered by a DC voltage up to 24V with a cable of 
 \begin_inset Formula $1.5mm^{2}$
 \end_inset
 
@@ -1237,7 +1529,7 @@ key "wiki:resistividad"
 \end_inset
 
  is the wire length in meters.
- We can compute the total wire resistence as
+ We can compute the total wire resistance as
 \begin_inset Formula 
 \[
 R=\rho\frac{l}{S}=11.86\Omega
@@ -1254,12 +1546,12 @@ E=I\times2R=3,56V
 
 \end_inset
 
-Tipically the same cable is used to power more than one device so the power
+Typically the same cable is used to power more than one device so the power
  consumption represents a constraint on the design.
  This constraint relates not only with the hardware but also with the firmware
  of the device.
  If the execution time is so long that the device is always running then
- the power consumption increases and it probably does not fullfill the power
+ the power consumption increases and it probably does not fulfill the power
  consumption constraint.
 \end_layout
 
@@ -1280,7 +1572,7 @@ reference "fig:visera proteccion"
 
  shows this element.
  First of all, we want to device to be as small as possible because it should
- not interfer with the visual inspection of the gap.
+ not interfere with the visual inspection of the gap.
  Furthermore this device could be used in another kind of engine and the
  smaller the better to find a suitable position for it.
  Secondly the space between the protective element and the cover of the
@@ -1352,10 +1644,10 @@ The most important element of the product is the image sensor and a suitable
  Forward XXI.
  In order to simplify the development, the first option to evaluate is to
  buy a module which includes the optical sensor and the lens.
- We have rejected this aproach because we have found that manufacturers
- like SHARP or TOSHIBA are not interested in selling little quantites of
+ We have rejected this approach because we have found that manufacturers
+ like SHARP or TOSHIBA are not interested in selling little quantities of
  their integrated modules and furthermore almost all available modules in
- the market have a CCTV output that it is not usefull for our application.
+ the market have a CCTV output that it is not useful for our application.
 \end_layout
 
 \begin_layout Standard
@@ -1366,7 +1658,7 @@ ller.
  First of all, the team in Thinking Forward XXI which is going to design
  and develop the device has some expertise in developing hardware based
  on microcontrollers.
- Secondly, microcontrollers are chepear than FPGA or ASICs.
+ Secondly, microcontrollers are cheaper than FPGA or ASICs.
  And finally we have a first prototype designed with this approach.
  In addition, the microcontroller approach has been used by Pauli et al
  in 
@@ -1396,7 +1688,7 @@ The microcontroller must have a CAN interface and a Camera interface.
  The camera interface is also compulsory to connect the microcontroller
  with the image sensor.
  The microcontroller we have selected is an ARM Cortex-M4 from ST.
- More specifically it is the STM32F407 wich goes up to 168MHz.
+ More specifically it is the STM32F407 which goes up to 168MHz.
 \end_layout
 
 \begin_layout Paragraph
@@ -1406,7 +1698,7 @@ Image sensor
 \begin_layout Standard
 In order to select the image sensor we have to take into account the resolution
  we want to achieve.
- The area we have to analyse is more or less a square of 
+ The area we have to analyze is more or less a square of 
 \begin_inset Formula $w=12cm$
 \end_inset
 
@@ -1438,7 +1730,7 @@ min\,res=\frac{120}{0.25}=480px
 Nor the maximum resolution neither the number of channels are important
  parameters for this application.
  Although the maximum resolution should be taken into account because it
- is related to the processing time, it is not a restrictive paramter in
+ is related to the processing time, it is not a restrictive parameter in
  this application because usually image sensors can be configured to the
  desired resolution.
  Despite the application only requires one channel images (gray level images),
@@ -1450,10 +1742,10 @@ Another important aspect to take into account is the availability of the
  sensor.
  After talking with some sensor manufacturers and distributors we have found
  that the best choice is Aptina.
- Although you have to sign a non disclousure agreement (NDA), the sensors
+ Although you have to sign a non disclosure agreement (NDA), the sensors
  can be bought in any component provider like RS or Farnell.
- After signing the NDA Aptina provides usefull datasheets and developer
- guides that allows you to configure the sensor.
+ After signing the NDA Aptina provides useful datasheets and developer guides
+ that allows you to configure the sensor.
 \end_layout
 
 \begin_layout Standard
@@ -1471,12 +1763,12 @@ Optical element
 \begin_layout Standard
 We are now focusing in the optical element.
  To select the lens we have to focus on the geometry of the problem.
- The device is going to be placed aproximately 
+ The device is going to be placed approximately 
 \begin_inset Formula $D=15cm$
 \end_inset
 
  over the image plane.
- As we have said previously, the area we have to analyse is more or less
+ As we have said previously, the area we have to analyze is more or less
  a square of 
 \begin_inset Formula $w=12cm$
 \end_inset
@@ -1551,7 +1843,7 @@ reference "eq:distancia focal"
  Before computing the required focal length we must know the image sensor
  size.
  Usually image sensors have different width and height.
- We have to take the most restrictive size, wich is the smaller one.
+ We have to take the most restrictive size, which is the smaller one.
  
 \begin_inset Formula 
 \begin{equation}
@@ -1579,7 +1871,7 @@ The size of the selected image sensor is 4.6mm x 3.7mm.
 \begin_layout Standard
 Another parameter we have to take into account is the distance between the
  image sensor and the optical element.
- This parameter is also related with the focal lenght of the element with
+ This parameter is also related with the focal length of the element with
  equation 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1588,7 +1880,7 @@ reference "eq:focal respecto distancia"
 \end_inset
 
 .
- This equation relates the focal lenght 
+ This equation relates the focal length 
 \begin_inset Formula $f$
 \end_inset
 
@@ -1644,7 +1936,7 @@ The device we are developing have to be placed inside the point machine
  in section 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "sub:Control-bar-monitoring"
+reference "sub:Prior-work"
 
 \end_inset
 
@@ -1687,7 +1979,7 @@ reference "fig:senda"
 
 \begin_layout Itemize
 The first frame of the protocol contains the number of bytes that will be
- sended.
+ send.
 \end_layout
 
 \begin_layout Itemize
@@ -1700,7 +1992,7 @@ ACK are used in order to ensure that all frames arrive to the receiver.
 \end_layout
 
 \begin_layout Itemize
-NACK are sended to the transmitter to say that some frames have been lost.
+NACK are send to the transmitter to say that some frames have been lost.
  The transmitter send again the lost frames.
 \end_layout
 
@@ -1715,7 +2007,8 @@ status open
 \align center
 \begin_inset Graphics
 	filename img/senda.png
-	width 11cm
+	lyxscale 20
+	height 19cm
 
 \end_inset
 
@@ -1757,7 +2050,7 @@ Image processing.
 
 \begin_layout Standard
 The device we are developing has to do two tasks.
- The first one consists on detemining the current position of the point
+ The first one consists on determining the current position of the point
  machine.
  If this task is completed successfully then the device has to measure the
  gap between the lock bar notch and the lock blade.
@@ -1787,7 +2080,7 @@ reference "sub:Binarization"
  Otsu method gives us the optimum threshold level, all pixels above this
  level are considered to be the foreground while others are part of the
  background.
- After the binarization we apply an opening in order to filter the undisired
+ After the binarization we apply an opening in order to filter the undesired
  noise.
  The most important step in the algorithm consists on extract the connected
  regions of the image foreground.
@@ -1810,11 +2103,11 @@ reference "sub:Connected-components"
  right margins of the image.
  Applying this prior information we can remove all the objects that are
  not connected to the side margins of image.
- Once we have exctracted laser lines we are able to estimate the current
+ Once we have extracted laser lines we are able to estimate the current
  position of the point machine.
- This first task is performed by looking wich line is connected to both
+ This first task is performed by looking which line is connected to both
  left and right margins of the image.
- If we find and object that fullfill this condition we can detrmine the
+ If we find and object that fulfill this condition we can determine the
  position of the engine.
  Once we know the current position we have to measure the existing gap.
  In order to this this task we will focus on the broken line.
@@ -2309,6 +2602,33 @@ Contactless point detection system for railroad switch
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
 label "3"
+key "key-ES2374465"
+
+\end_inset
+
+A.
+ Girbau, M.
+ Frigola, M.
+ Gispert, E.
+ Cappellino.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Sistema de predicción de fallos en redes ferroviarias
+\begin_inset Quotes erd
+\end_inset
+
+.
+ UPC, assignee.
+ Patent ES 2374465 B1.
+ 18 Dec 2009.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "4"
 key "key-Automated-IC-Manufacture"
 
 \end_inset
@@ -2325,7 +2645,7 @@ M.
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-label "4"
+label "5"
 key "key-Visual-Inspection-PCB"
 
 \end_inset
@@ -2352,7 +2672,7 @@ A Method for Automating the Visual Inspection of Printed Wiring Boards
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-label "5"
+label "6"
 key "key-Automatic-Q-Control-Products"
 
 \end_inset
@@ -2382,7 +2702,7 @@ Automatic Quality Control of Industrial Products for Irrigation
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-label "6"
+label "7"
 key "key-Detection-Fabric-Defects"
 
 \end_inset
@@ -2410,7 +2730,7 @@ e on (Volume:10 ).
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-label "7"
+label "8"
 key "key-Robot-guidance"
 
 \end_inset
@@ -2436,7 +2756,7 @@ e on.
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-label "8"
+label "9"
 key "key-obstacle-avoidance"
 
 \end_inset
@@ -2463,7 +2783,7 @@ Rendezvous-Guidance Trajectory Planning for Robotic Dynamic Obstacle Avoidance
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-label "9"
+label "10"
 key "key-spray-painting"
 
 \end_inset
@@ -2492,7 +2812,7 @@ Spray Painting of a General Three-Dimensional Surface
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-label "10"
+label "11"
 key "measurement-leaf-plant"
 
 \end_inset
@@ -2521,7 +2841,7 @@ onal Conference on.
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-label "11"
+label "12"
 key "embedded-CV-measurement"
 
 \end_inset
@@ -2547,7 +2867,7 @@ An Automated Embedded Computer Vision System for Object Measurement
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-label "12"
+label "13"
 key "embedded-fingerprint"
 
 \end_inset
@@ -2573,7 +2893,7 @@ DSP based Embedded Fingerprint Recognition System
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-label "13"
+label "14"
 key "embedded-car-plate"
 
 \end_inset
@@ -2602,7 +2922,7 @@ Study on the Identification System of Car License Plate Based on Imbedded
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-label "14"
+label "15"
 key "embedded-realtime-face"
 
 \end_inset
@@ -2628,7 +2948,7 @@ Embedded Face Detection Implementation
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-label "15"
+label "16"
 key "wiki:resistividad"
 
 \end_inset
@@ -2639,7 +2959,7 @@ http://es.wikipedia.org/wiki/Resistividad
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-label "16"
+label "17"
 key "Otsu"
 
 \end_inset
